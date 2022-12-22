@@ -29,12 +29,7 @@ Proof A: Intent Based
 
 Do you think someone who can't even make their own base knows how to make things like shaders or a clickgui or even how to draw a rectangle lol?
 
-Proof B: Pasted Font Renderer
-
-.
-![image](https://user-images.githubusercontent.com/93102482/209030284-40599be6-d3c8-43e1-952b-c5e8eecce290.png)
-
-Proof C: 
+Proof B: 
 .
 
 ![image](https://user-images.githubusercontent.com/93102482/209030810-9996c6af-8728-482e-b234-8f31282ac25d.png)
