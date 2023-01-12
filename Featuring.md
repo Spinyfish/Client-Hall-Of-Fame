@@ -79,3 +79,18 @@ Search up any one of their utils methods on github and 60 older clients show up 
 Pasting from so much more
 Stealing ideas from Tena
 
+
+## K1
+Extensive history of pasting / associating with pasters like JXY.
+Used and continues to use intent base despite being a developer for atleast a year, defends it by calling it "good".
+Spent 7 months trying to dix vince 💀
+Couldn't dox Shae even tho his full name is public LOL
+Branchlock best obf.
+
+Big hypocrit
+![image](https://user-images.githubusercontent.com/93102482/212106948-e9490c01-c38a-44d4-b98b-3e390a8497ff.png)
+
+
+Very sexy man tho
+![image](https://user-images.githubusercontent.com/93102482/212106869-9b49b881-2e38-4024-b06c-73edb6b28c2d.png)
+
