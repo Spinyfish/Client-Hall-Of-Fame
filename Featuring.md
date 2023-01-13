@@ -98,3 +98,6 @@ Very sexy man tho
 .
 ![image](https://user-images.githubusercontent.com/93102482/212106869-9b49b881-2e38-4024-b06c-73edb6b28c2d.png)
 
+## Uncodable
+Pedophile, Groomer, Stalker
+Also a paster who cant code
