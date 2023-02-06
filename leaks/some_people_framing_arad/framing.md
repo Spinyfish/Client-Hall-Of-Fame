@@ -1,0 +1,1 @@
+Apparently this was NOT by Arad. Some group of people made a client framing him, not everyone involved in developing the client was involved in framing Arad. This client is NOT related to the real Elysium product by Arad.
