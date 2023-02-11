@@ -10,6 +10,7 @@ real
 ![image](https://user-images.githubusercontent.com/93102482/218275614-d0ef458c-0477-4092-8042-2b094b53c91b.png)
 
 The 400 line module manager responsible for like 30 different things $$$
+So insane https://github.com/Spinyfish/Client-Hall-Of-Fame/blob/main/leaks/nyghtfull/reality/src/minecraft/Reality/Realii/managers/ModuleManager.java
 
 ![image](https://user-images.githubusercontent.com/93102482/218275750-10e11e1a-bf55-4b6f-b73b-c841c3a4b9f7.png)
 ![image](https://user-images.githubusercontent.com/93102482/218275755-9a9bc760-ba43-4c74-88c7-10db429b6ca2.png)
