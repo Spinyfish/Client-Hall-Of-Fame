@@ -25,3 +25,5 @@ Manually registering 6439 modules 😩
 ![image](https://user-images.githubusercontent.com/93102482/218275781-6c3f7184-dad7-454d-902d-6b4e3d0f4f90.png)
 
 ![image](https://user-images.githubusercontent.com/93102482/218275785-887077c1-3372-4063-b396-909988f0969d.png)
+
+This is all in ModuleManager btw ^
