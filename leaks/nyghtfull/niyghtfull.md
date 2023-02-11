@@ -27,3 +27,22 @@ Manually registering 6439 modules 😩
 ![image](https://user-images.githubusercontent.com/93102482/218275785-887077c1-3372-4063-b396-909988f0969d.png)
 
 This is all in ModuleManager btw ^
+
+![image](https://user-images.githubusercontent.com/93102482/218276266-cedf847f-0834-49d8-b9ce-d8abf12dd5e3.png)
+
+![image](https://user-images.githubusercontent.com/93102482/218276293-4d96e419-8cc9-451c-a216-e7c1403f691a.png)
+
+![image](https://user-images.githubusercontent.com/93102482/218276299-8bd8dc93-1470-4e53-86a5-7c301c5f0517.png)
+
+
+AHFSDHJGBSDJVSHJDBHB
+
+![image](https://user-images.githubusercontent.com/93102482/218276304-688719a0-2e5b-42f8-830e-b8743b2b473c.png)
+
+Best
+
+![image](https://user-images.githubusercontent.com/93102482/218276329-0d826d26-8b29-48fd-9114-4844b5792d42.png)
+
+SDHJGBSDHSDJFKHHHHHHKCHJKHJKSDHCJKSDHCSHDCJK
+
+![image](https://user-images.githubusercontent.com/93102482/218276343-8ad41862-c9c2-48c1-9a48-e09ed0a57608.png)
