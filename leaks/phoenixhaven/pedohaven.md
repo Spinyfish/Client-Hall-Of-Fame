@@ -1,3 +1,36 @@
+# PedoHaven Being a Pedo
+
+Pandaware assets (FREE):
+
+Uhm shes actually not a child because she's actually just a 909937 year old dragon woman and its just an artistic choice to make her look like a child!
+
+Ganyu2.png, pandaware -> assets -> minecraft -> pandaware -> icons -> women:
+
+![image](https://user-images.githubusercontent.com/93102482/219701946-352bd77b-98c8-4a2b-9e9c-ebae732099a8.png)
+
+
+Greek.png, pandaware -> assets -> minecraft -> pandaware -> icons -> femboys:
+
+Do I even need to explain this one?
+
+![image](https://user-images.githubusercontent.com/93102482/219703134-924db175-eb58-4487-bc2e-edc0048f390e.png)
+
+
+Im not going into pandaware premium assets because that shit has nsfw (free only has suggestive images, gotta pay for the anime cp access ong) and i dont even wanna know what he got in there 💀
+
+DMs:
+
+![image](https://user-images.githubusercontent.com/93102482/219702448-6f7bdaef-f0e3-48c4-8430-5d7202641541.png)
+
+
+![image](https://user-images.githubusercontent.com/93102482/219702491-1792b4c8-c875-4371-a014-baaee26efcd7.png)
+
+
+![image](https://user-images.githubusercontent.com/93102482/219702510-f43a2471-55a5-4536-9259-45c4bffd78f9.png)
+
+
+
+
 # High Quality Code (Enterprise Level)
 
 ![image](https://user-images.githubusercontent.com/93102482/219499427-b58e2b19-8559-4d63-a1ec-26d3439fb861.png)
