@@ -18,7 +18,8 @@ Do I even need to explain this one?
 
 Im not going into pandaware premium assets because that shit has nsfw (free only has suggestive images, gotta pay for the anime cp access ong) and i dont even wanna know what he got in there 💀
 
-DMs:
+
+Messages:
 
 ![image](https://user-images.githubusercontent.com/93102482/219702448-6f7bdaef-f0e3-48c4-8430-5d7202641541.png)
 
