@@ -19,6 +19,12 @@ Do I even need to explain this one?
 ![image](https://user-images.githubusercontent.com/93102482/219703134-924db175-eb58-4487-bc2e-edc0048f390e.png)
 
 
+Why pandaware discord have this channel wtf 😭
+
+
+![image](https://user-images.githubusercontent.com/93102482/219773748-cd7a64d5-79ae-4ca5-85a7-fde022a9a4ec.png)
+
+
 Im not going into pandaware premium assets because that shit has nsfw (free only has suggestive images, gotta pay for the anime cp access ong) and i dont even wanna know what he got in there 💀
 
 
