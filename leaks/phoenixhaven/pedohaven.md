@@ -30,6 +30,19 @@ Messages:
 ![image](https://user-images.githubusercontent.com/93102482/219702510-f43a2471-55a5-4536-9259-45c4bffd78f9.png)
 
 
+# Me and the boys renaming tena shader vars
+
+
+Pandaware: 
+
+
+![image](https://user-images.githubusercontent.com/93102482/219761483-acc3e8a0-a205-43d9-a75d-0816f023f6cb.png)
+
+
+Tenacity:
+
+![image](https://user-images.githubusercontent.com/93102482/219761612-407f4020-2b08-4a69-beb0-d18b276fdac1.png)
+
 
 
 # High Quality Code (Enterprise Level)
