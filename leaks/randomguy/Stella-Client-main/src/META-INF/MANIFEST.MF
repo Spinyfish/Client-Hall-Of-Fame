@@ -1,0 +1,15 @@
+Manifest-Version: 1.0
+Main-Class: Start
+Class-Path: codecwav-20101023.jar 1.8.9.jar log4j-core-2.0-beta9.jar jut
+ ils-1.0.0.jar twitch-6.5.jar realms-1.7.59.jar commons-lang3-3.3.2.jar 
+ commons-io-2.4.jar icu4j-core-mojang-51.2.jar httpcore-4.3.2.jar platfo
+ rm-3.4.0.jar jna-3.4.0.jar codecjorbis-20101023.jar httpclient-4.3.3.ja
+ r lwjgl_util-2.9.4-nightly-20150209.jar librarylwjglopenal-20100824.jar
+  libraryjavasound-20101123.jar commons-codec-1.9.jar gson-2.2.4.jar aut
+ hlib-1.5.21.jar kotlin-stdlib-jdk8-1.7.21.jar kotlin-stdlib-1.7.21.jar 
+ kotlin-stdlib-common-1.7.21.jar annotations-13.0.jar kotlin-stdlib-jdk7
+ -1.7.21.jar guava-17.0.jar netty-all-4.0.23.Final.jar jopt-simple-4.6.j
+ ar lwjgl-2.9.4-nightly-20150209.jar lombok-1.18.22.jar oshi-core-1.1.ja
+ r commons-logging-1.1.3.jar log4j-api-2.0-beta9.jar soundsystem-2012010
+ 7.jar commons-compress-1.8.1.jar jinput-2.0.5.jar
+

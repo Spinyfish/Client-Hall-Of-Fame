@@ -1,0 +1,19 @@
+
+package alos.stella.ui.altmanager;
+
+import java.util.ArrayList;
+
+
+public class AltManager {
+    public static Alt lastAlt;
+    public static ArrayList<Alt> registry;
+
+    static {
+        registry = new ArrayList<>();
+    }
+
+    public ArrayList<Alt> getRegistry() {
+        return registry;
+    }
+}
+
