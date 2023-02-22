@@ -1,0 +1,20 @@
+package net.optifine.shaders;
+
+import java.io.InputStream;
+
+public class ShaderPackNone implements IShaderPack {
+    public void close() {
+    }
+
+    public InputStream getResourceAsStream(final String resName) {
+        return null;
+    }
+
+    public boolean hasDirectory(final String name) {
+        return false;
+    }
+
+    public String getName() {
+        return "OFF";
+    }
+}

@@ -1,0 +1,110 @@
+package net.minecraft.client.resources.data;
+
+import com.google.common.collect.Lists;
+import com.google.gson.*;
+import net.minecraft.util.JsonUtils;
+import org.apache.commons.lang3.Validate;
+
+import java.lang.reflect.Type;
+import java.util.List;
+
+public class AnimationMetadataSectionSerializer extends BaseMetadataSectionSerializer<AnimationMetadataSection> implements JsonSerializer<AnimationMetadataSection> {
+    public AnimationMetadataSection deserialize(final JsonElement p_deserialize_1_, final Type p_deserialize_2_, final JsonDeserializationContext p_deserialize_3_) throws JsonParseException {
+        final List<AnimationFrame> list = Lists.newArrayList();
+        final JsonObject jsonobject = JsonUtils.getJsonObject(p_deserialize_1_, "metadata section");
+        final int i = JsonUtils.getInt(jsonobject, "frametime", 1);
+
+        if (i != 1) {
+            Validate.inclusiveBetween(1L, 2147483647L, i, "Invalid default frame time");
+        }
+
+        if (jsonobject.has("frames")) {
+            try {
+                final JsonArray jsonarray = JsonUtils.getJsonArray(jsonobject, "frames");
+
+                for (int j = 0; j < jsonarray.size(); ++j) {
+                    final JsonElement jsonelement = jsonarray.get(j);
+                    final AnimationFrame animationframe = this.parseAnimationFrame(j, jsonelement);
+
+                    if (animationframe != null) {
+                        list.add(animationframe);
+                    }
+                }
+            } catch (final ClassCastException classcastexception) {
+                throw new JsonParseException("Invalid animation->frames: expected array, was " + jsonobject.get("frames"), classcastexception);
+            }
+        }
+
+        final int k = JsonUtils.getInt(jsonobject, "width", -1);
+        final int l = JsonUtils.getInt(jsonobject, "height", -1);
+
+        if (k != -1) {
+            Validate.inclusiveBetween(1L, 2147483647L, k, "Invalid width");
+        }
+
+        if (l != -1) {
+            Validate.inclusiveBetween(1L, 2147483647L, l, "Invalid height");
+        }
+
+        final boolean flag = JsonUtils.getBoolean(jsonobject, "interpolate", false);
+        return new AnimationMetadataSection(list, k, l, i, flag);
+    }
+
+    private AnimationFrame parseAnimationFrame(final int p_110492_1_, final JsonElement p_110492_2_) {
+        if (p_110492_2_.isJsonPrimitive()) {
+            return new AnimationFrame(JsonUtils.getInt(p_110492_2_, "frames[" + p_110492_1_ + "]"));
+        } else if (p_110492_2_.isJsonObject()) {
+            final JsonObject jsonobject = JsonUtils.getJsonObject(p_110492_2_, "frames[" + p_110492_1_ + "]");
+            final int i = JsonUtils.getInt(jsonobject, "time", -1);
+
+            if (jsonobject.has("time")) {
+                Validate.inclusiveBetween(1L, 2147483647L, i, "Invalid frame time");
+            }
+
+            final int j = JsonUtils.getInt(jsonobject, "index");
+            Validate.inclusiveBetween(0L, 2147483647L, j, "Invalid frame index");
+            return new AnimationFrame(j, i);
+        } else {
+            return null;
+        }
+    }
+
+    public JsonElement serialize(final AnimationMetadataSection p_serialize_1_, final Type p_serialize_2_, final JsonSerializationContext p_serialize_3_) {
+        final JsonObject jsonobject = new JsonObject();
+        jsonobject.addProperty("frametime", Integer.valueOf(p_serialize_1_.getFrameTime()));
+
+        if (p_serialize_1_.getFrameWidth() != -1) {
+            jsonobject.addProperty("width", Integer.valueOf(p_serialize_1_.getFrameWidth()));
+        }
+
+        if (p_serialize_1_.getFrameHeight() != -1) {
+            jsonobject.addProperty("height", Integer.valueOf(p_serialize_1_.getFrameHeight()));
+        }
+
+        if (p_serialize_1_.getFrameCount() > 0) {
+            final JsonArray jsonarray = new JsonArray();
+
+            for (int i = 0; i < p_serialize_1_.getFrameCount(); ++i) {
+                if (p_serialize_1_.frameHasTime(i)) {
+                    final JsonObject jsonobject1 = new JsonObject();
+                    jsonobject1.addProperty("index", Integer.valueOf(p_serialize_1_.getFrameIndex(i)));
+                    jsonobject1.addProperty("time", Integer.valueOf(p_serialize_1_.getFrameTimeSingle(i)));
+                    jsonarray.add(jsonobject1);
+                } else {
+                    jsonarray.add(new JsonPrimitive(Integer.valueOf(p_serialize_1_.getFrameIndex(i))));
+                }
+            }
+
+            jsonobject.add("frames", jsonarray);
+        }
+
+        return jsonobject;
+    }
+
+    /**
+     * The name of this section type as it appears in JSON.
+     */
+    public String getSectionName() {
+        return "animation";
+    }
+}
