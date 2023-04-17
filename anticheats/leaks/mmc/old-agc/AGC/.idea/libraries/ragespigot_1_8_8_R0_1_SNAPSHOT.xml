@@ -1,0 +1,11 @@
+<component name="libraryTable">
+  <library name="ragespigot-1.8.8-R0.1-SNAPSHOT">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/../RageSpigot/RageSpigot-Server/target/ragespigot-1.8.8-R0.1-SNAPSHOT.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES>
+      <root url="jar://$PROJECT_DIR$/../RageSpigot/RageSpigot-Server/target/ragespigot-1.8.8-R0.1-SNAPSHOT.jar!/" />
+    </SOURCES>
+  </library>
+</component>

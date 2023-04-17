@@ -1,0 +1,46 @@
+plugins {
+    id 'java'
+    id 'com.github.johnrengelman.shadow' version '7.1.0'
+}
+
+group 'ac.verus'
+version '1.0-SNAPSHOT'
+
+repositories {
+    mavenCentral()
+    maven {
+        name 'nms-repo'
+        url 'https://repo.codemc.org/repository/nms/'
+    }
+    maven {
+        name 'jitpack'
+        url 'https://jitpack.io'
+    }
+    maven {
+        name 'viaversion-repo'
+        url 'https://repo.viaversion.com/'
+    }
+}
+
+dependencies {
+    annotationProcessor 'org.projectlombok:lombok:1.18.22'
+    compileOnly 'org.projectlombok:lombok:1.18.22'
+    compileOnly 'org.spigotmc:spigot:1.8.8-R0.1-SNAPSHOT'
+    compileOnly 'org.spigotmc:spigot:1.7.10-R0.1-SNAPSHOT'
+    compileOnly 'com.viaversion:viaversion-api:4.2.1'
+
+    implementation 'it.unimi.dsi:fastutil:8.5.8'
+
+    compileOnly files('lib/ProtocolSupport.jar')
+
+    implementation files('lib/Verus.jar')
+    implementation files('lib/LunarAPI.jar')
+}
+
+shadowJar {
+    archiveBaseName.set('Verus')
+    archiveClassifier.set('')
+    archiveVersion.set('')
+    exclude 'META-INF/**'
+    exclude 'LICENSE'
+}

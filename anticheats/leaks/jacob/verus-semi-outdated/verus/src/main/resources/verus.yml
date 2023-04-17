@@ -1,0 +1,180 @@
+# Verus - Unauthorized distribution of this program could lead to legal prosecution
+# 
+# -------------------------------------------------------------------------------------
+# name - Display name of anti-cheat in alert messages
+# sendStats - Controls whether stats are sent to our session server
+# 
+# alerts certainty - Placeholder in alert message
+# alerts message - Alert message
+# alerts click enabled - Whether alerts should be clickable
+# alerts click command - Command executed when alert is clicked
+# alerts click hover - Message shown when alerts are hovered over
+# 
+# bans commands - Commands executed when a player is banned
+# bans message - Ban announcement message which is broadcast to the server
+# bans enabled - Whether bans are enabled
+# bans announce - Whether bans should be announced and broadcast to the server
+# bans randomize - Generate a random Cheat-ID e.g Cheat-5A
+# bans scramble - Generate a scrambled Cheat-ID e.g Cheat-J7Dq
+# 
+# recentlogs message - Message format of /recentlogs command
+# 
+# geyser enable - Whether Verus should ignore players with the geyser prefix
+# geyser prefix - The player name prefix which Verus should ignore players with
+# 
+# bungee bans - If you have VerusLink installed on BungeeCord, you may enable this so that the ban commands are executed on BungeeCord instead of the server
+# bungee secretKeyPath - Path of secret key used in VerusLink
+# bungee messagingChannel - Plugin messaging channel used by VerusLink
+# 
+# permissions bypass enabled - Whether the bypass permission (which stops a player being banned) should be enabled
+# permissions bypass permission - Permission node of bypass permission
+# permissions bypass alerts - Whether bypassing players should set off alerts
+# 
+# commands ping enabled - Whether the /ping command should be enabled and registered
+# commands ping vanish - If enabled, players will not be able to check ping for vanished players
+# 
+# checks persistence enabled - Whether check persistence should be enabled, this means that VLs are saved so when a player relogs or switches servers their VLs are preserved
+# checks persistence mins - How many minutes should violation data be saved for 
+# checks persistence seconds - How many seconds should violation data be saved for 
+# 
+# checks schemprinter bans - Whether checks which are flagged by schematica printer should ban
+# checks schemprinter alerts - Whether checks which are flagged by schematica printer should alert
+# 
+# checks butterflyclicking bans - Whether checks which can be flagged by butterfly clicking should ban
+# checks butterflyclicking alerts - Whether checks which can be flagged by butterfly clicking should alert
+# 
+# checks heavy enabled - Whether checks which can be more performance heavy should be enabled
+# checks heavy ticks - How often in client ticks (50ms) should the server check the player for ground spoof in Fly 4A
+# 
+# checks hardDisable enabled - Whether checks which have both alerts and bans disabled should not be loaded in when a player joins
+# 
+# checks pingKick enabled - Whether players with incredibly high ping should be kicked from the server, this prevents ping spoofers from disabling parts of the anticheat
+# checks pingKick combat - Whether BadPackets Type G7 should be enabled, so when a player attacks with impossibly high ping they are flagged
+# checks pingKick timeout - The time in seconds (1s = 1000ms) after which a player should be kicked
+# 
+# checks speed modifier item - Whether speed checks should check the players current item for NMS modifiers which affect player speed
+# checks speed modifier armor - Whether speed checks should check the players armor for NMS modifiers
+# checks speed slimePushFix - Whether players that have been pushed by a slime should be ignored by Speed A, if disabled falses could be caused
+# 
+# checks reach moreTransactions - Whether more transaction packets should be sent to the client to improve reach accuracy
+# checks reach ignoreLag - Whether players which are lagging should be ignored, allows for the disabling of some reach checks
+# 
+# checks fly unloadedChunkFix - Whether players which are moving as if they are in an unloaded chunk should be ignored by Fly Type I, allows for a glide bypass.
+# checks fly fixSlimeBlocks - Whether slime block velocity should be same as default, can create self damage bypasses.
+# 
+# checks autoclicker maxcps - The amount of cps before AutoClicker X will flag
+# 
+# database cleanup enabled - Whether the logs and bans should expire after a certain amount of time so that the database does not become too large
+# database cleanup logs days - After how many days should logs expire
+# database cleanup bans days - After how many days should bans expire
+# 
+# discord logs enabled - Display logs via discord (May get limited due to the amount of logs)
+# discord logs url - Webhook URL
+# discord bans enabled - Display bans via discord
+# discord bans url - Webhook URL
+# -------------------------------------------------------------------------------------
+
+verus:
+  name: '&9&lVerus'
+  sendstats: true
+  alerts:
+    certainty: '&7failed'
+    message: '{name} &8> &f{player} &7{certainty} &f{cheat} &7VL[&9{vl}&7]'
+    click:
+      enabled: true
+      command: /tp {player}
+      hover: '&9Click to teleport to {player}.'
+  bans:
+    commands:
+    - ban {player} &9&lVerus &8> &fCheating
+    message:
+    - '&9&lVerus &8> &f{player} &7has been removed from the network'
+    enabled: true
+    announce: false
+    randomize: true
+    scramble: false
+  recentlogs:
+    message: '{time} {name} &7Failed &f{type} Type {subType} &7VL: &f{vl} &7P: &f{ping}'
+  geyser:
+    enabled: false
+    prefix: '*'
+  bungee:
+    bans: false
+    secretKeyPath: plugins\Verus\secretKey
+    messagingChannel: BungeeCord
+  permissions:
+    bypass:
+      enabled: false
+      permission: verus.bypass
+      alerts: true
+  commands:
+    ping:
+      enabled: false
+      vanish: false
+  checks:
+    persistence:
+      enabled: true
+      mins: 60
+      seconds: 0
+    schemprinter:
+      bans: true
+      enabled: true
+    butterflyclicking:
+      bans: false
+      enabled: true
+    heavy:
+      enabled: true
+      ticks: 5
+      pullback: false
+    hardDisable:
+      enabled: true
+    pingKick:
+      enabled: true
+      combat: true
+      timeout: 20
+    speed:
+      slimePushFix: false
+    reach:
+      moreTransactions: false
+      ignoreLag: true
+    fly:
+      unloadedChunkFix: true
+      fixSlimeBlocks: false
+    autoclicker:
+      maxcps: 20
+  database:
+    cleanup:
+      enabled: true
+      logs:
+        days: 90
+      bans:
+        days: 730
+  mongo:
+    enabled: false
+    host: localhost
+    port: 27017
+    database: Verus
+    auth:
+      enabled: false
+      username: verus
+      password: ''
+      database: Verus
+  sql:
+    enabled: false
+    host: localhost
+    push:
+      seconds: 10
+    port: 3306
+    pool: 4
+    database: Verus
+    type: MYSQL
+    auth:
+      username: verus
+      password: ''
+  discord:
+    logs:
+      enabled: false
+      url: ''
+    bans:
+      enabled: false
+      url: ''
