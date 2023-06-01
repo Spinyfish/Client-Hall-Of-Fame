@@ -11,3 +11,9 @@ Don't leak.
 Do bust.
 # Blacklisted:
 ;3#1337
+
+
+
+# Spinys note hiiiiI! <3
+
+Turns out main owner of this is some dude called Frappzyzysyayyz or sumn but chazed still works on it so.
