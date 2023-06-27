@@ -1,0 +1,27 @@
+package rip.athena.client.gui.clickgui.components.fps;
+
+import rip.athena.client.gui.clickgui.components.waypoints.*;
+import rip.athena.client.gui.framework.*;
+import rip.athena.client.gui.framework.draw.*;
+import java.awt.*;
+import rip.athena.client.utils.render.*;
+
+public class FlipButtonParent extends WaypointTextBarrier
+{
+    public FlipButtonParent(final String text, final int x, final int y, final int width, final int height) {
+        super(text, x, y, width, height);
+        this.setPriority(MenuPriority.LOW);
+    }
+    
+    @Override
+    public void onRender() {
+        final int x = this.getRenderX();
+        final int y = this.getRenderY();
+        final int backgroundColor = this.getColor(DrawType.BACKGROUND, ButtonState.NORMAL);
+        final int lineColor = this.getColor(DrawType.LINE, ButtonState.NORMAL);
+        final int textColor = this.getColor(DrawType.TEXT, ButtonState.NORMAL);
+        DrawUtils.drawRoundedRect(x, y, x + this.width, y + this.height, 4.0f, new Color(50, 50, 50, 255).getRGB());
+        DrawUtils.drawRoundedRect(x + 1, y + 1, x + this.width - 1, y + this.height - 1, 4.0f, new Color(35, 35, 35, 255).getRGB());
+        this.drawText(this.text, x + 10, y + this.height / 2 - this.getStringHeight(this.text) / 2, textColor);
+    }
+}
