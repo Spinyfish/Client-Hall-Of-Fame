@@ -1,0 +1,32 @@
+{
+  "Combat": {
+    "posX": 5,
+    "posY": 5,
+    "open": false
+  },
+  "Movement": {
+    "posX": 94,
+    "posY": 5,
+    "open": true
+  },
+  "Render": {
+    "posX": 183,
+    "posY": 5,
+    "open": false
+  },
+  "Player": {
+    "posX": 272,
+    "posY": 5,
+    "open": false
+  },
+  "Gui": {
+    "posX": 361,
+    "posY": 5,
+    "open": false
+  },
+  "Hud": {
+    "posX": 450,
+    "posY": 5,
+    "open": false
+  }
+}

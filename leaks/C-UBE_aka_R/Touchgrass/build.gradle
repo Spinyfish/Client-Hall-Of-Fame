@@ -1,0 +1,143 @@
+// courtesy of perry
+
+buildscript {
+    repositories {
+        // The mavenCentral() alias means that dependencies are fetched from the central Maven 2 repository (https://repo1.maven.org/maven2).
+        mavenCentral()
+        // The url to get the spongepowered dependencies from.
+        maven { url 'https://repo.spongepowered.org/maven' }
+        // The url to get the forge dependencies from.
+        maven { url 'https://files.minecraftforge.net/maven' }
+    }
+    dependencies {
+        classpath 'net.minecraftforge.gradle:ForgeGradle:2.1-SNAPSHOT'
+        classpath 'org.spongepowered:mixingradle:0.6-SNAPSHOT'
+    }
+}
+
+// Gradle plugin for all Minecraft mod development needs.
+apply plugin: 'net.minecraftforge.gradle.forge'
+// Gradle plugin. Mixin is a trait/mixin & bytecode weaving framework for Java using ASM.
+apply plugin: 'org.spongepowered.mixin'
+// Only edit below this line, the above code adds & enables the necessary things for Forge to be setup.
+
+// The jar version number that will be output when building.
+version = '1.0.0'
+// https://maven.apache.org/guides/mini/guide-naming-conventions.html
+group = 'me.r.touchgrass'
+// The jar name that will be output when building.
+archivesBaseName = 'touchgrass'
+
+// Need this here so eclipse task generates correctly.
+sourceCompatibility = targetCompatibility = '1.8'
+compileJava {
+    // This ensures that the generated class files will be compatible with JVMs specified by targetCompatibility.
+    sourceCompatibility = targetCompatibility = '1.8'
+    // Makes it so u don't need to convert unicode to basic latin for it to be able to build/run.
+    options.encoding 'UTF-8'
+}
+
+minecraft {
+    // The version of forge.
+    version = '1.8.9-11.15.1.1722'
+    // The directory of where the files that are output when doing runClient will be put.
+    runDir = 'run'
+    // MCP Mapping version.
+    mappings = 'stable_22'
+    // An Srg named sources jar is made by default. No point for it aka bloat so it has been disabled.
+    makeObfSourceJar = false
+    // Tells FML to load our mixin loader in IDE's.
+    clientJvmArgs += '-Dfml.coreMods.load=me.r.touchgrass.injection.MixinLoader'
+}
+
+mixin {
+    // The obfuscation environment to use when generating refMaps. This is the obfuscation which will end up in the mappings in the generated refMap.
+    defaultObfuscationEnv searge // Types of obf env: searge, notch.
+    // Sets the main sourceSets refmap name instead of add sourceSets.main so there is no conflict cause of it adding another value instead of setting the 1 value.
+    sourceSets {
+        main {
+            ext.refMap = 'mixins.touchgrass.refmap.json'
+        }
+    }
+}
+
+repositories {
+    // The mavenCentral() alias means that dependencies are fetched from the central Maven 2 repository (https://repo1.maven.org/maven2).
+    mavenCentral()
+    // The url to get the spongepowered dependencies from.
+    maven {
+        url 'https://repo.spongepowered.org/maven'
+    }
+}
+
+configurations {
+    // Adds a reference so that we extend/add on to it with depends so we can grab them and compile them into the jar.
+    embed
+    // Grabs what's extended/added on from/to embed and compiles it into the jar when being built.
+    compile.extendsFrom embed
+}
+
+dependencies {
+    embed('org.spongepowered:mixin:0.6.4-SNAPSHOT') {
+
+        // Excludes unneeded stuff.
+        exclude module: 'gson'
+        exclude module: 'guava'
+        exclude module: 'jarjar'
+        exclude module: 'commons-codec'
+        exclude module: 'commons-io'
+        exclude module: 'launchwrapper'
+        exclude module: 'asm-commons'
+        exclude module: 'slf4j-api'
+    }
+    implementation 'org.jetbrains:annotations:22.0.0'
+    compile 'commons-codec:commons-codec:1.15'
+}
+
+processResources {
+    // This will ensure that this task is redone when the versions change.
+    inputs.property 'version', project.version
+    // Replace stuff in mcmod.info, Nothing else.
+    from(sourceSets.main.resources.srcDirs) {
+        include 'mcmod.info'
+        // Replace version.
+        expand 'version': project.version
+    }
+    // Copy everything else except the mcmod.info.
+    from(sourceSets.main.resources.srcDirs) {
+        exclude 'mcmod.info'
+    }
+    // Moves the access transformer into META-INF.
+    rename '(.+_at.cfg)', 'META-INF/$1'
+}
+
+jar {
+    from(configurations.embed.collect {
+        it.isDirectory() ? it : zipTree(it)
+    }) {
+        // Excludes/Removes useless bloat files from the compiled jar.
+        exclude 'dummyThing',
+                'LICENSE.txt',
+                'META-INF/MUMFREY.RSA',
+                'META-INF/maven/**',
+                'org/**/*.html'
+    }
+    manifest.attributes(
+            // Name for the clients mixins.json.
+            'MixinConfigs': 'mixins.touchgrass.json',
+            // Access transformer configuration.
+            'FMLAT': 'touchgrass_at.cfg',
+            // Directory for the org library mixin loader.
+            'TweakClass': 'org.spongepowered.asm.launch.MixinTweaker',
+            // Actually not too sure what this is for.
+            'TweakOrder': 0,
+            // Whether ur using mcp accessor's or not.
+            'FMLCorePluginContainsFMLMod': 'true',
+            // Directory for the mixin loader for the built jar.
+            'FMLCorePlugin': 'me.r.touchgrass.injection.MixinLoader',
+            // Turn this to false for the client to be able to load in a IDE.
+            'ForceLoadAsMod': !System.getProperty("java.class.path").contains("idea_rt.jar").booleanValue().toString()
+    )
+}
+
+

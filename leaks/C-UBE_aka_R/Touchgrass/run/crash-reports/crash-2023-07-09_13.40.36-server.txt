@@ -1,0 +1,120 @@
+---- Minecraft Crash Report ----
+// Hey, that tickles! Hehehe!
+
+Time: 7/9/23 1:40 PM
+Description: Ticking entity
+
+java.util.ConcurrentModificationException
+	at java.util.ArrayList$ArrayListSpliterator.tryAdvance(ArrayList.java:1363)
+	at java.util.stream.ReferencePipeline.forEachWithCancel(ReferencePipeline.java:126)
+	at java.util.stream.AbstractPipeline.copyIntoWithCancel(AbstractPipeline.java:499)
+	at java.util.stream.AbstractPipeline.copyInto(AbstractPipeline.java:486)
+	at java.util.stream.AbstractPipeline.wrapAndCopyInto(AbstractPipeline.java:472)
+	at java.util.stream.FindOps$FindOp.evaluateSequential(FindOps.java:152)
+	at java.util.stream.AbstractPipeline.evaluate(AbstractPipeline.java:234)
+	at java.util.stream.ReferencePipeline.findFirst(ReferencePipeline.java:531)
+	at me.r.touchgrass.module.ModuleManager.getModule(ModuleManager.java:147)
+	at net.minecraft.entity.EntityLivingBase.handler$isPotionActive$zzd000(EntityLivingBase.java:2430)
+	at net.minecraft.entity.EntityLivingBase.isPotionActive(EntityLivingBase.java)
+	at net.minecraft.entity.EntityLivingBase.getArmSwingAnimationEnd(EntityLivingBase.java:1324)
+	at net.minecraft.entity.EntityLivingBase.updateArmSwingProgress(EntityLivingBase.java:1398)
+	at net.minecraft.entity.monster.EntityMob.onLivingUpdate(EntityMob.java:29)
+	at net.minecraft.entity.EntityLivingBase.onUpdate(EntityLivingBase.java:1835)
+	at net.minecraft.entity.EntityLiving.onUpdate(EntityLiving.java:275)
+	at net.minecraft.entity.monster.EntityMob.onUpdate(EntityMob.java:45)
+	at net.minecraft.entity.monster.EntityCreeper.onUpdate(EntityCreeper.java:163)
+	at net.minecraft.world.World.updateEntityWithOptionalForce(World.java:2009)
+	at net.minecraft.world.WorldServer.updateEntityWithOptionalForce(WorldServer.java:724)
+	at net.minecraft.world.World.updateEntity(World.java:1974)
+	at net.minecraft.world.World.updateEntities(World.java:1803)
+	at net.minecraft.world.WorldServer.updateEntities(WorldServer.java:559)
+	at net.minecraft.server.MinecraftServer.updateTimeLightAndEntities(MinecraftServer.java:777)
+	at net.minecraft.server.MinecraftServer.tick(MinecraftServer.java:681)
+	at net.minecraft.server.integrated.IntegratedServer.tick(IntegratedServer.java:159)
+	at net.minecraft.server.MinecraftServer.run(MinecraftServer.java:548)
+	at java.lang.Thread.run(Thread.java:748)
+
+
+A detailed walkthrough of the error, its code path and all known details is as follows:
+---------------------------------------------------------------------------------------
+
+-- Head --
+Stacktrace:
+	at java.util.ArrayList$ArrayListSpliterator.tryAdvance(ArrayList.java:1363)
+	at java.util.stream.ReferencePipeline.forEachWithCancel(ReferencePipeline.java:126)
+	at java.util.stream.AbstractPipeline.copyIntoWithCancel(AbstractPipeline.java:499)
+	at java.util.stream.AbstractPipeline.copyInto(AbstractPipeline.java:486)
+	at java.util.stream.AbstractPipeline.wrapAndCopyInto(AbstractPipeline.java:472)
+	at java.util.stream.FindOps$FindOp.evaluateSequential(FindOps.java:152)
+	at java.util.stream.AbstractPipeline.evaluate(AbstractPipeline.java:234)
+	at java.util.stream.ReferencePipeline.findFirst(ReferencePipeline.java:531)
+	at me.r.touchgrass.module.ModuleManager.getModule(ModuleManager.java:147)
+	at net.minecraft.entity.EntityLivingBase.handler$isPotionActive$zzd000(EntityLivingBase.java:2430)
+	at net.minecraft.entity.EntityLivingBase.isPotionActive(EntityLivingBase.java)
+	at net.minecraft.entity.EntityLivingBase.getArmSwingAnimationEnd(EntityLivingBase.java:1324)
+	at net.minecraft.entity.EntityLivingBase.updateArmSwingProgress(EntityLivingBase.java:1398)
+	at net.minecraft.entity.monster.EntityMob.onLivingUpdate(EntityMob.java:29)
+	at net.minecraft.entity.EntityLivingBase.onUpdate(EntityLivingBase.java:1835)
+	at net.minecraft.entity.EntityLiving.onUpdate(EntityLiving.java:275)
+	at net.minecraft.entity.monster.EntityMob.onUpdate(EntityMob.java:45)
+	at net.minecraft.entity.monster.EntityCreeper.onUpdate(EntityCreeper.java:163)
+	at net.minecraft.world.World.updateEntityWithOptionalForce(World.java:2009)
+	at net.minecraft.world.WorldServer.updateEntityWithOptionalForce(WorldServer.java:724)
+	at net.minecraft.world.World.updateEntity(World.java:1974)
+
+-- Entity being ticked --
+Details:
+	Entity Type: Creeper (net.minecraft.entity.monster.EntityCreeper)
+	Entity ID: 113
+	Entity Name: Creeper
+	Entity's Exact location: 40.98, 26.00, -110.50
+	Entity's Block location: 40.00,26.00,-111.00 - World: (40,26,-111), Chunk: (at 8,1,1 in 2,-7; contains blocks 32,0,-112 to 47,255,-97), Region: (0,-1; contains chunks 0,-32 to 31,-1, blocks 0,0,-512 to 511,255,-1)
+	Entity's Momentum: 0.00, -0.08, 0.00
+	Entity's Rider: ~~ERROR~~ NullPointerException: null
+	Entity's Vehicle: ~~ERROR~~ NullPointerException: null
+Stacktrace:
+	at net.minecraft.world.World.updateEntities(World.java:1803)
+	at net.minecraft.world.WorldServer.updateEntities(WorldServer.java:559)
+
+-- Affected level --
+Details:
+	Level name: New World
+	All players: 1 total; [EntityPlayerMP['Player939'/168, l='New World', x=12.71, y=65.00, z=-59.95]]
+	Chunk stats: ServerChunkCache: 800 Drop: 0
+	Level seed: 7878706395845218247
+	Level generator: ID 00 - default, ver 1. Features enabled: true
+	Level generator options: 
+	Level spawn location: 0.00,64.00,0.00 - World: (0,64,0), Chunk: (at 0,4,0 in 0,0; contains blocks 0,0,0 to 15,255,15), Region: (0,0; contains chunks 0,0 to 31,31, blocks 0,0,0 to 511,255,511)
+	Level time: 1759 game time, 1759 day time
+	Level dimension: 0
+	Level storage version: 0x04ABD - Anvil
+	Level weather: Rain time: 144233 (now: false), thunder time: 127621 (now: false)
+	Level game mode: Game mode: creative (ID 1). Hardcore: false. Cheats: true
+Stacktrace:
+	at net.minecraft.server.MinecraftServer.updateTimeLightAndEntities(MinecraftServer.java:777)
+	at net.minecraft.server.MinecraftServer.tick(MinecraftServer.java:681)
+	at net.minecraft.server.integrated.IntegratedServer.tick(IntegratedServer.java:159)
+	at net.minecraft.server.MinecraftServer.run(MinecraftServer.java:548)
+	at java.lang.Thread.run(Thread.java:748)
+
+-- System Details --
+Details:
+	Minecraft Version: 1.8.9
+	Operating System: Mac OS X (x86_64) version 10.16
+	Java Version: 1.8.0_262, AdoptOpenJDK
+	Java VM Version: OpenJDK 64-Bit Server VM (mixed mode), AdoptOpenJDK
+	Memory: 577398240 bytes (550 MB) / 1037565952 bytes (989 MB) up to 1908932608 bytes (1820 MB)
+	JVM Flags: 0 total; 
+	IntCache: cache: 0, tcache: 0, allocated: 12, tallocated: 94
+	FML: MCP 9.19 Powered by Forge 11.15.1.1722 3 mods loaded, 3 mods active
+	States: 'U' = Unloaded 'L' = Loaded 'C' = Constructed 'H' = Pre-initialized 'I' = Initialized 'J' = Post-initialized 'A' = Available 'D' = Disabled 'E' = Errored
+	UCHIJAAAA	mcp{9.19} [Minecraft Coder Pack] (minecraft.jar) 
+	UCHIJAAAA	FML{8.0.99.99} [Forge Mod Loader] (forgeSrc-1.8.9-11.15.1.1722-PROJECT(touchgrass).jar) 
+	UCHIJAAAA	Forge{11.15.1.1722} [Minecraft Forge] (forgeSrc-1.8.9-11.15.1.1722-PROJECT(touchgrass).jar) 
+	Loaded coremods (and transformers): 
+MixinLoader (touchgrass-1.jar)
+  
+	Profiler Position: N/A (disabled)
+	Player Count: 1 / 8; [EntityPlayerMP['Player939'/168, l='New World', x=12.71, y=65.00, z=-59.95]]
+	Type: Integrated Server (map_client.txt)
+	Is Modded: Definitely; Client brand changed to 'fml,forge'

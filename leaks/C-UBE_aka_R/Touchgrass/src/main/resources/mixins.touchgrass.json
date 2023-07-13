@@ -1,0 +1,33 @@
+{
+  "required": true,
+  "package": "me.r.touchgrass.injection.mixins",
+  "refmap": "mixins.touchgrass.refmap.json",
+  "compatibilityLevel": "JAVA_8",
+  "mixins": [
+    "client.MixinMinecraft",
+    "client.MixinNetworkManager",
+    "client.MixinPlayerControllerMP",
+    "entity.MixinEntity",
+    "entity.MixinEntityLivingBase",
+    "entity.MixinEntityPlayer",
+    "entity.MixinEntityPlayerSP",
+    "entity.MixinEntityRenderer",
+    "gui.MixinAbstractClientPlayer",
+    "gui.MixinFontRenderer",
+    "gui.MixinGui",
+    "gui.MixinGuiContainer",
+    "gui.MixinGuiIngame",
+    "gui.MixinGuiMainMenu",
+    "gui.MixinGuiNewChat",
+    "gui.MixinGuiPlayerTabOverlay",
+    "gui.MixinGuiScreen",
+    "gui.MixinGuiSpectator",
+    "item.MixinItemRenderer",
+    "item.MixinLayerHeldItem",
+    "item.MixinRenderEntityItem",
+    "render.MixinInventoryEffectRenderer",
+    "render.MixinModelBiped",
+    "render.MixinRender",
+    "render.MixinRendererLivingEntity"
+  ]
+}

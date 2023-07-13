@@ -1,0 +1,38 @@
+[18:57:13] [Client thread/INFO]: Setting user: Player222
+[18:57:16] [Client thread/INFO]: LWJGL Version: 2.9.2
+[18:57:19] [Client thread/INFO]: Reloading ResourceManager: Default, FMLFileResourcePack:Forge Mod Loader, FMLFileResourcePack:Minecraft Forge
+[18:57:20] [Sound Library Loader/INFO]: Starting up SoundSystem...
+[18:57:20] [Thread-7/INFO]: Initializing LWJGL OpenAL
+[18:57:20] [Thread-7/INFO]: (The LWJGL binding of OpenAL.  For more information, see http://www.lwjgl.org)
+[18:57:21] [Thread-7/INFO]: OpenAL initialized.
+[18:57:21] [Sound Library Loader/INFO]: Sound engine started
+[18:57:23] [Client thread/INFO]: Created: 16x16 textures-atlas
+[18:57:24] [Client thread/INFO]: Reloading ResourceManager: Default, FMLFileResourcePack:Forge Mod Loader, FMLFileResourcePack:Minecraft Forge
+[18:57:24] [Client thread/INFO]: SoundSystem shutting down...
+[18:57:24] [Client thread/WARN]: Author: Paul Lamb, www.paulscode.com
+[18:57:24] [Sound Library Loader/INFO]: Starting up SoundSystem...
+[18:57:25] [Thread-9/INFO]: Initializing LWJGL OpenAL
+[18:57:25] [Thread-9/INFO]: (The LWJGL binding of OpenAL.  For more information, see http://www.lwjgl.org)
+[18:57:25] [Thread-9/INFO]: OpenAL initialized.
+[18:57:25] [Sound Library Loader/INFO]: Sound engine started
+[18:57:27] [Client thread/INFO]: Created: 512x512 textures-atlas
+[18:58:20] [Server thread/INFO]: Starting integrated minecraft server version 1.8.9
+[18:58:20] [Server thread/INFO]: Generating keypair
+[18:58:22] [Server thread/INFO]: Preparing start region for level 0
+[18:58:23] [Server thread/INFO]: Preparing spawn area: 64%
+[18:58:23] [Server thread/INFO]: Changing view distance to 12, from 10
+[18:58:25] [Server thread/INFO]: Player222[local:E:7bcabc93] logged in with entity id 169 at (12.706354481295833, 65.0, -59.95179885563862)
+[18:58:25] [Server thread/INFO]: Player222 joined the game
+[18:58:51] [Server thread/INFO]: Saving and pausing game...
+[18:58:51] [Server thread/INFO]: Saving chunks for level 'New World'/Overworld
+[18:58:51] [Server thread/INFO]: Saving chunks for level 'New World'/Nether
+[18:58:51] [Server thread/INFO]: Saving chunks for level 'New World'/The End
+[18:58:52] [Server thread/INFO]: Stopping server
+[18:58:52] [Server thread/INFO]: Saving players
+[18:58:52] [Server thread/INFO]: Saving worlds
+[18:58:52] [Server thread/INFO]: Saving chunks for level 'New World'/Overworld
+[18:58:52] [Server thread/INFO]: Saving chunks for level 'New World'/Nether
+[18:58:52] [Server thread/INFO]: Saving chunks for level 'New World'/The End
+[18:58:55] [Client thread/INFO]: Stopping!
+[18:58:55] [Client thread/INFO]: SoundSystem shutting down...
+[18:58:55] [Client thread/WARN]: Author: Paul Lamb, www.paulscode.com

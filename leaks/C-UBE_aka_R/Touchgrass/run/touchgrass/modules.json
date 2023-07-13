@@ -1,0 +1,277 @@
+{
+  "MurderMystery": {
+    "toggled": false,
+    "visible": true,
+    "keybind": 0
+  },
+  "InventoryWalk": {
+    "toggled": false,
+    "visible": true,
+    "keybind": 0
+  },
+  "AutoRespawn": {
+    "toggled": false,
+    "visible": true,
+    "keybind": 0
+  },
+  "NoSpeedFOV": {
+    "toggled": false,
+    "visible": true,
+    "keybind": 0
+  },
+  "Breadcrumbs": {
+    "toggled": false,
+    "visible": true,
+    "keybind": 0
+  },
+  "PotionEffects": {
+    "toggled": false,
+    "visible": false,
+    "keybind": 0
+  },
+  "NameProtect": {
+    "toggled": false,
+    "visible": true,
+    "keybind": 0
+  },
+  "ChestStealer": {
+    "toggled": false,
+    "visible": true,
+    "keybind": 0
+  },
+  "TargetSelect": {
+    "toggled": false,
+    "visible": true,
+    "keybind": 0
+  },
+  "HitAnimation": {
+    "toggled": false,
+    "visible": true,
+    "keybind": 0
+  },
+  "NoChatRect": {
+    "toggled": false,
+    "visible": true,
+    "keybind": 0
+  },
+  "StorageESP": {
+    "toggled": false,
+    "visible": true,
+    "keybind": 0
+  },
+  "NoHurtCam": {
+    "toggled": false,
+    "visible": true,
+    "keybind": 0
+  },
+  "BlockClutch": {
+    "toggled": false,
+    "visible": true,
+    "keybind": 0
+  },
+  "Trajectories": {
+    "toggled": false,
+    "visible": true,
+    "keybind": 0
+  },
+  "BowAimbot": {
+    "toggled": false,
+    "visible": true,
+    "keybind": 0
+  },
+  "CameraClip": {
+    "toggled": false,
+    "visible": true,
+    "keybind": 0
+  },
+  "NoBowFOV": {
+    "toggled": false,
+    "visible": true,
+    "keybind": 0
+  },
+  "SprintReset": {
+    "toggled": false,
+    "visible": true,
+    "keybind": 0
+  },
+  "AutoClicker": {
+    "toggled": false,
+    "visible": true,
+    "keybind": 0
+  },
+  "Watermark": {
+    "toggled": true,
+    "visible": false,
+    "keybind": 0
+  },
+  "Animations": {
+    "toggled": false,
+    "visible": true,
+    "keybind": 0
+  },
+  "NameTags": {
+    "toggled": false,
+    "visible": true,
+    "keybind": 0
+  },
+  "FastBridge": {
+    "toggled": true,
+    "visible": true,
+    "keybind": 21
+  },
+  "TriggerBot": {
+    "toggled": false,
+    "visible": true,
+    "keybind": 0
+  },
+  "MainMenu": {
+    "toggled": true,
+    "visible": false,
+    "keybind": 0
+  },
+  "PingSpoof": {
+    "toggled": false,
+    "visible": true,
+    "keybind": 0
+  },
+  "AimAssist": {
+    "toggled": false,
+    "visible": true,
+    "keybind": 19
+  },
+  "AutoType": {
+    "toggled": false,
+    "visible": true,
+    "keybind": 0
+  },
+  "FastPlace": {
+    "toggled": false,
+    "visible": true,
+    "keybind": 22
+  },
+  "SafeWalk": {
+    "toggled": false,
+    "visible": true,
+    "keybind": 0
+  },
+  "Fullbright": {
+    "toggled": false,
+    "visible": true,
+    "keybind": 0
+  },
+  "AutoBow": {
+    "toggled": false,
+    "visible": true,
+    "keybind": 0
+  },
+  "NoSwing": {
+    "toggled": false,
+    "visible": true,
+    "keybind": 0
+  },
+  "ArrayList": {
+    "toggled": true,
+    "visible": false,
+    "keybind": 0
+  },
+  "TTFChat": {
+    "toggled": false,
+    "visible": true,
+    "keybind": 0
+  },
+  "AntiBlind": {
+    "toggled": false,
+    "visible": true,
+    "keybind": 0
+  },
+  "Freecam": {
+    "toggled": false,
+    "visible": true,
+    "keybind": 0
+  },
+  "ClickGUI": {
+    "toggled": false,
+    "visible": false,
+    "keybind": 42
+  },
+  "BedAura": {
+    "toggled": false,
+    "visible": true,
+    "keybind": 0
+  },
+  "FastBow": {
+    "toggled": false,
+    "visible": true,
+    "keybind": 0
+  },
+  "ItemESP": {
+    "toggled": false,
+    "visible": true,
+    "keybind": 0
+  },
+  "AntiAFK": {
+    "toggled": false,
+    "visible": true,
+    "keybind": 0
+  },
+  "BedESP": {
+    "toggled": false,
+    "visible": true,
+    "keybind": 0
+  },
+  "Tracers": {
+    "toggled": false,
+    "visible": true,
+    "keybind": 0
+  },
+  "Chams": {
+    "toggled": false,
+    "visible": true,
+    "keybind": 0
+  },
+  "Hotbar": {
+    "toggled": false,
+    "visible": false,
+    "keybind": 0
+  },
+  "NoBob": {
+    "toggled": false,
+    "visible": true,
+    "keybind": 0
+  },
+  "HitBox": {
+    "toggled": false,
+    "visible": true,
+    "keybind": 0
+  },
+  "Reach": {
+    "toggled": false,
+    "visible": true,
+    "keybind": 0
+  },
+  "Sprint": {
+    "toggled": false,
+    "visible": true,
+    "keybind": 0
+  },
+  "§cPanic": {
+    "toggled": false,
+    "visible": true,
+    "keybind": 0
+  },
+  "HUD": {
+    "toggled": true,
+    "visible": false,
+    "keybind": 0
+  },
+  "ESP": {
+    "toggled": false,
+    "visible": true,
+    "keybind": 0
+  },
+  "Info": {
+    "toggled": false,
+    "visible": false,
+    "keybind": 0
+  }
+}

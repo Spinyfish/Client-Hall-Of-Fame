@@ -1,0 +1,846 @@
+[13:43:29] [main/DEBUG] [FML/]: Injecting tracing printstreams for STDOUT/STDERR.
+[13:43:29] [main/INFO] [FML/]: Forge Mod Loader version 11.15.1.1722 for Minecraft 1.8.9 loading
+[13:43:29] [main/INFO] [FML/]: Java is OpenJDK 64-Bit Server VM, version 1.8.0_262, running on Mac OS X:x86_64:10.16, installed at /Users/sb44567/Library/Java/JavaVirtualMachines/jdk8u262-b10/Contents/Home/jre
+[13:43:29] [main/DEBUG] [FML/]: Java classpath at launch is /Users/sb44567/.gradle/caches/minecraft/deobfedDeps/compileDummy.jar:/Users/sb44567/.gradle/caches/minecraft/deobfedDeps/providedDummy.jar:/Users/sb44567/.gradle/caches/modules-2/files-2.1/commons-codec/commons-codec/1.15/49d94806b6e3dc933dacbd8acb0fdbab8ebd1e5d/commons-codec-1.15.jar:/Users/sb44567/.gradle/caches/modules-2/files-2.1/org.spongepowered/mixin/0.6.4-SNAPSHOT/bdaaf9c7b34b9559b9265786ad7972ac3777834e/mixin-0.6.4-SNAPSHOT.jar:/Users/sb44567/IdeaProjects/h/.gradle/minecraft/forgeSrc-1.8.9-11.15.1.1722-PROJECT(touchgrass).jar:/Users/sb44567/.gradle/caches/modules-2/files-2.1/com.mojang/netty/1.8.8/a796914d1c8a55b4da9f4a8856dd9623375d8bb/netty-1.8.8.jar:/Users/sb44567/.gradle/caches/modules-2/files-2.1/oshi-project/oshi-core/1.1/9ddf7b048a8d701be231c0f4f95fd986198fd2d8/oshi-core-1.1.jar:/Users/sb44567/.gradle/caches/modules-2/files-2.1/net.java.dev.jna/jna/3.4.0/803ff252fedbd395baffd43b37341dc4a150a554/jna-3.4.0.jar:/Users/sb44567/.gradle/caches/modules-2/files-2.1/net.java.dev.jna/platform/3.4.0/e3f70017be8100d3d6923f50b3d2ee17714e9c13/platform-3.4.0.jar:/Users/sb44567/.gradle/caches/modules-2/files-2.1/com.ibm.icu/icu4j-core-mojang/51.2/63d216a9311cca6be337c1e458e587f99d382b84/icu4j-core-mojang-51.2.jar:/Users/sb44567/.gradle/caches/modules-2/files-2.1/net.minecraft/launchwrapper/1.12/111e7bea9c968cdb3d06ef4632bf7ff0824d0f36/launchwrapper-1.12.jar:/Users/sb44567/.gradle/caches/modules-2/files-2.1/net.sf.jopt-simple/jopt-simple/4.6/306816fb57cf94f108a43c95731b08934dcae15c/jopt-simple-4.6.jar:/Users/sb44567/.gradle/caches/modules-2/files-2.1/io.netty/netty-all/4.0.23.Final/294104aaf1781d6a56a07d561e792c5d0c95f45/netty-all-4.0.23.Final.jar:/Users/sb44567/.gradle/caches/modules-2/files-2.1/com.mojang/authlib/1.5.21/aefba0d5b53fbcb70860bc8046ab95d5854c07a5/authlib-1.5.21.jar:/Users/sb44567/.gradle/caches/modules-2/files-2.1/com.google.guava/guava/17.0/9c6ef172e8de35fd8d4d8783e4821e57cdef7445/guava-17.0.jar:/Users/sb44567/.gradle/caches/modules-2/files-2.1/org.apache.commons/commons-lang3/3.3.2/90a3822c38ec8c996e84c16a3477ef632cbc87a3/commons-lang3-3.3.2.jar:/Users/sb44567/.gradle/caches/modules-2/files-2.1/commons-io/commons-io/2.4/b1b6ea3b7e4aa4f492509a4952029cd8e48019ad/commons-io-2.4.jar:/Users/sb44567/.gradle/caches/modules-2/files-2.1/com.mojang/realms/1.7.59/9c6c59b742d8e038a15f64c1aa273a893a658424/realms-1.7.59.jar:/Users/sb44567/.gradle/caches/modules-2/files-2.1/org.apache.httpcomponents/httpclient/4.3.3/18f4247ff4572a074444572cee34647c43e7c9c7/httpclient-4.3.3.jar:/Users/sb44567/.gradle/caches/modules-2/files-2.1/commons-codec/commons-codec/1.9/9ce04e34240f674bc72680f8b843b1457383161a/commons-codec-1.9.jar:/Users/sb44567/.gradle/caches/modules-2/files-2.1/com.paulscode/librarylwjglopenal/20100824/73e80d0794c39665aec3f62eee88ca91676674ef/librarylwjglopenal-20100824.jar:/Users/sb44567/.gradle/caches/modules-2/files-2.1/org.lwjgl.lwjgl/lwjgl_util/2.9.2-nightly-20140822/f0e612c840a7639c1f77f68d72a28dae2f0c8490/lwjgl_util-2.9.2-nightly-20140822.jar:/Users/sb44567/.gradle/caches/modules-2/files-2.1/org.lwjgl.lwjgl/lwjgl/2.9.2-nightly-20140822/7707204c9ffa5d91662de95f0a224e2f721b22af/lwjgl-2.9.2-nightly-20140822.jar:/Users/sb44567/.gradle/caches/modules-2/files-2.1/net.java.jinput/jinput/2.0.5/39c7796b469a600f72380316f6b1f11db6c2c7c4/jinput-2.0.5.jar:/Users/sb44567/.gradle/caches/modules-2/files-2.1/net.java.jutils/jutils/1.0.0/e12fe1fda814bd348c1579329c86943d2cd3c6a6/jutils-1.0.0.jar:/Users/sb44567/.gradle/caches/modules-2/files-2.1/com.google.code.gson/gson/2.2.4/a60a5e993c98c864010053cb901b7eab25306568/gson-2.2.4.jar:/Users/sb44567/.gradle/caches/modules-2/files-2.1/org.apache.commons/commons-compress/1.8.1/a698750c16740fd5b3871425f4cb3bbaa87f529d/commons-compress-1.8.1.jar:/Users/sb44567/.gradle/caches/modules-2/files-2.1/commons-logging/commons-logging/1.1.3/f6f66e966c70a83ffbdb6f17a0919eaf7c8aca7f/commons-logging-1.1.3.jar:/Users/sb44567/.gradle/caches/modules-2/files-2.1/org.apache.httpcomponents/httpcore/4.3.2/31fbbff1ddbf98f3aa7377c94d33b0447c646b6e/httpcore-4.3.2.jar:/Users/sb44567/.gradle/caches/modules-2/files-2.1/org.apache.logging.log4j/log4j-core/2.0-beta9/678861ba1b2e1fccb594bb0ca03114bb05da9695/log4j-core-2.0-beta9.jar:/Users/sb44567/.gradle/caches/modules-2/files-2.1/org.apache.logging.log4j/log4j-api/2.0-beta9/1dd66e68cccd907880229f9e2de1314bd13ff785/log4j-api-2.0-beta9.jar:/Users/sb44567/.gradle/caches/modules-2/files-2.1/jline/jline/2.13/2d9530d0a25daffaffda7c35037b046b627bb171/jline-2.13.jar:/Users/sb44567/.gradle/caches/modules-2/files-2.1/com.google.code.findbugs/jsr305/2.0.1/516c03b21d50a644d538de0f0369c620989cd8f0/jsr305-2.0.1.jar:/Users/sb44567/.gradle/caches/modules-2/files-2.1/org.ow2.asm/asm-debug-all/5.0.3/f9e364ae2a66ce2a543012a4668856e84e5dab74/asm-debug-all-5.0.3.jar:/Users/sb44567/.gradle/caches/modules-2/files-2.1/com.typesafe.akka/akka-actor_2.11/2.3.3/ed62e9fc709ca0f2ff1a3220daa8b70a2870078e/akka-actor_2.11-2.3.3.jar:/Users/sb44567/.gradle/caches/modules-2/files-2.1/com.typesafe/config/1.2.1/f771f71fdae3df231bcd54d5ca2d57f0bf93f467/config-1.2.1.jar:/Users/sb44567/.gradle/caches/modules-2/files-2.1/org.scala-lang/scala-actors-migration_2.11/1.1.0/dfa8bc42b181d5b9f1a5dd147f8ae308b893eb6f/scala-actors-migration_2.11-1.1.0.jar:/Users/sb44567/.gradle/caches/modules-2/files-2.1/org.scala-lang.plugins/scala-continuations-plugin_2.11.1/1.0.2/f361a3283452c57fa30c1ee69448995de23c60f7/scala-continuations-plugin_2.11.1-1.0.2.jar:/Users/sb44567/.gradle/caches/modules-2/files-2.1/org.scala-lang/scala-compiler/2.11.1/56ea2e6c025e0821f28d73ca271218b8dd04926a/scala-compiler-2.11.1.jar:/Users/sb44567/.gradle/caches/modules-2/files-2.1/org.scala-lang.plugins/scala-continuations-library_2.11/1.0.2/e517c53a7e9acd6b1668c5a35eccbaa3bab9aac/scala-continuations-library_2.11-1.0.2.jar:/Users/sb44567/.gradle/caches/modules-2/files-2.1/org.scala-lang.modules/scala-parser-combinators_2.11/1.0.1/f05d7345bf5a58924f2837c6c1f4d73a938e1ff0/scala-parser-combinators_2.11-1.0.1.jar:/Users/sb44567/.gradle/caches/modules-2/files-2.1/org.scala-lang/scala-reflect/2.11.1/6580347e61cc7f8e802941e7fde40fa83b8badeb/scala-reflect-2.11.1.jar:/Users/sb44567/.gradle/caches/modules-2/files-2.1/org.scala-lang.modules/scala-swing_2.11/1.0.1/b1cdd92bd47b1e1837139c1c53020e86bb9112ae/scala-swing_2.11-1.0.1.jar:/Users/sb44567/.gradle/caches/modules-2/files-2.1/org.scala-lang.modules/scala-xml_2.11/1.0.2/820fbca7e524b530fdadc594c39d49a21ea0337e/scala-xml_2.11-1.0.2.jar:/Users/sb44567/.gradle/caches/modules-2/files-2.1/org.scala-lang/scala-actors/2.11.0/8ccfb6541de179bb1c4d45cf414acee069b7f78b/scala-actors-2.11.0.jar:/Users/sb44567/.gradle/caches/modules-2/files-2.1/org.scala-lang/scala-library/2.11.1/e11da23da3eabab9f4777b9220e60d44c1aab6a/scala-library-2.11.1.jar:/Users/sb44567/.gradle/caches/modules-2/files-2.1/lzma/lzma/0.0.1/521616dc7487b42bef0e803bd2fa3faf668101d7/lzma-0.0.1.jar:/Users/sb44567/.gradle/caches/modules-2/files-2.1/net.sf.trove4j/trove4j/3.0.3/42ccaf4761f0dfdfa805c9e340d99a755907e2dd/trove4j-3.0.3.jar:/Users/sb44567/.gradle/caches/modules-2/files-2.1/com.paulscode/codecjorbis/20101023/c73b5636faf089d9f00e8732a829577de25237ee/codecjorbis-20101023.jar:/Users/sb44567/.gradle/caches/modules-2/files-2.1/com.paulscode/codecwav/20101023/12f031cfe88fef5c1dd36c563c0a3a69bd7261da/codecwav-20101023.jar:/Users/sb44567/.gradle/caches/modules-2/files-2.1/com.paulscode/libraryjavasound/20101123/5c5e304366f75f9eaa2e8cca546a1fb6109348b3/libraryjavasound-20101123.jar:/Users/sb44567/.gradle/caches/modules-2/files-2.1/com.paulscode/soundsystem/20120107/419c05fe9be71f792b2d76cfc9b67f1ed0fec7f6/soundsystem-20120107.jar:/Users/sb44567/.gradle/caches/modules-2/files-2.1/tv.twitch/twitch/6.5/320a2dfd18513a5f41b4e75729df684488cbd925/twitch-6.5.jar:/Users/sb44567/.gradle/caches/modules-2/files-2.1/java3d/vecmath/1.5.2/79846ba34cbd89e2422d74d53752f993dcc2ccaf/vecmath-1.5.2.jar:/Users/sb44567/.gradle/caches/modules-2/files-2.1/org.fusesource.jansi/jansi/1.11/655c643309c2f45a56a747fda70e3fadf57e9f11/jansi-1.11.jar:/Users/sb44567/.gradle/caches/modules-2/files-2.1/net.java.jinput/jinput-platform/2.0.5/7ff832a6eb9ab6a767f1ade2b548092d0fa64795/jinput-platform-2.0.5-natives-linux.jar:/Users/sb44567/.gradle/caches/modules-2/files-2.1/net.java.jinput/jinput-platform/2.0.5/385ee093e01f587f30ee1c8a2ee7d408fd732e16/jinput-platform-2.0.5-natives-windows.jar:/Users/sb44567/.gradle/caches/modules-2/files-2.1/net.java.jinput/jinput-platform/2.0.5/53f9c919f34d2ca9de8c51fc4e1e8282029a9232/jinput-platform-2.0.5-natives-osx.jar:/Users/sb44567/.gradle/caches/modules-2/files-2.1/org.lwjgl.lwjgl/lwjgl-platform/2.9.2-nightly-20140822/78b2a55ce4dc29c6b3ec4df8ca165eba05f9b341/lwjgl-platform-2.9.2-nightly-20140822-natives-windows.jar:/Users/sb44567/.gradle/caches/modules-2/files-2.1/org.lwjgl.lwjgl/lwjgl-platform/2.9.2-nightly-20140822/d898a33b5d0a6ef3fed3a4ead506566dce6720a5/lwjgl-platform-2.9.2-nightly-20140822-natives-linux.jar:/Users/sb44567/.gradle/caches/modules-2/files-2.1/org.lwjgl.lwjgl/lwjgl-platform/2.9.2-nightly-20140822/79f5ce2fea02e77fe47a3c745219167a542121d7/lwjgl-platform-2.9.2-nightly-20140822-natives-osx.jar:/Users/sb44567/.gradle/caches/modules-2/files-2.1/tv.twitch/twitch-platform/6.5/206c4ccaecdbcfd2a1631150c69a97bbc9c20c11/twitch-platform-6.5-natives-windows-32.jar:/Users/sb44567/.gradle/caches/modules-2/files-2.1/tv.twitch/twitch-platform/6.5/9fdd0fd5aed0817063dcf95b69349a171f447ebd/twitch-platform-6.5-natives-windows-64.jar:/Users/sb44567/.gradle/caches/modules-2/files-2.1/tv.twitch/twitch-platform/6.5/5f9d1ee26257b3a33f0ca06fed335ef462af659f/twitch-platform-6.5-natives-osx.jar:/Users/sb44567/.gradle/caches/modules-2/files-2.1/tv.twitch/twitch-external-platform/4.5/18215140f010c05b9f86ef6f0f8871954d2ccebf/twitch-external-platform-4.5-natives-windows-32.jar:/Users/sb44567/.gradle/caches/modules-2/files-2.1/tv.twitch/twitch-external-platform/4.5/c3cde57891b935d41b6680a9c5e1502eeab76d86/twitch-external-platform-4.5-natives-windows-64.jar:/Users/sb44567/.gradle/caches/minecraft/net/minecraftforge/forge/1.8.9-11.15.1.1722/start:/Users/sb44567/IdeaProjects/h/build/libs/touchgrass-1.0.0.jar
+[13:43:29] [main/DEBUG] [FML/]: Java library path at launch is /Users/sb44567/Library/Java/Extensions:/Library/Java/Extensions:/Network/Library/Java/Extensions:/System/Library/Java/Extensions:/usr/lib/java:.:/Users/sb44567/.gradle/caches/minecraft/net/minecraft/natives/1.8.9
+[13:43:29] [main/INFO] [FML/]: Managed to load a deobfuscated Minecraft name- we are in a deobfuscated environment. Skipping runtime deobfuscation
+[13:43:29] [main/DEBUG] [FML/]: Instantiating coremod class FMLCorePlugin
+[13:43:29] [main/DEBUG] [FML/]: Added access transformer class net.minecraftforge.fml.common.asm.transformers.AccessTransformer to enqueued access transformers
+[13:43:29] [main/DEBUG] [FML/]: Enqueued coremod FMLCorePlugin
+[13:43:29] [main/DEBUG] [FML/]: Instantiating coremod class FMLForgePlugin
+[13:43:29] [main/DEBUG] [FML/]: Enqueued coremod FMLForgePlugin
+[13:43:29] [main/DEBUG] [FML/]: All fundamental core mods are successfully located
+[13:43:29] [main/INFO] [FML/]: Found a command line coremod : me.r.touchgrass.injection.MixinLoader
+[13:43:29] [main/DEBUG] [FML/]: Instantiating coremod class MixinLoader
+[13:43:30] [main/DEBUG] [FML/]: The coremod me.r.touchgrass.injection.MixinLoader requested minecraft version 1.8.9 and minecraft is 1.8.9. It will be loaded.
+[13:43:30] [main/INFO] [mixin/]: SpongePowered MIXIN Subsystem Version=0.6.4 Source=file:/Users/sb44567/.gradle/caches/modules-2/files-2.1/org.spongepowered/mixin/0.6.4-SNAPSHOT/bdaaf9c7b34b9559b9265786ad7972ac3777834e/mixin-0.6.4-SNAPSHOT.jar Env=CLIENT
+[13:43:30] [main/DEBUG] [mixin/]: Adding new mixin transformer proxy #1
+[13:43:30] [main/DEBUG] [mixin/]: Initialising Mixin Platform Manager
+[13:43:30] [main/DEBUG] [mixin/]: Mixin platform: primary container is file:/Users/sb44567/.gradle/caches/modules-2/files-2.1/org.spongepowered/mixin/0.6.4-SNAPSHOT/bdaaf9c7b34b9559b9265786ad7972ac3777834e/mixin-0.6.4-SNAPSHOT.jar
+[13:43:30] [main/DEBUG] [mixin/]: Adding mixin platform agents for container file:/Users/sb44567/.gradle/caches/modules-2/files-2.1/org.spongepowered/mixin/0.6.4-SNAPSHOT/bdaaf9c7b34b9559b9265786ad7972ac3777834e/mixin-0.6.4-SNAPSHOT.jar
+[13:43:30] [main/DEBUG] [mixin/]: Instancing new MixinPlatformAgentFML for file:/Users/sb44567/.gradle/caches/modules-2/files-2.1/org.spongepowered/mixin/0.6.4-SNAPSHOT/bdaaf9c7b34b9559b9265786ad7972ac3777834e/mixin-0.6.4-SNAPSHOT.jar
+[13:43:30] [main/DEBUG] [mixin/]: Instancing new MixinPlatformAgentDefault for file:/Users/sb44567/.gradle/caches/modules-2/files-2.1/org.spongepowered/mixin/0.6.4-SNAPSHOT/bdaaf9c7b34b9559b9265786ad7972ac3777834e/mixin-0.6.4-SNAPSHOT.jar
+[13:43:30] [main/DEBUG] [mixin/]: Processing prepare() for PlatformAgent[MixinPlatformAgentFML:file:/Users/sb44567/.gradle/caches/modules-2/files-2.1/org.spongepowered/mixin/0.6.4-SNAPSHOT/bdaaf9c7b34b9559b9265786ad7972ac3777834e/mixin-0.6.4-SNAPSHOT.jar]
+[13:43:30] [main/DEBUG] [mixin/]: Processing prepare() for PlatformAgent[MixinPlatformAgentDefault:file:/Users/sb44567/.gradle/caches/modules-2/files-2.1/org.spongepowered/mixin/0.6.4-SNAPSHOT/bdaaf9c7b34b9559b9265786ad7972ac3777834e/mixin-0.6.4-SNAPSHOT.jar]
+[13:43:30] [main/INFO] [mixin/]: Compatibility level set to JAVA_8
+[13:43:30] [main/DEBUG] [FML/]: Enqueued coremod MixinLoader
+[13:43:30] [main/DEBUG] [FML/]: Attempting to load commandline specified mods, relative to /Users/sb44567/IdeaProjects/h/run/.
+[13:43:30] [main/DEBUG] [FML/]: Discovering coremods
+[13:43:30] [main/INFO] [LaunchWrapper/]: Calling tweak class net.minecraftforge.gradle.tweakers.CoremodTweaker
+[13:43:30] [main/INFO] [GradleStart/]: Injecting location in coremod net.minecraftforge.fml.relauncher.FMLCorePlugin
+[13:43:30] [main/INFO] [GradleStart/]: Injecting location in coremod net.minecraftforge.classloading.FMLForgePlugin
+[13:43:30] [main/INFO] [GradleStart/]: Injecting location in coremod me.r.touchgrass.injection.MixinLoader
+[13:43:30] [main/INFO] [LaunchWrapper/]: Loading tweak class name net.minecraftforge.fml.common.launcher.FMLInjectionAndSortingTweaker
+[13:43:30] [main/INFO] [LaunchWrapper/]: Loading tweak class name org.spongepowered.asm.mixin.MixinEnvironment$EnvironmentStateTweaker
+[13:43:30] [main/INFO] [LaunchWrapper/]: Loading tweak class name net.minecraftforge.fml.common.launcher.FMLDeobfTweaker
+[13:43:30] [main/INFO] [LaunchWrapper/]: Loading tweak class name net.minecraftforge.gradle.tweakers.AccessTransformerTweaker
+[13:43:30] [main/INFO] [LaunchWrapper/]: Calling tweak class net.minecraftforge.fml.common.launcher.FMLInjectionAndSortingTweaker
+[13:43:30] [main/INFO] [LaunchWrapper/]: Calling tweak class net.minecraftforge.fml.common.launcher.FMLInjectionAndSortingTweaker
+[13:43:30] [main/INFO] [LaunchWrapper/]: Calling tweak class net.minecraftforge.fml.relauncher.CoreModManager$FMLPluginWrapper
+[13:43:30] [main/DEBUG] [FML/]: Injecting coremod FMLCorePlugin {net.minecraftforge.fml.relauncher.FMLCorePlugin} class transformers
+[13:43:30] [main/TRACE] [FML/]: Registering transformer net.minecraftforge.fml.common.asm.transformers.BlamingTransformer
+[13:43:30] [main/DEBUG] [mixin/]: Preparing mixins for MixinEnvironment[PREINIT]
+[13:43:30] [main/TRACE] [FML/]: Registering transformer net.minecraftforge.fml.common.asm.transformers.SideTransformer
+[13:43:30] [main/TRACE] [FML/]: Registering transformer net.minecraftforge.fml.common.asm.transformers.EventSubscriptionTransformer
+[13:43:30] [main/TRACE] [FML/]: Registering transformer net.minecraftforge.fml.common.asm.transformers.EventSubscriberTransformer
+[13:43:30] [main/DEBUG] [FML/]: Injection complete
+[13:43:30] [main/DEBUG] [FML/]: Running coremod plugin for FMLCorePlugin {net.minecraftforge.fml.relauncher.FMLCorePlugin}
+[13:43:30] [main/DEBUG] [FML/]: Running coremod plugin FMLCorePlugin
+[13:43:30] [main/ERROR] [FML/]: The binary patch set is missing. Either you are in a development environment, or things are not going to work!
+[13:43:30] [main/DEBUG] [FML/]: Loading deobfuscation resource /Users/sb44567/.gradle/caches/minecraft/de/oceanlabs/mcp/mcp_stable/22/srgs/srg-mcp.srg with 27884 records
+[13:43:30] [main/ERROR] [FML/]: FML appears to be missing any signature data. This is not a good thing
+[13:43:30] [main/DEBUG] [FML/]: Coremod plugin class FMLCorePlugin run successfully
+[13:43:30] [main/INFO] [LaunchWrapper/]: Calling tweak class net.minecraftforge.fml.relauncher.CoreModManager$FMLPluginWrapper
+[13:43:30] [main/DEBUG] [FML/]: Injecting coremod FMLForgePlugin {net.minecraftforge.classloading.FMLForgePlugin} class transformers
+[13:43:30] [main/DEBUG] [FML/]: Injection complete
+[13:43:30] [main/DEBUG] [FML/]: Running coremod plugin for FMLForgePlugin {net.minecraftforge.classloading.FMLForgePlugin}
+[13:43:30] [main/DEBUG] [FML/]: Running coremod plugin FMLForgePlugin
+[13:43:30] [main/DEBUG] [FML/]: Coremod plugin class FMLForgePlugin run successfully
+[13:43:30] [main/INFO] [LaunchWrapper/]: Calling tweak class net.minecraftforge.fml.relauncher.CoreModManager$FMLPluginWrapper
+[13:43:30] [main/DEBUG] [FML/]: Injecting coremod MixinLoader {me.r.touchgrass.injection.MixinLoader} class transformers
+[13:43:30] [main/DEBUG] [FML/]: Injection complete
+[13:43:30] [main/DEBUG] [FML/]: Running coremod plugin for MixinLoader {me.r.touchgrass.injection.MixinLoader}
+[13:43:30] [main/DEBUG] [FML/]: Running coremod plugin MixinLoader
+[13:43:30] [main/DEBUG] [FML/]: Coremod plugin class MixinLoader run successfully
+[13:43:30] [main/INFO] [LaunchWrapper/]: Calling tweak class org.spongepowered.asm.mixin.MixinEnvironment$EnvironmentStateTweaker
+[13:43:30] [main/DEBUG] [mixin/]: Initialising Mixin Platform Manager
+[13:43:30] [main/DEBUG] [mixin/]: Mixin platform: primary container is file:/Users/sb44567/.gradle/caches/modules-2/files-2.1/org.spongepowered/mixin/0.6.4-SNAPSHOT/bdaaf9c7b34b9559b9265786ad7972ac3777834e/mixin-0.6.4-SNAPSHOT.jar
+[13:43:30] [main/DEBUG] [mixin/]: Adding mixin platform agents for container file:/Users/sb44567/.gradle/caches/modules-2/files-2.1/org.spongepowered/mixin/0.6.4-SNAPSHOT/bdaaf9c7b34b9559b9265786ad7972ac3777834e/mixin-0.6.4-SNAPSHOT.jar
+[13:43:30] [main/DEBUG] [mixin/]: Instancing new MixinPlatformAgentFML for file:/Users/sb44567/.gradle/caches/modules-2/files-2.1/org.spongepowered/mixin/0.6.4-SNAPSHOT/bdaaf9c7b34b9559b9265786ad7972ac3777834e/mixin-0.6.4-SNAPSHOT.jar
+[13:43:30] [main/DEBUG] [mixin/]: Instancing new MixinPlatformAgentDefault for file:/Users/sb44567/.gradle/caches/modules-2/files-2.1/org.spongepowered/mixin/0.6.4-SNAPSHOT/bdaaf9c7b34b9559b9265786ad7972ac3777834e/mixin-0.6.4-SNAPSHOT.jar
+[13:43:30] [main/DEBUG] [mixin/]: Processing launch tasks for PlatformAgent[MixinPlatformAgentFML:file:/Users/sb44567/.gradle/caches/modules-2/files-2.1/org.spongepowered/mixin/0.6.4-SNAPSHOT/bdaaf9c7b34b9559b9265786ad7972ac3777834e/mixin-0.6.4-SNAPSHOT.jar]
+[13:43:30] [main/DEBUG] [mixin/]: Creating FML remapper adapter: org.spongepowered.asm.bridge.RemapperAdapterFML
+[13:43:30] [main/INFO] [mixin/]: Initialised Mixin FML Remapper Adapter with net.minecraftforge.fml.common.asm.transformers.deobf.FMLDeobfuscatingRemapper@495083a0
+[13:43:30] [main/DEBUG] [mixin/]: Processing launch tasks for PlatformAgent[MixinPlatformAgentDefault:file:/Users/sb44567/.gradle/caches/modules-2/files-2.1/org.spongepowered/mixin/0.6.4-SNAPSHOT/bdaaf9c7b34b9559b9265786ad7972ac3777834e/mixin-0.6.4-SNAPSHOT.jar]
+[13:43:30] [main/DEBUG] [mixin/]: Scanning file:/Users/sb44567/.gradle/caches/minecraft/deobfedDeps/compileDummy.jar for mixin tweaker
+[13:43:30] [main/DEBUG] [mixin/]: Scanning file:/Users/sb44567/.gradle/caches/minecraft/deobfedDeps/providedDummy.jar for mixin tweaker
+[13:43:30] [main/DEBUG] [mixin/]: Scanning file:/Users/sb44567/.gradle/caches/modules-2/files-2.1/commons-codec/commons-codec/1.15/49d94806b6e3dc933dacbd8acb0fdbab8ebd1e5d/commons-codec-1.15.jar for mixin tweaker
+[13:43:30] [main/DEBUG] [mixin/]: Scanning file:/Users/sb44567/IdeaProjects/h/.gradle/minecraft/forgeSrc-1.8.9-11.15.1.1722-PROJECT(touchgrass).jar for mixin tweaker
+[13:43:30] [main/DEBUG] [mixin/]: Scanning file:/Users/sb44567/.gradle/caches/modules-2/files-2.1/com.mojang/netty/1.8.8/a796914d1c8a55b4da9f4a8856dd9623375d8bb/netty-1.8.8.jar for mixin tweaker
+[13:43:30] [main/DEBUG] [mixin/]: Scanning file:/Users/sb44567/.gradle/caches/modules-2/files-2.1/oshi-project/oshi-core/1.1/9ddf7b048a8d701be231c0f4f95fd986198fd2d8/oshi-core-1.1.jar for mixin tweaker
+[13:43:30] [main/DEBUG] [mixin/]: Scanning file:/Users/sb44567/.gradle/caches/modules-2/files-2.1/net.java.dev.jna/jna/3.4.0/803ff252fedbd395baffd43b37341dc4a150a554/jna-3.4.0.jar for mixin tweaker
+[13:43:30] [main/DEBUG] [mixin/]: Scanning file:/Users/sb44567/.gradle/caches/modules-2/files-2.1/net.java.dev.jna/platform/3.4.0/e3f70017be8100d3d6923f50b3d2ee17714e9c13/platform-3.4.0.jar for mixin tweaker
+[13:43:30] [main/DEBUG] [mixin/]: Scanning file:/Users/sb44567/.gradle/caches/modules-2/files-2.1/com.ibm.icu/icu4j-core-mojang/51.2/63d216a9311cca6be337c1e458e587f99d382b84/icu4j-core-mojang-51.2.jar for mixin tweaker
+[13:43:30] [main/DEBUG] [mixin/]: Scanning file:/Users/sb44567/.gradle/caches/modules-2/files-2.1/net.minecraft/launchwrapper/1.12/111e7bea9c968cdb3d06ef4632bf7ff0824d0f36/launchwrapper-1.12.jar for mixin tweaker
+[13:43:30] [main/DEBUG] [mixin/]: Scanning file:/Users/sb44567/.gradle/caches/modules-2/files-2.1/net.sf.jopt-simple/jopt-simple/4.6/306816fb57cf94f108a43c95731b08934dcae15c/jopt-simple-4.6.jar for mixin tweaker
+[13:43:30] [main/DEBUG] [mixin/]: Scanning file:/Users/sb44567/.gradle/caches/modules-2/files-2.1/io.netty/netty-all/4.0.23.Final/294104aaf1781d6a56a07d561e792c5d0c95f45/netty-all-4.0.23.Final.jar for mixin tweaker
+[13:43:30] [main/DEBUG] [mixin/]: Scanning file:/Users/sb44567/.gradle/caches/modules-2/files-2.1/com.mojang/authlib/1.5.21/aefba0d5b53fbcb70860bc8046ab95d5854c07a5/authlib-1.5.21.jar for mixin tweaker
+[13:43:30] [main/DEBUG] [mixin/]: Scanning file:/Users/sb44567/.gradle/caches/modules-2/files-2.1/com.google.guava/guava/17.0/9c6ef172e8de35fd8d4d8783e4821e57cdef7445/guava-17.0.jar for mixin tweaker
+[13:43:30] [main/DEBUG] [mixin/]: Scanning file:/Users/sb44567/.gradle/caches/modules-2/files-2.1/org.apache.commons/commons-lang3/3.3.2/90a3822c38ec8c996e84c16a3477ef632cbc87a3/commons-lang3-3.3.2.jar for mixin tweaker
+[13:43:30] [main/DEBUG] [mixin/]: Scanning file:/Users/sb44567/.gradle/caches/modules-2/files-2.1/commons-io/commons-io/2.4/b1b6ea3b7e4aa4f492509a4952029cd8e48019ad/commons-io-2.4.jar for mixin tweaker
+[13:43:30] [main/DEBUG] [mixin/]: Scanning file:/Users/sb44567/.gradle/caches/modules-2/files-2.1/com.mojang/realms/1.7.59/9c6c59b742d8e038a15f64c1aa273a893a658424/realms-1.7.59.jar for mixin tweaker
+[13:43:30] [main/DEBUG] [mixin/]: Scanning file:/Users/sb44567/.gradle/caches/modules-2/files-2.1/org.apache.httpcomponents/httpclient/4.3.3/18f4247ff4572a074444572cee34647c43e7c9c7/httpclient-4.3.3.jar for mixin tweaker
+[13:43:30] [main/DEBUG] [mixin/]: Scanning file:/Users/sb44567/.gradle/caches/modules-2/files-2.1/commons-codec/commons-codec/1.9/9ce04e34240f674bc72680f8b843b1457383161a/commons-codec-1.9.jar for mixin tweaker
+[13:43:30] [main/DEBUG] [mixin/]: Scanning file:/Users/sb44567/.gradle/caches/modules-2/files-2.1/com.paulscode/librarylwjglopenal/20100824/73e80d0794c39665aec3f62eee88ca91676674ef/librarylwjglopenal-20100824.jar for mixin tweaker
+[13:43:30] [main/DEBUG] [mixin/]: Scanning file:/Users/sb44567/.gradle/caches/modules-2/files-2.1/org.lwjgl.lwjgl/lwjgl_util/2.9.2-nightly-20140822/f0e612c840a7639c1f77f68d72a28dae2f0c8490/lwjgl_util-2.9.2-nightly-20140822.jar for mixin tweaker
+[13:43:30] [main/DEBUG] [mixin/]: Scanning file:/Users/sb44567/.gradle/caches/modules-2/files-2.1/org.lwjgl.lwjgl/lwjgl/2.9.2-nightly-20140822/7707204c9ffa5d91662de95f0a224e2f721b22af/lwjgl-2.9.2-nightly-20140822.jar for mixin tweaker
+[13:43:30] [main/DEBUG] [mixin/]: Scanning file:/Users/sb44567/.gradle/caches/modules-2/files-2.1/net.java.jinput/jinput/2.0.5/39c7796b469a600f72380316f6b1f11db6c2c7c4/jinput-2.0.5.jar for mixin tweaker
+[13:43:30] [main/DEBUG] [mixin/]: Scanning file:/Users/sb44567/.gradle/caches/modules-2/files-2.1/net.java.jutils/jutils/1.0.0/e12fe1fda814bd348c1579329c86943d2cd3c6a6/jutils-1.0.0.jar for mixin tweaker
+[13:43:30] [main/DEBUG] [mixin/]: Scanning file:/Users/sb44567/.gradle/caches/modules-2/files-2.1/com.google.code.gson/gson/2.2.4/a60a5e993c98c864010053cb901b7eab25306568/gson-2.2.4.jar for mixin tweaker
+[13:43:30] [main/DEBUG] [mixin/]: Scanning file:/Users/sb44567/.gradle/caches/modules-2/files-2.1/org.apache.commons/commons-compress/1.8.1/a698750c16740fd5b3871425f4cb3bbaa87f529d/commons-compress-1.8.1.jar for mixin tweaker
+[13:43:30] [main/DEBUG] [mixin/]: Scanning file:/Users/sb44567/.gradle/caches/modules-2/files-2.1/commons-logging/commons-logging/1.1.3/f6f66e966c70a83ffbdb6f17a0919eaf7c8aca7f/commons-logging-1.1.3.jar for mixin tweaker
+[13:43:30] [main/DEBUG] [mixin/]: Scanning file:/Users/sb44567/.gradle/caches/modules-2/files-2.1/org.apache.httpcomponents/httpcore/4.3.2/31fbbff1ddbf98f3aa7377c94d33b0447c646b6e/httpcore-4.3.2.jar for mixin tweaker
+[13:43:30] [main/DEBUG] [mixin/]: Scanning file:/Users/sb44567/.gradle/caches/modules-2/files-2.1/org.apache.logging.log4j/log4j-core/2.0-beta9/678861ba1b2e1fccb594bb0ca03114bb05da9695/log4j-core-2.0-beta9.jar for mixin tweaker
+[13:43:30] [main/DEBUG] [mixin/]: Scanning file:/Users/sb44567/.gradle/caches/modules-2/files-2.1/org.apache.logging.log4j/log4j-api/2.0-beta9/1dd66e68cccd907880229f9e2de1314bd13ff785/log4j-api-2.0-beta9.jar for mixin tweaker
+[13:43:30] [main/DEBUG] [mixin/]: Scanning file:/Users/sb44567/.gradle/caches/modules-2/files-2.1/jline/jline/2.13/2d9530d0a25daffaffda7c35037b046b627bb171/jline-2.13.jar for mixin tweaker
+[13:43:30] [main/DEBUG] [mixin/]: Scanning file:/Users/sb44567/.gradle/caches/modules-2/files-2.1/com.google.code.findbugs/jsr305/2.0.1/516c03b21d50a644d538de0f0369c620989cd8f0/jsr305-2.0.1.jar for mixin tweaker
+[13:43:30] [main/DEBUG] [mixin/]: Scanning file:/Users/sb44567/.gradle/caches/modules-2/files-2.1/org.ow2.asm/asm-debug-all/5.0.3/f9e364ae2a66ce2a543012a4668856e84e5dab74/asm-debug-all-5.0.3.jar for mixin tweaker
+[13:43:30] [main/DEBUG] [mixin/]: Scanning file:/Users/sb44567/.gradle/caches/modules-2/files-2.1/com.typesafe.akka/akka-actor_2.11/2.3.3/ed62e9fc709ca0f2ff1a3220daa8b70a2870078e/akka-actor_2.11-2.3.3.jar for mixin tweaker
+[13:43:30] [main/DEBUG] [mixin/]: Scanning file:/Users/sb44567/.gradle/caches/modules-2/files-2.1/com.typesafe/config/1.2.1/f771f71fdae3df231bcd54d5ca2d57f0bf93f467/config-1.2.1.jar for mixin tweaker
+[13:43:30] [main/DEBUG] [mixin/]: Scanning file:/Users/sb44567/.gradle/caches/modules-2/files-2.1/org.scala-lang/scala-actors-migration_2.11/1.1.0/dfa8bc42b181d5b9f1a5dd147f8ae308b893eb6f/scala-actors-migration_2.11-1.1.0.jar for mixin tweaker
+[13:43:30] [main/DEBUG] [mixin/]: Scanning file:/Users/sb44567/.gradle/caches/modules-2/files-2.1/org.scala-lang.plugins/scala-continuations-plugin_2.11.1/1.0.2/f361a3283452c57fa30c1ee69448995de23c60f7/scala-continuations-plugin_2.11.1-1.0.2.jar for mixin tweaker
+[13:43:30] [main/DEBUG] [mixin/]: Scanning file:/Users/sb44567/.gradle/caches/modules-2/files-2.1/org.scala-lang/scala-compiler/2.11.1/56ea2e6c025e0821f28d73ca271218b8dd04926a/scala-compiler-2.11.1.jar for mixin tweaker
+[13:43:30] [main/DEBUG] [mixin/]: Scanning file:/Users/sb44567/.gradle/caches/modules-2/files-2.1/org.scala-lang.plugins/scala-continuations-library_2.11/1.0.2/e517c53a7e9acd6b1668c5a35eccbaa3bab9aac/scala-continuations-library_2.11-1.0.2.jar for mixin tweaker
+[13:43:30] [main/DEBUG] [mixin/]: Scanning file:/Users/sb44567/.gradle/caches/modules-2/files-2.1/org.scala-lang.modules/scala-parser-combinators_2.11/1.0.1/f05d7345bf5a58924f2837c6c1f4d73a938e1ff0/scala-parser-combinators_2.11-1.0.1.jar for mixin tweaker
+[13:43:30] [main/DEBUG] [mixin/]: Scanning file:/Users/sb44567/.gradle/caches/modules-2/files-2.1/org.scala-lang/scala-reflect/2.11.1/6580347e61cc7f8e802941e7fde40fa83b8badeb/scala-reflect-2.11.1.jar for mixin tweaker
+[13:43:30] [main/DEBUG] [mixin/]: Scanning file:/Users/sb44567/.gradle/caches/modules-2/files-2.1/org.scala-lang.modules/scala-swing_2.11/1.0.1/b1cdd92bd47b1e1837139c1c53020e86bb9112ae/scala-swing_2.11-1.0.1.jar for mixin tweaker
+[13:43:30] [main/DEBUG] [mixin/]: Scanning file:/Users/sb44567/.gradle/caches/modules-2/files-2.1/org.scala-lang.modules/scala-xml_2.11/1.0.2/820fbca7e524b530fdadc594c39d49a21ea0337e/scala-xml_2.11-1.0.2.jar for mixin tweaker
+[13:43:30] [main/DEBUG] [mixin/]: Scanning file:/Users/sb44567/.gradle/caches/modules-2/files-2.1/org.scala-lang/scala-actors/2.11.0/8ccfb6541de179bb1c4d45cf414acee069b7f78b/scala-actors-2.11.0.jar for mixin tweaker
+[13:43:30] [main/DEBUG] [mixin/]: Scanning file:/Users/sb44567/.gradle/caches/modules-2/files-2.1/org.scala-lang/scala-library/2.11.1/e11da23da3eabab9f4777b9220e60d44c1aab6a/scala-library-2.11.1.jar for mixin tweaker
+[13:43:30] [main/DEBUG] [mixin/]: Scanning file:/Users/sb44567/.gradle/caches/modules-2/files-2.1/lzma/lzma/0.0.1/521616dc7487b42bef0e803bd2fa3faf668101d7/lzma-0.0.1.jar for mixin tweaker
+[13:43:30] [main/DEBUG] [mixin/]: Scanning file:/Users/sb44567/.gradle/caches/modules-2/files-2.1/net.sf.trove4j/trove4j/3.0.3/42ccaf4761f0dfdfa805c9e340d99a755907e2dd/trove4j-3.0.3.jar for mixin tweaker
+[13:43:30] [main/DEBUG] [mixin/]: Scanning file:/Users/sb44567/.gradle/caches/modules-2/files-2.1/com.paulscode/codecjorbis/20101023/c73b5636faf089d9f00e8732a829577de25237ee/codecjorbis-20101023.jar for mixin tweaker
+[13:43:30] [main/DEBUG] [mixin/]: Scanning file:/Users/sb44567/.gradle/caches/modules-2/files-2.1/com.paulscode/codecwav/20101023/12f031cfe88fef5c1dd36c563c0a3a69bd7261da/codecwav-20101023.jar for mixin tweaker
+[13:43:30] [main/DEBUG] [mixin/]: Scanning file:/Users/sb44567/.gradle/caches/modules-2/files-2.1/com.paulscode/libraryjavasound/20101123/5c5e304366f75f9eaa2e8cca546a1fb6109348b3/libraryjavasound-20101123.jar for mixin tweaker
+[13:43:30] [main/DEBUG] [mixin/]: Scanning file:/Users/sb44567/.gradle/caches/modules-2/files-2.1/com.paulscode/soundsystem/20120107/419c05fe9be71f792b2d76cfc9b67f1ed0fec7f6/soundsystem-20120107.jar for mixin tweaker
+[13:43:30] [main/DEBUG] [mixin/]: Scanning file:/Users/sb44567/.gradle/caches/modules-2/files-2.1/tv.twitch/twitch/6.5/320a2dfd18513a5f41b4e75729df684488cbd925/twitch-6.5.jar for mixin tweaker
+[13:43:30] [main/DEBUG] [mixin/]: Scanning file:/Users/sb44567/.gradle/caches/modules-2/files-2.1/java3d/vecmath/1.5.2/79846ba34cbd89e2422d74d53752f993dcc2ccaf/vecmath-1.5.2.jar for mixin tweaker
+[13:43:30] [main/DEBUG] [mixin/]: Scanning file:/Users/sb44567/.gradle/caches/modules-2/files-2.1/org.fusesource.jansi/jansi/1.11/655c643309c2f45a56a747fda70e3fadf57e9f11/jansi-1.11.jar for mixin tweaker
+[13:43:30] [main/DEBUG] [mixin/]: Scanning file:/Users/sb44567/.gradle/caches/modules-2/files-2.1/net.java.jinput/jinput-platform/2.0.5/7ff832a6eb9ab6a767f1ade2b548092d0fa64795/jinput-platform-2.0.5-natives-linux.jar for mixin tweaker
+[13:43:30] [main/DEBUG] [mixin/]: Scanning file:/Users/sb44567/.gradle/caches/modules-2/files-2.1/net.java.jinput/jinput-platform/2.0.5/385ee093e01f587f30ee1c8a2ee7d408fd732e16/jinput-platform-2.0.5-natives-windows.jar for mixin tweaker
+[13:43:30] [main/DEBUG] [mixin/]: Scanning file:/Users/sb44567/.gradle/caches/modules-2/files-2.1/net.java.jinput/jinput-platform/2.0.5/53f9c919f34d2ca9de8c51fc4e1e8282029a9232/jinput-platform-2.0.5-natives-osx.jar for mixin tweaker
+[13:43:30] [main/DEBUG] [mixin/]: Scanning file:/Users/sb44567/.gradle/caches/modules-2/files-2.1/org.lwjgl.lwjgl/lwjgl-platform/2.9.2-nightly-20140822/78b2a55ce4dc29c6b3ec4df8ca165eba05f9b341/lwjgl-platform-2.9.2-nightly-20140822-natives-windows.jar for mixin tweaker
+[13:43:30] [main/DEBUG] [mixin/]: Scanning file:/Users/sb44567/.gradle/caches/modules-2/files-2.1/org.lwjgl.lwjgl/lwjgl-platform/2.9.2-nightly-20140822/d898a33b5d0a6ef3fed3a4ead506566dce6720a5/lwjgl-platform-2.9.2-nightly-20140822-natives-linux.jar for mixin tweaker
+[13:43:30] [main/DEBUG] [mixin/]: Scanning file:/Users/sb44567/.gradle/caches/modules-2/files-2.1/org.lwjgl.lwjgl/lwjgl-platform/2.9.2-nightly-20140822/79f5ce2fea02e77fe47a3c745219167a542121d7/lwjgl-platform-2.9.2-nightly-20140822-natives-osx.jar for mixin tweaker
+[13:43:30] [main/DEBUG] [mixin/]: Scanning file:/Users/sb44567/.gradle/caches/modules-2/files-2.1/tv.twitch/twitch-platform/6.5/206c4ccaecdbcfd2a1631150c69a97bbc9c20c11/twitch-platform-6.5-natives-windows-32.jar for mixin tweaker
+[13:43:30] [main/DEBUG] [mixin/]: Scanning file:/Users/sb44567/.gradle/caches/modules-2/files-2.1/tv.twitch/twitch-platform/6.5/9fdd0fd5aed0817063dcf95b69349a171f447ebd/twitch-platform-6.5-natives-windows-64.jar for mixin tweaker
+[13:43:30] [main/DEBUG] [mixin/]: Scanning file:/Users/sb44567/.gradle/caches/modules-2/files-2.1/tv.twitch/twitch-platform/6.5/5f9d1ee26257b3a33f0ca06fed335ef462af659f/twitch-platform-6.5-natives-osx.jar for mixin tweaker
+[13:43:30] [main/DEBUG] [mixin/]: Scanning file:/Users/sb44567/.gradle/caches/modules-2/files-2.1/tv.twitch/twitch-external-platform/4.5/18215140f010c05b9f86ef6f0f8871954d2ccebf/twitch-external-platform-4.5-natives-windows-32.jar for mixin tweaker
+[13:43:30] [main/DEBUG] [mixin/]: Scanning file:/Users/sb44567/.gradle/caches/modules-2/files-2.1/tv.twitch/twitch-external-platform/4.5/c3cde57891b935d41b6680a9c5e1502eeab76d86/twitch-external-platform-4.5-natives-windows-64.jar for mixin tweaker
+[13:43:30] [main/DEBUG] [mixin/]: Scanning file:/Users/sb44567/.gradle/caches/minecraft/net/minecraftforge/forge/1.8.9-11.15.1.1722/start/ for mixin tweaker
+[13:43:30] [main/DEBUG] [mixin/]: Scanning file:/Users/sb44567/IdeaProjects/h/build/libs/touchgrass-1.0.0.jar for mixin tweaker
+[13:43:30] [main/DEBUG] [mixin/]: file:/Users/sb44567/IdeaProjects/h/build/libs/touchgrass-1.0.0.jar contains a mixin tweaker, adding agents
+[13:43:30] [main/DEBUG] [mixin/]: Adding mixin platform agents for container file:/Users/sb44567/IdeaProjects/h/build/libs/touchgrass-1.0.0.jar
+[13:43:30] [main/DEBUG] [mixin/]: Instancing new MixinPlatformAgentFML for file:/Users/sb44567/IdeaProjects/h/build/libs/touchgrass-1.0.0.jar
+[13:43:30] [main/DEBUG] [mixin/]: touchgrass-1.0.0.jar has core plugin me.r.touchgrass.injection.MixinLoader. Injecting it into FML for co-initialisation:
+[13:43:30] [main/DEBUG] [FML/]: Instantiating coremod class MixinLoader
+[13:43:30] [main/DEBUG] [FML/]: The coremod me.r.touchgrass.injection.MixinLoader requested minecraft version 1.8.9 and minecraft is 1.8.9. It will be loaded.
+[13:43:30] [main/DEBUG] [FML/]: Enqueued coremod MixinLoader
+[13:43:30] [main/DEBUG] [mixin/]: Instancing new MixinPlatformAgentDefault for file:/Users/sb44567/IdeaProjects/h/build/libs/touchgrass-1.0.0.jar
+[13:43:30] [main/DEBUG] [mixin/]: Scanning asmgen:/ for mixin tweaker
+[13:43:30] [main/DEBUG] [mixin/]: injectIntoClassLoader running with 2 agents
+[13:43:30] [main/DEBUG] [mixin/]: Processing injectIntoClassLoader() for PlatformAgent[MixinPlatformAgentFML:file:/Users/sb44567/.gradle/caches/modules-2/files-2.1/org.spongepowered/mixin/0.6.4-SNAPSHOT/bdaaf9c7b34b9559b9265786ad7972ac3777834e/mixin-0.6.4-SNAPSHOT.jar]
+[13:43:30] [main/DEBUG] [mixin/]: Processing injectIntoClassLoader() for PlatformAgent[MixinPlatformAgentDefault:file:/Users/sb44567/.gradle/caches/modules-2/files-2.1/org.spongepowered/mixin/0.6.4-SNAPSHOT/bdaaf9c7b34b9559b9265786ad7972ac3777834e/mixin-0.6.4-SNAPSHOT.jar]
+[13:43:30] [main/DEBUG] [mixin/]: Processing injectIntoClassLoader() for PlatformAgent[MixinPlatformAgentFML:file:/Users/sb44567/IdeaProjects/h/build/libs/touchgrass-1.0.0.jar]
+[13:43:30] [main/DEBUG] [mixin/]: FML agent is co-initialising coremod instance MixinLoader {[]} for file:/Users/sb44567/IdeaProjects/h/build/libs/touchgrass-1.0.0.jar
+[13:43:30] [main/DEBUG] [FML/]: Injecting coremod MixinLoader {me.r.touchgrass.injection.MixinLoader} class transformers
+[13:43:30] [main/DEBUG] [FML/]: Injection complete
+[13:43:30] [main/DEBUG] [FML/]: Running coremod plugin for MixinLoader {me.r.touchgrass.injection.MixinLoader}
+[13:43:30] [main/DEBUG] [FML/]: Running coremod plugin MixinLoader
+[13:43:30] [main/DEBUG] [FML/]: Coremod plugin class MixinLoader run successfully
+[13:43:30] [main/DEBUG] [mixin/]: Processing injectIntoClassLoader() for PlatformAgent[MixinPlatformAgentDefault:file:/Users/sb44567/IdeaProjects/h/build/libs/touchgrass-1.0.0.jar]
+[13:43:30] [main/INFO] [LaunchWrapper/]: Calling tweak class net.minecraftforge.fml.common.launcher.FMLDeobfTweaker
+[13:43:30] [main/DEBUG] [FML/]: Loaded 163 rules from AccessTransformer config file forge_at.cfg
+[13:43:30] [main/DEBUG] [FML/]: Loaded 23 rules from AccessTransformer mod jar file /Users/sb44567/IdeaProjects/h/build/libs/touchgrass-1.0.0.jar!META-INF/touchgrass_at.cfg
+
+[13:43:30] [main/DEBUG] [mixin/]: Adding new mixin transformer proxy #2
+[13:43:30] [main/DEBUG] [FML/]: Validating minecraft
+[13:43:30] [main/DEBUG] [mixin/]: Preparing mixins for MixinEnvironment[INIT]
+[13:43:31] [main/DEBUG] [FML/]: Minecraft validated, launching...
+[13:43:31] [main/INFO] [LaunchWrapper/]: Calling tweak class net.minecraftforge.gradle.tweakers.AccessTransformerTweaker
+[13:43:31] [main/DEBUG] [GradleStart/]: Reading CSV file: /Users/sb44567/.gradle/caches/minecraft/de/oceanlabs/mcp/mcp_stable/22/fields.csv
+[13:43:31] [main/DEBUG] [GradleStart/]: Reading CSV file: /Users/sb44567/.gradle/caches/minecraft/de/oceanlabs/mcp/mcp_stable/22/methods.csv
+[13:43:31] [main/INFO] [GradleStart/]: Remapping AccessTransformer rules...
+[13:43:31] [main/INFO] [LaunchWrapper/]: Loading tweak class name net.minecraftforge.fml.common.launcher.TerminalTweaker
+[13:43:31] [main/INFO] [LaunchWrapper/]: Calling tweak class net.minecraftforge.fml.common.launcher.TerminalTweaker
+[13:43:31] [main/DEBUG] [mixin/]: Adding new mixin transformer proxy #3
+[13:43:31] [main/DEBUG] [mixin/]: Preparing mixins for MixinEnvironment[DEFAULT]
+[13:43:31] [main/DEBUG] [mixin/]: Selecting config mixins.touchgrass.json
+[13:43:31] [main/DEBUG] [mixin/]: Preparing mixins.touchgrass.json (25)
+[13:43:31] [main/DEBUG] [mixin/]: Rebuilding transformer delegation list:
+[13:43:31] [main/DEBUG] [mixin/]:   Adding:    net.minecraftforge.fml.common.asm.transformers.PatchingTransformer
+[13:43:31] [main/DEBUG] [mixin/]:   Excluding: org.spongepowered.asm.mixin.transformer.MixinTransformer$Proxy
+[13:43:31] [main/DEBUG] [mixin/]:   Adding:    $wrapper.net.minecraftforge.fml.common.asm.transformers.BlamingTransformer
+[13:43:31] [main/DEBUG] [mixin/]:   Adding:    $wrapper.net.minecraftforge.fml.common.asm.transformers.SideTransformer
+[13:43:31] [main/DEBUG] [mixin/]:   Excluding: $wrapper.net.minecraftforge.fml.common.asm.transformers.EventSubscriptionTransformer
+[13:43:31] [main/DEBUG] [mixin/]:   Adding:    $wrapper.net.minecraftforge.fml.common.asm.transformers.EventSubscriberTransformer
+[13:43:31] [main/DEBUG] [mixin/]:   Adding:    net.minecraftforge.fml.common.asm.transformers.DeobfuscationTransformer
+[13:43:31] [main/DEBUG] [mixin/]:   Adding:    net.minecraftforge.fml.common.asm.transformers.AccessTransformer
+[13:43:31] [main/DEBUG] [mixin/]:   Adding:    net.minecraftforge.fml.common.asm.transformers.ModAccessTransformer
+[13:43:31] [main/DEBUG] [mixin/]:   Adding:    net.minecraftforge.fml.common.asm.transformers.ItemStackTransformer
+[13:43:31] [main/DEBUG] [mixin/]:   Excluding: org.spongepowered.asm.mixin.transformer.MixinTransformer$Proxy
+[13:43:31] [main/DEBUG] [mixin/]:   Adding:    net.minecraftforge.gradle.GradleForgeHacks$AccessTransformerTransformer
+[13:43:31] [main/DEBUG] [mixin/]:   Excluding: net.minecraftforge.fml.common.asm.transformers.TerminalTransformer
+[13:43:31] [main/DEBUG] [mixin/]:   Excluding: org.spongepowered.asm.mixin.transformer.MixinTransformer$Proxy
+[13:43:31] [main/DEBUG] [mixin/]: Transformer delegation list created with 9 entries
+[13:43:31] [main/DEBUG] [mixin/]: Found name transformer: net.minecraftforge.fml.common.asm.transformers.DeobfuscationTransformer
+[13:43:32] [main/TRACE] [mixin/]: Added class metadata for net/minecraft/client/Minecraft to metadata cache
+[13:43:32] [main/TRACE] [mixin/]: Added class metadata for net/minecraft/network/NetworkManager to metadata cache
+[13:43:32] [main/TRACE] [mixin/]: Added class metadata for net/minecraft/client/multiplayer/PlayerControllerMP to metadata cache
+[13:43:32] [main/TRACE] [mixin/]: Added class metadata for net/minecraft/entity/Entity to metadata cache
+[13:43:32] [main/TRACE] [mixin/]: Added class metadata for net/minecraft/entity/EntityLivingBase to metadata cache
+[13:43:32] [main/TRACE] [mixin/]: Added class metadata for net/minecraft/entity/player/EntityPlayer to metadata cache
+[13:43:32] [main/TRACE] [mixin/]: Added class metadata for net/minecraft/client/entity/EntityPlayerSP to metadata cache
+[13:43:32] [main/TRACE] [mixin/]: Added class metadata for net/minecraft/client/renderer/EntityRenderer to metadata cache
+[13:43:32] [main/TRACE] [mixin/]: Added class metadata for net/minecraft/client/entity/AbstractClientPlayer to metadata cache
+[13:43:32] [main/TRACE] [mixin/]: Added class metadata for net/minecraft/client/gui/FontRenderer to metadata cache
+[13:43:32] [main/TRACE] [mixin/]: Added class metadata for net/minecraft/client/gui/Gui to metadata cache
+[13:43:32] [main/TRACE] [mixin/]: Added class metadata for net/minecraft/client/gui/inventory/GuiContainer to metadata cache
+[13:43:32] [main/TRACE] [mixin/]: Added class metadata for net/minecraft/client/gui/GuiIngame to metadata cache
+[13:43:32] [main/TRACE] [mixin/]: Added class metadata for net/minecraft/client/gui/GuiMainMenu to metadata cache
+[13:43:32] [main/TRACE] [mixin/]: Added class metadata for net/minecraft/client/gui/GuiNewChat to metadata cache
+[13:43:32] [main/TRACE] [mixin/]: Added class metadata for net/minecraft/client/gui/GuiPlayerTabOverlay to metadata cache
+[13:43:32] [main/TRACE] [mixin/]: Added class metadata for net/minecraft/client/gui/GuiScreen to metadata cache
+[13:43:32] [main/TRACE] [mixin/]: Added class metadata for net/minecraft/client/gui/GuiSpectator to metadata cache
+[13:43:32] [main/TRACE] [mixin/]: Added class metadata for net/minecraft/client/renderer/ItemRenderer to metadata cache
+[13:43:32] [main/TRACE] [mixin/]: Added class metadata for net/minecraft/client/renderer/entity/layers/LayerHeldItem to metadata cache
+[13:43:33] [main/TRACE] [mixin/]: Added class metadata for net/minecraft/client/renderer/entity/RenderEntityItem to metadata cache
+[13:43:33] [main/TRACE] [mixin/]: Added class metadata for net/minecraft/client/renderer/InventoryEffectRenderer to metadata cache
+[13:43:33] [main/TRACE] [mixin/]: Added class metadata for net/minecraft/client/model/ModelBiped to metadata cache
+[13:43:33] [main/TRACE] [mixin/]: Added class metadata for net/minecraft/client/renderer/entity/Render to metadata cache
+[13:43:33] [main/TRACE] [mixin/]: Added class metadata for net/minecraft/client/renderer/entity/RendererLivingEntity to metadata cache
+[13:43:33] [main/TRACE] [mixin/]: Added class metadata for org/spongepowered/asm/mixin/injection/At$Shift to metadata cache
+[13:43:33] [main/TRACE] [mixin/]: Added class metadata for net/minecraftforge/client/event/EntityViewRenderEvent$CameraSetup to metadata cache
+[13:43:33] [main/TRACE] [mixin/]: Added class metadata for net/minecraft/util/MovingObjectPosition$MovingObjectType to metadata cache
+[13:43:33] [main/TRACE] [mixin/]: Added class metadata for java/lang/invoke/MethodHandles$Lookup to metadata cache
+[13:43:33] [main/TRACE] [mixin/]: Added class metadata for net/minecraft/client/settings/GameSettings$Options to metadata cache
+[13:43:33] [main/TRACE] [mixin/]: Added class metadata for net/minecraft/entity/player/EntityPlayer$EnumChatVisibility to metadata cache
+[13:43:33] [main/TRACE] [mixin/]: Added class metadata for net/minecraft/scoreboard/IScoreObjectiveCriteria$EnumRenderType to metadata cache
+[13:43:33] [main/TRACE] [mixin/]: Added class metadata for net/minecraft/world/WorldSettings$GameType to metadata cache
+[13:43:33] [main/TRACE] [mixin/]: Added class metadata for me/r/touchgrass/injection/mixins/item/MixinItemRenderer$1 to metadata cache
+[13:43:33] [main/TRACE] [mixin/]: Added class metadata for net/minecraft/client/renderer/block/model/ItemCameraTransforms$TransformType to metadata cache
+[13:43:33] [main/DEBUG] [mixin/]: Prepared 25 mixins in 1.476 sec (59.0 msec avg.)
+[13:43:33] [main/INFO] [LaunchWrapper/]: Launching wrapped minecraft {net.minecraft.client.main.Main}
+[13:43:33] [main/DEBUG] [mixin/]: Mixing client.MixinMinecraft from mixins.touchgrass.json into net.minecraft.client.Minecraft
+[13:43:33] [main/TRACE] [mixin/]: Added class metadata for me/r/touchgrass/injection/interfaces/IMixinMinecraft to metadata cache
+[13:43:33] [main/TRACE] [mixin/]: Added class metadata for org/lwjgl/Sys to metadata cache
+[13:43:33] [main/TRACE] [mixin/]: Added class metadata for me/r/touchgrass/touchgrass to metadata cache
+[13:43:33] [main/TRACE] [mixin/]: Added class metadata for me/r/touchgrass/file/files/ModuleConfig to metadata cache
+[13:43:33] [main/TRACE] [mixin/]: Added class metadata for me/r/touchgrass/file/files/SettingsConfig to metadata cache
+[13:43:33] [main/TRACE] [mixin/]: Added class metadata for me/r/touchgrass/file/files/ClickGuiConfig to metadata cache
+[13:43:33] [main/TRACE] [mixin/]: Added class metadata for me/r/touchgrass/file/files/deprecated/KeybindFile to metadata cache
+[13:43:33] [main/TRACE] [mixin/]: Added class metadata for me/r/touchgrass/file/files/deprecated/VisibleFile to metadata cache
+[13:43:33] [main/TRACE] [mixin/]: Added class metadata for me/r/touchgrass/file/files/deprecated/ModuleFile to metadata cache
+[13:43:33] [main/TRACE] [mixin/]: Added class metadata for me/r/touchgrass/file/files/deprecated/ClickGuiFile to metadata cache
+[13:43:33] [main/TRACE] [mixin/]: Added class metadata for me/r/touchgrass/file/files/deprecated/SettingsButtonFile to metadata cache
+[13:43:33] [main/TRACE] [mixin/]: Added class metadata for me/r/touchgrass/file/files/deprecated/SettingsComboBoxFile to metadata cache
+[13:43:33] [main/TRACE] [mixin/]: Added class metadata for me/r/touchgrass/file/files/deprecated/SettingsSliderFile to metadata cache
+[13:43:33] [main/TRACE] [mixin/]: Added class metadata for me/r/touchgrass/file/files/deprecated/TextFile to metadata cache
+[13:43:33] [main/TRACE] [mixin/]: Added class metadata for me/r/touchgrass/utils/Utils to metadata cache
+[13:43:33] [main/TRACE] [mixin/]: Added class metadata for org/lwjgl/input/Keyboard to metadata cache
+[13:43:33] [main/TRACE] [mixin/]: Added class metadata for me/r/touchgrass/events/EventKey to metadata cache
+[13:43:33] [main/TRACE] [mixin/]: Added class metadata for com/darkmagician6/eventapi/events/Event to metadata cache
+[13:43:33] [main/TRACE] [mixin/]: Added class metadata for com/darkmagician6/eventapi/EventManager to metadata cache
+[13:43:33] [main/TRACE] [mixin/]: Added class metadata for me/r/touchgrass/events/EventMouseClick to metadata cache
+[13:43:33] [main/TRACE] [mixin/]: Added class metadata for me/r/touchgrass/events/EventTick to metadata cache
+[13:43:33] [main/TRACE] [mixin/]: Added class metadata for net/minecraft/util/ReportedException to metadata cache
+[13:43:33] [main/TRACE] [mixin/]: Added class metadata for net/minecraft/util/MinecraftError to metadata cache
+[13:43:33] [main/TRACE] [mixin/]: Added class metadata for java/lang/RuntimeException to metadata cache
+[13:43:33] [main/TRACE] [mixin/]: Added class metadata for java/lang/Exception to metadata cache
+[13:43:33] [main/TRACE] [mixin/]: Added class metadata for java/lang/Throwable to metadata cache
+[13:43:33] [main/TRACE] [mixin/]: Added class metadata for java/lang/Error to metadata cache
+[13:43:33] [main/TRACE] [mixin/]: Added class metadata for java/util/Iterator to metadata cache
+[13:43:33] [main/TRACE] [mixin/]: Added class metadata for net/minecraft/client/gui/GuiGameOver to metadata cache
+[13:43:33] [main/TRACE] [mixin/]: Added class metadata for java/lang/String to metadata cache
+[13:43:33] [main/TRACE] [mixin/]: Added class metadata for java/lang/Integer to metadata cache
+[13:43:33] [main/TRACE] [mixin/]: Added class metadata for java/lang/Number to metadata cache
+[13:43:34] [main/DEBUG] [mixin/]: Mixing entity.MixinEntity from mixins.touchgrass.json into net.minecraft.entity.Entity
+[13:43:34] [main/TRACE] [mixin/]: Added class metadata for net/minecraft/nbt/NBTTagCompound to metadata cache
+[13:43:34] [main/TRACE] [mixin/]: Added class metadata for net/minecraft/nbt/NBTBase to metadata cache
+[13:43:34] [main/TRACE] [mixin/]: Added class metadata for net/minecraftforge/common/IExtendedEntityProperties to metadata cache
+[13:43:34] [main/DEBUG] [mixin/]: Mixing entity.MixinEntityPlayerSP from mixins.touchgrass.json into net.minecraft.client.entity.EntityPlayerSP
+[13:43:34] [main/TRACE] [mixin/]: Added class metadata for net/minecraft/util/MovementInput to metadata cache
+[13:43:34] [main/TRACE] [mixin/]: Added class metadata for net/minecraft/client/network/NetHandlerPlayClient to metadata cache
+[13:43:34] [main/TRACE] [mixin/]: Added class metadata for net/minecraft/command/ICommandSender to metadata cache
+[13:43:34] [main/TRACE] [mixin/]: Added class metadata for net/minecraftforge/common/capabilities/ICapabilitySerializable to metadata cache
+[13:43:34] [main/TRACE] [mixin/]: Added class metadata for net/minecraftforge/common/capabilities/ICapabilityProvider to metadata cache
+[13:43:34] [main/TRACE] [mixin/]: Added class metadata for net/minecraftforge/common/util/INBTSerializable to metadata cache
+[13:43:34] [main/TRACE] [mixin/]: Added class metadata for me/r/touchgrass/command/CommandManager to metadata cache
+[13:43:34] [main/TRACE] [mixin/]: Added class metadata for net/minecraft/network/play/client/C01PacketChatMessage to metadata cache
+[13:43:34] [main/TRACE] [mixin/]: Added class metadata for net/minecraft/network/Packet to metadata cache
+[13:43:34] [main/TRACE] [mixin/]: Added class metadata for me/r/touchgrass/module/ModuleManager to metadata cache
+[13:43:34] [main/TRACE] [mixin/]: Added class metadata for me/r/touchgrass/module/Module to metadata cache
+[13:43:34] [main/TRACE] [mixin/]: Added class metadata for org/spongepowered/asm/mixin/injection/callback/CallbackInfo to metadata cache
+[13:43:34] [main/TRACE] [mixin/]: Added class metadata for me/r/touchgrass/settings/SettingsManager to metadata cache
+[13:43:34] [main/TRACE] [mixin/]: Added class metadata for me/r/touchgrass/settings/Setting to metadata cache
+[13:43:34] [main/TRACE] [mixin/]: Added class metadata for net/minecraft/network/play/client/C0APacketAnimation to metadata cache
+[13:43:34] [main/TRACE] [mixin/]: Added class metadata for me/r/touchgrass/events/EventPreMotion to metadata cache
+[13:43:34] [main/TRACE] [mixin/]: Added class metadata for com/darkmagician6/eventapi/types/EventType to metadata cache
+[13:43:34] [main/TRACE] [mixin/]: Added class metadata for me/r/touchgrass/events/EventMotionUpdate to metadata cache
+[13:43:34] [main/TRACE] [mixin/]: Added class metadata for me/r/touchgrass/events/EventUpdate to metadata cache
+[13:43:34] [main/TRACE] [mixin/]: Added class metadata for net/minecraft/util/AxisAlignedBB to metadata cache
+[13:43:34] [main/TRACE] [mixin/]: Added class metadata for net/minecraft/world/World to metadata cache
+[13:43:34] [main/TRACE] [mixin/]: Added class metadata for net/minecraft/profiler/Profiler to metadata cache
+[13:43:34] [main/TRACE] [mixin/]: Added class metadata for me/r/touchgrass/events/EventSafeWalk to metadata cache
+[13:43:34] [main/TRACE] [mixin/]: Added class metadata for com/darkmagician6/eventapi/events/callables/EventCancellable to metadata cache
+[13:43:34] [main/TRACE] [mixin/]: Added class metadata for com/darkmagician6/eventapi/events/Cancellable to metadata cache
+[13:43:34] [main/TRACE] [mixin/]: Added class metadata for java/util/List to metadata cache
+[13:43:34] [main/TRACE] [mixin/]: Added class metadata for net/minecraft/util/MathHelper to metadata cache
+[13:43:34] [main/TRACE] [mixin/]: Added class metadata for net/minecraft/util/BlockPos to metadata cache
+[13:43:34] [main/TRACE] [mixin/]: Added class metadata for net/minecraft/util/Vec3i to metadata cache
+[13:43:34] [main/TRACE] [mixin/]: Added class metadata for java/lang/Comparable to metadata cache
+[13:43:34] [main/TRACE] [mixin/]: Added class metadata for net/minecraft/block/state/IBlockState to metadata cache
+[13:43:34] [main/TRACE] [mixin/]: Added class metadata for net/minecraft/block/Block to metadata cache
+[13:43:34] [main/TRACE] [mixin/]: Added class metadata for net/minecraft/block/material/Material to metadata cache
+[13:43:34] [main/TRACE] [mixin/]: Added class metadata for net/minecraft/init/Blocks to metadata cache
+[13:43:34] [main/TRACE] [mixin/]: Added class metadata for java/util/Random to metadata cache
+[13:43:34] [main/TRACE] [mixin/]: Added class metadata for net/minecraft/crash/CrashReport to metadata cache
+[13:43:34] [main/TRACE] [mixin/]: Added class metadata for java/io/Serializable to metadata cache
+[13:43:34] [main/TRACE] [mixin/]: Added class metadata for java/lang/CharSequence to metadata cache
+[13:43:34] [main/TRACE] [mixin/]: Added class metadata for me/r/touchgrass/module/modules/player/NoSwing to metadata cache
+[13:43:34] [main/TRACE] [mixin/]: Added class metadata for java/lang/Class to metadata cache
+[13:43:34] [main/TRACE] [mixin/]: Added class metadata for net/minecraft/block/BlockFence to metadata cache
+[13:43:34] [main/TRACE] [mixin/]: Added class metadata for net/minecraft/block/BlockWall to metadata cache
+[13:43:34] [main/TRACE] [mixin/]: Added class metadata for net/minecraft/block/BlockFenceGate to metadata cache
+[13:43:34] [main/TRACE] [mixin/]: Added class metadata for net/minecraft/crash/CrashReportCategory to metadata cache
+[13:43:34] [main/DEBUG] [mixin/]: Mixing gui.MixinAbstractClientPlayer from mixins.touchgrass.json into net.minecraft.client.entity.AbstractClientPlayer
+[13:43:34] [main/TRACE] [mixin/]: Added class metadata for net/minecraft/client/network/NetworkPlayerInfo to metadata cache
+[13:43:34] [main/TRACE] [mixin/]: Added class metadata for net/minecraft/entity/player/PlayerCapabilities to metadata cache
+[13:43:34] [main/TRACE] [mixin/]: Added class metadata for net/minecraft/entity/SharedMonsterAttributes to metadata cache
+[13:43:34] [main/TRACE] [mixin/]: Added class metadata for me/r/touchgrass/module/modules/render/NoSpeedFOV to metadata cache
+[13:43:34] [main/TRACE] [mixin/]: Added class metadata for net/minecraft/entity/ai/attributes/IAttributeInstance to metadata cache
+[13:43:34] [main/TRACE] [mixin/]: Added class metadata for java/lang/Float to metadata cache
+[13:43:34] [main/TRACE] [mixin/]: Added class metadata for net/minecraft/item/ItemStack to metadata cache
+[13:43:34] [main/TRACE] [mixin/]: Added class metadata for net/minecraft/init/Items to metadata cache
+[13:43:34] [main/TRACE] [mixin/]: Added class metadata for me/r/touchgrass/module/modules/render/NoBowFOV to metadata cache
+[13:43:34] [main/TRACE] [mixin/]: Added class metadata for net/minecraftforge/client/ForgeHooksClient to metadata cache
+[13:43:34] [main/TRACE] [mixin/]: Added class metadata for com/mojang/authlib/GameProfile to metadata cache
+[13:43:34] [main/TRACE] [mixin/]: Added class metadata for net/minecraft/util/IThreadListener to metadata cache
+[13:43:34] [main/TRACE] [mixin/]: Added class metadata for net/minecraft/profiler/IPlayerUsage to metadata cache
+[13:43:34] [main/TRACE] [mixin/]: Added class metadata for net/minecraft/client/resources/DefaultPlayerSkin to metadata cache
+[13:43:34] [main/TRACE] [mixin/]: Added class metadata for org/spongepowered/asm/mixin/injection/callback/CallbackInfoReturnable to metadata cache
+[13:43:34] [main/TRACE] [mixin/]: Added class metadata for net/minecraft/entity/ai/attributes/IAttribute to metadata cache
+[13:43:34] [main/TRACE] [mixin/]: Added class metadata for net/minecraft/item/Item to metadata cache
+[13:43:34] [main/TRACE] [mixin/]: Added class metadata for net/minecraft/item/ItemBow to metadata cache
+[13:43:34] [main/TRACE] [mixin/]: Added class metadata for me/r/touchgrass/module/modules/player/NameProtect to metadata cache
+[13:43:34] [main/TRACE] [mixin/]: Added class metadata for java/util/UUID to metadata cache
+[13:43:34] [main/TRACE] [mixin/]: Added class metadata for net/minecraft/util/ResourceLocation to metadata cache
+[13:43:34] [main/TRACE] [mixin/]: Added class metadata for net/minecraft/client/renderer/ThreadDownloadImageData to metadata cache
+[13:43:34] [main/TRACE] [mixin/]: Added class metadata for net/minecraft/client/renderer/texture/ITextureObject to metadata cache
+[13:43:34] [main/TRACE] [mixin/]: Added class metadata for net/minecraft/client/renderer/texture/SimpleTexture to metadata cache
+[13:43:34] [main/TRACE] [mixin/]: Added class metadata for net/minecraft/client/renderer/texture/AbstractTexture to metadata cache
+[13:43:34] [main/DEBUG] [mixin/]: Mixing entity.MixinEntityPlayer from mixins.touchgrass.json into net.minecraft.entity.player.EntityPlayer
+[13:43:34] [main/TRACE] [mixin/]: Added class metadata for net/minecraft/inventory/Container to metadata cache
+[13:43:34] [main/TRACE] [mixin/]: Added class metadata for me/r/touchgrass/module/modules/render/Animations to metadata cache
+[13:43:34] [main/TRACE] [mixin/]: Added class metadata for me/r/touchgrass/utils/PlayerUtil to metadata cache
+[13:43:34] [main/DEBUG] [mixin/]: Mixing entity.MixinEntityLivingBase from mixins.touchgrass.json into net.minecraft.entity.EntityLivingBase
+[13:43:34] [main/TRACE] [mixin/]: Added class metadata for net/minecraft/potion/Potion to metadata cache
+[13:43:34] [main/TRACE] [mixin/]: Added class metadata for java/lang/Boolean to metadata cache
+[13:43:34] [main/TRACE] [mixin/]: Added class metadata for me/r/touchgrass/module/modules/render/AntiBlind to metadata cache
+[13:43:34] [main/TRACE] [mixin/]: Added class metadata for net/minecraft/nbt/NBTTagList to metadata cache
+[13:43:35] [main/DEBUG] [mixin/]: Mixing gui.MixinGuiScreen from mixins.touchgrass.json into net.minecraft.client.gui.GuiScreen
+[13:43:35] [main/TRACE] [mixin/]: Added class metadata for java/awt/datatransfer/Transferable to metadata cache
+[13:43:35] [main/TRACE] [mixin/]: Added class metadata for net/minecraft/nbt/NBTException to metadata cache
+[13:43:35] [main/DEBUG] [mixin/]: Mixing gui.MixinGui from mixins.touchgrass.json into net.minecraft.client.gui.Gui
+[13:43:35] [main/DEBUG] [mixin/]: Mixing render.MixinInventoryEffectRenderer from mixins.touchgrass.json into net.minecraft.client.renderer.InventoryEffectRenderer
+[13:43:35] [main/TRACE] [mixin/]: Added class metadata for net/minecraft/client/gui/GuiYesNoCallback to metadata cache
+[13:43:35] [main/TRACE] [mixin/]: Added class metadata for java/util/Collection to metadata cache
+[13:43:35] [main/TRACE] [mixin/]: Added class metadata for net/minecraft/potion/PotionEffect to metadata cache
+[13:43:35] [main/DEBUG] [mixin/]: Mixing gui.MixinGuiContainer from mixins.touchgrass.json into net.minecraft.client.gui.inventory.GuiContainer
+[13:43:35] [main/DEBUG] [mixin/]: Mixing gui.MixinGuiIngame from mixins.touchgrass.json into net.minecraft.client.gui.GuiIngame
+[13:43:35] [main/TRACE] [mixin/]: Added class metadata for me/r/touchgrass/events/EventRender2D to metadata cache
+[13:43:35] [main/TRACE] [mixin/]: Added class metadata for net/minecraft/client/renderer/GlStateManager to metadata cache
+[13:43:35] [main/TRACE] [mixin/]: Added class metadata for net/minecraft/client/renderer/texture/TextureManager to metadata cache
+[13:43:35] [main/TRACE] [mixin/]: Added class metadata for net/minecraft/client/gui/ScaledResolution to metadata cache
+[13:43:35] [main/TRACE] [mixin/]: Added class metadata for net/minecraft/client/renderer/RenderHelper to metadata cache
+[13:43:35] [main/TRACE] [mixin/]: Added class metadata for me/r/touchgrass/utils/RenderUtil to metadata cache
+[13:43:35] [main/TRACE] [mixin/]: Added class metadata for net/minecraft/entity/player/InventoryPlayer to metadata cache
+[13:43:35] [main/WARN] [mixin/]: @Final field widgetsTexPath:Lnet/minecraft/util/ResourceLocation; in mixins.touchgrass.json:gui.MixinGuiIngame should be final
+[13:43:35] [main/DEBUG] [mixin/]: Mixing gui.MixinGuiMainMenu from mixins.touchgrass.json into net.minecraft.client.gui.GuiMainMenu
+[13:43:35] [main/TRACE] [mixin/]: Added class metadata for net/minecraft/client/renderer/texture/DynamicTexture to metadata cache
+[13:43:35] [main/TRACE] [mixin/]: Added class metadata for me/r/touchgrass/ui/clickgui/ClickGui to metadata cache
+[13:43:35] [main/TRACE] [mixin/]: Added class metadata for java/util/Calendar to metadata cache
+[13:43:35] [main/TRACE] [mixin/]: Added class metadata for java/lang/Cloneable to metadata cache
+[13:43:35] [main/TRACE] [mixin/]: Added class metadata for java/util/Date to metadata cache
+[13:43:35] [main/TRACE] [mixin/]: Added class metadata for me/r/touchgrass/ui/mainmenu/utils/ExpandButton to metadata cache
+[13:43:35] [main/TRACE] [mixin/]: Added class metadata for net/minecraft/client/gui/GuiButton to metadata cache
+[13:43:35] [main/TRACE] [mixin/]: Added class metadata for net/minecraft/client/resources/I18n to metadata cache
+[13:43:35] [main/TRACE] [mixin/]: Added class metadata for net/minecraft/client/gui/GuiButtonLanguage to metadata cache
+[13:43:35] [main/TRACE] [mixin/]: Added class metadata for java/lang/Math to metadata cache
+[13:43:35] [main/TRACE] [mixin/]: Added class metadata for net/minecraft/client/settings/GameSettings to metadata cache
+[13:43:35] [main/TRACE] [mixin/]: Added class metadata for net/minecraft/realms/RealmsBridge to metadata cache
+[13:43:35] [main/TRACE] [mixin/]: Added class metadata for net/minecraft/realms/RealmsScreen to metadata cache
+[13:43:35] [main/TRACE] [mixin/]: Added class metadata for me/r/touchgrass/altmanager/GuiAltManager to metadata cache
+[13:43:35] [main/TRACE] [mixin/]: Added class metadata for org/lwjgl/opengl/GL11 to metadata cache
+[13:43:35] [main/TRACE] [mixin/]: Added class metadata for me/r/touchgrass/ui/mainmenu/MainMenu to metadata cache
+[13:43:35] [main/TRACE] [mixin/]: Added class metadata for net/minecraft/client/renderer/Tessellator to metadata cache
+[13:43:35] [main/TRACE] [mixin/]: Added class metadata for java/lang/StringBuilder to metadata cache
+[13:43:35] [main/TRACE] [mixin/]: Added class metadata for java/lang/AbstractStringBuilder to metadata cache
+[13:43:35] [main/TRACE] [mixin/]: Added class metadata for java/lang/Appendable to metadata cache
+[13:43:35] [main/TRACE] [mixin/]: Added class metadata for net/minecraftforge/fml/common/FMLCommonHandler to metadata cache
+[13:43:35] [main/TRACE] [mixin/]: Added class metadata for com/google/common/collect/Lists to metadata cache
+[13:43:35] [main/TRACE] [mixin/]: Added class metadata for com/google/common/base/Strings to metadata cache
+[13:43:35] [main/WARN] [mixin/]: @Final field threadLock:Ljava/lang/Object; in mixins.touchgrass.json:gui.MixinGuiMainMenu should be final
+[13:43:35] [main/TRACE] [mixin/]: Added class metadata for net/minecraft/client/gui/GuiScreenRealmsProxy to metadata cache
+[13:43:35] [main/TRACE] [mixin/]: Added class metadata for net/minecraft/client/renderer/WorldRenderer to metadata cache
+[13:43:35] [main/WARN] [mixin/]: @Final field minecraftTitleTextures:Lnet/minecraft/util/ResourceLocation; in mixins.touchgrass.json:gui.MixinGuiMainMenu should be final
+[13:43:35] [main/TRACE] [mixin/]: Added class metadata for java/io/IOException to metadata cache
+[13:43:35] [main/TRACE] [mixin/]: Added class metadata for java/util/ArrayList to metadata cache
+[13:43:35] [main/TRACE] [mixin/]: Added class metadata for java/util/AbstractList to metadata cache
+[13:43:35] [main/TRACE] [mixin/]: Added class metadata for java/util/AbstractCollection to metadata cache
+[13:43:38] [Client thread/DEBUG] [FML/]: Bar Finished: Loading Resource - LanguageManager took 0.004s
+[13:43:39] [Client thread/DEBUG] [FML/]: Bar Finished: Loading Resource - Animation took 0.000s
+[13:43:39] [Client thread/INFO] [FML/]: MinecraftForge v11.15.1.1722 Initialized
+[13:43:41] [Client thread/INFO] [FML/]: Replaced 204 ore recipies
+[13:43:41] [Client thread/DEBUG] [FML/]: File /Users/sb44567/IdeaProjects/h/run/config/injectedDependencies.json not found. No dependencies injected
+[13:43:41] [Client thread/DEBUG] [FML/]: Building injected Mod Containers [net.minecraftforge.fml.common.FMLContainer, net.minecraftforge.common.ForgeModContainer]
+[13:43:42] [Client thread/DEBUG] [FML/]: Attempting to load mods contained in the minecraft jar file and associated classes
+[13:43:42] [Client thread/DEBUG] [FML/]: Found a minecraft related file at /Users/sb44567/.gradle/caches/minecraft/deobfedDeps/compileDummy.jar, examining for mod candidates
+[13:43:42] [Client thread/DEBUG] [FML/]: Found a minecraft related file at /Users/sb44567/.gradle/caches/minecraft/deobfedDeps/providedDummy.jar, examining for mod candidates
+[13:43:42] [Client thread/TRACE] [FML/]: Skipping known library file /Users/sb44567/.gradle/caches/modules-2/files-2.1/commons-codec/commons-codec/1.15/49d94806b6e3dc933dacbd8acb0fdbab8ebd1e5d/commons-codec-1.15.jar
+[13:43:42] [Client thread/DEBUG] [FML/]: Found a minecraft related file at /Users/sb44567/.gradle/caches/modules-2/files-2.1/org.spongepowered/mixin/0.6.4-SNAPSHOT/bdaaf9c7b34b9559b9265786ad7972ac3777834e/mixin-0.6.4-SNAPSHOT.jar, examining for mod candidates
+[13:43:42] [Client thread/DEBUG] [FML/]: Found a minecraft related file at /Users/sb44567/IdeaProjects/h/.gradle/minecraft/forgeSrc-1.8.9-11.15.1.1722-PROJECT(touchgrass).jar, examining for mod candidates
+[13:43:42] [Client thread/DEBUG] [FML/]: Found a minecraft related file at /Users/sb44567/.gradle/caches/modules-2/files-2.1/com.mojang/netty/1.8.8/a796914d1c8a55b4da9f4a8856dd9623375d8bb/netty-1.8.8.jar, examining for mod candidates
+[13:43:42] [Client thread/DEBUG] [FML/]: Found a minecraft related file at /Users/sb44567/.gradle/caches/modules-2/files-2.1/oshi-project/oshi-core/1.1/9ddf7b048a8d701be231c0f4f95fd986198fd2d8/oshi-core-1.1.jar, examining for mod candidates
+[13:43:42] [Client thread/DEBUG] [FML/]: Found a minecraft related file at /Users/sb44567/.gradle/caches/modules-2/files-2.1/net.java.dev.jna/jna/3.4.0/803ff252fedbd395baffd43b37341dc4a150a554/jna-3.4.0.jar, examining for mod candidates
+[13:43:42] [Client thread/DEBUG] [FML/]: Found a minecraft related file at /Users/sb44567/.gradle/caches/modules-2/files-2.1/net.java.dev.jna/platform/3.4.0/e3f70017be8100d3d6923f50b3d2ee17714e9c13/platform-3.4.0.jar, examining for mod candidates
+[13:43:42] [Client thread/TRACE] [FML/]: Skipping known library file /Users/sb44567/.gradle/caches/modules-2/files-2.1/com.ibm.icu/icu4j-core-mojang/51.2/63d216a9311cca6be337c1e458e587f99d382b84/icu4j-core-mojang-51.2.jar
+[13:43:42] [Client thread/TRACE] [FML/]: Skipping known library file /Users/sb44567/.gradle/caches/modules-2/files-2.1/net.minecraft/launchwrapper/1.12/111e7bea9c968cdb3d06ef4632bf7ff0824d0f36/launchwrapper-1.12.jar
+[13:43:42] [Client thread/TRACE] [FML/]: Skipping known library file /Users/sb44567/.gradle/caches/modules-2/files-2.1/net.sf.jopt-simple/jopt-simple/4.6/306816fb57cf94f108a43c95731b08934dcae15c/jopt-simple-4.6.jar
+[13:43:42] [Client thread/TRACE] [FML/]: Skipping known library file /Users/sb44567/.gradle/caches/modules-2/files-2.1/io.netty/netty-all/4.0.23.Final/294104aaf1781d6a56a07d561e792c5d0c95f45/netty-all-4.0.23.Final.jar
+[13:43:42] [Client thread/TRACE] [FML/]: Skipping known library file /Users/sb44567/.gradle/caches/modules-2/files-2.1/com.mojang/authlib/1.5.21/aefba0d5b53fbcb70860bc8046ab95d5854c07a5/authlib-1.5.21.jar
+[13:43:42] [Client thread/TRACE] [FML/]: Skipping known library file /Users/sb44567/.gradle/caches/modules-2/files-2.1/com.google.guava/guava/17.0/9c6ef172e8de35fd8d4d8783e4821e57cdef7445/guava-17.0.jar
+[13:43:42] [Client thread/TRACE] [FML/]: Skipping known library file /Users/sb44567/.gradle/caches/modules-2/files-2.1/org.apache.commons/commons-lang3/3.3.2/90a3822c38ec8c996e84c16a3477ef632cbc87a3/commons-lang3-3.3.2.jar
+[13:43:42] [Client thread/TRACE] [FML/]: Skipping known library file /Users/sb44567/.gradle/caches/modules-2/files-2.1/commons-io/commons-io/2.4/b1b6ea3b7e4aa4f492509a4952029cd8e48019ad/commons-io-2.4.jar
+[13:43:42] [Client thread/TRACE] [FML/]: Skipping known library file /Users/sb44567/.gradle/caches/modules-2/files-2.1/com.mojang/realms/1.7.59/9c6c59b742d8e038a15f64c1aa273a893a658424/realms-1.7.59.jar
+[13:43:42] [Client thread/TRACE] [FML/]: Skipping known library file /Users/sb44567/.gradle/caches/modules-2/files-2.1/org.apache.httpcomponents/httpclient/4.3.3/18f4247ff4572a074444572cee34647c43e7c9c7/httpclient-4.3.3.jar
+[13:43:42] [Client thread/TRACE] [FML/]: Skipping known library file /Users/sb44567/.gradle/caches/modules-2/files-2.1/commons-codec/commons-codec/1.9/9ce04e34240f674bc72680f8b843b1457383161a/commons-codec-1.9.jar
+[13:43:42] [Client thread/TRACE] [FML/]: Skipping known library file /Users/sb44567/.gradle/caches/modules-2/files-2.1/com.paulscode/librarylwjglopenal/20100824/73e80d0794c39665aec3f62eee88ca91676674ef/librarylwjglopenal-20100824.jar
+[13:43:42] [Client thread/TRACE] [FML/]: Skipping known library file /Users/sb44567/.gradle/caches/modules-2/files-2.1/org.lwjgl.lwjgl/lwjgl_util/2.9.2-nightly-20140822/f0e612c840a7639c1f77f68d72a28dae2f0c8490/lwjgl_util-2.9.2-nightly-20140822.jar
+[13:43:42] [Client thread/TRACE] [FML/]: Skipping known library file /Users/sb44567/.gradle/caches/modules-2/files-2.1/org.lwjgl.lwjgl/lwjgl/2.9.2-nightly-20140822/7707204c9ffa5d91662de95f0a224e2f721b22af/lwjgl-2.9.2-nightly-20140822.jar
+[13:43:42] [Client thread/TRACE] [FML/]: Skipping known library file /Users/sb44567/.gradle/caches/modules-2/files-2.1/net.java.jinput/jinput/2.0.5/39c7796b469a600f72380316f6b1f11db6c2c7c4/jinput-2.0.5.jar
+[13:43:42] [Client thread/TRACE] [FML/]: Skipping known library file /Users/sb44567/.gradle/caches/modules-2/files-2.1/net.java.jutils/jutils/1.0.0/e12fe1fda814bd348c1579329c86943d2cd3c6a6/jutils-1.0.0.jar
+[13:43:42] [Client thread/TRACE] [FML/]: Skipping known library file /Users/sb44567/.gradle/caches/modules-2/files-2.1/com.google.code.gson/gson/2.2.4/a60a5e993c98c864010053cb901b7eab25306568/gson-2.2.4.jar
+[13:43:42] [Client thread/TRACE] [FML/]: Skipping known library file /Users/sb44567/.gradle/caches/modules-2/files-2.1/org.apache.commons/commons-compress/1.8.1/a698750c16740fd5b3871425f4cb3bbaa87f529d/commons-compress-1.8.1.jar
+[13:43:42] [Client thread/TRACE] [FML/]: Skipping known library file /Users/sb44567/.gradle/caches/modules-2/files-2.1/commons-logging/commons-logging/1.1.3/f6f66e966c70a83ffbdb6f17a0919eaf7c8aca7f/commons-logging-1.1.3.jar
+[13:43:42] [Client thread/TRACE] [FML/]: Skipping known library file /Users/sb44567/.gradle/caches/modules-2/files-2.1/org.apache.httpcomponents/httpcore/4.3.2/31fbbff1ddbf98f3aa7377c94d33b0447c646b6e/httpcore-4.3.2.jar
+[13:43:42] [Client thread/TRACE] [FML/]: Skipping known library file /Users/sb44567/.gradle/caches/modules-2/files-2.1/org.apache.logging.log4j/log4j-core/2.0-beta9/678861ba1b2e1fccb594bb0ca03114bb05da9695/log4j-core-2.0-beta9.jar
+[13:43:42] [Client thread/TRACE] [FML/]: Skipping known library file /Users/sb44567/.gradle/caches/modules-2/files-2.1/org.apache.logging.log4j/log4j-api/2.0-beta9/1dd66e68cccd907880229f9e2de1314bd13ff785/log4j-api-2.0-beta9.jar
+[13:43:42] [Client thread/DEBUG] [FML/]: Found a minecraft related file at /Users/sb44567/.gradle/caches/modules-2/files-2.1/jline/jline/2.13/2d9530d0a25daffaffda7c35037b046b627bb171/jline-2.13.jar, examining for mod candidates
+[13:43:42] [Client thread/DEBUG] [FML/]: Found a minecraft related file at /Users/sb44567/.gradle/caches/modules-2/files-2.1/com.google.code.findbugs/jsr305/2.0.1/516c03b21d50a644d538de0f0369c620989cd8f0/jsr305-2.0.1.jar, examining for mod candidates
+[13:43:42] [Client thread/DEBUG] [FML/]: Found a minecraft related file at /Users/sb44567/.gradle/caches/modules-2/files-2.1/org.ow2.asm/asm-debug-all/5.0.3/f9e364ae2a66ce2a543012a4668856e84e5dab74/asm-debug-all-5.0.3.jar, examining for mod candidates
+[13:43:42] [Client thread/TRACE] [FML/]: Skipping known library file /Users/sb44567/.gradle/caches/modules-2/files-2.1/com.typesafe.akka/akka-actor_2.11/2.3.3/ed62e9fc709ca0f2ff1a3220daa8b70a2870078e/akka-actor_2.11-2.3.3.jar
+[13:43:42] [Client thread/TRACE] [FML/]: Skipping known library file /Users/sb44567/.gradle/caches/modules-2/files-2.1/com.typesafe/config/1.2.1/f771f71fdae3df231bcd54d5ca2d57f0bf93f467/config-1.2.1.jar
+[13:43:42] [Client thread/TRACE] [FML/]: Skipping known library file /Users/sb44567/.gradle/caches/modules-2/files-2.1/org.scala-lang/scala-actors-migration_2.11/1.1.0/dfa8bc42b181d5b9f1a5dd147f8ae308b893eb6f/scala-actors-migration_2.11-1.1.0.jar
+[13:43:42] [Client thread/TRACE] [FML/]: Skipping known library file /Users/sb44567/.gradle/caches/modules-2/files-2.1/org.scala-lang.plugins/scala-continuations-plugin_2.11.1/1.0.2/f361a3283452c57fa30c1ee69448995de23c60f7/scala-continuations-plugin_2.11.1-1.0.2.jar
+[13:43:42] [Client thread/TRACE] [FML/]: Skipping known library file /Users/sb44567/.gradle/caches/modules-2/files-2.1/org.scala-lang/scala-compiler/2.11.1/56ea2e6c025e0821f28d73ca271218b8dd04926a/scala-compiler-2.11.1.jar
+[13:43:42] [Client thread/TRACE] [FML/]: Skipping known library file /Users/sb44567/.gradle/caches/modules-2/files-2.1/org.scala-lang.plugins/scala-continuations-library_2.11/1.0.2/e517c53a7e9acd6b1668c5a35eccbaa3bab9aac/scala-continuations-library_2.11-1.0.2.jar
+[13:43:42] [Client thread/TRACE] [FML/]: Skipping known library file /Users/sb44567/.gradle/caches/modules-2/files-2.1/org.scala-lang.modules/scala-parser-combinators_2.11/1.0.1/f05d7345bf5a58924f2837c6c1f4d73a938e1ff0/scala-parser-combinators_2.11-1.0.1.jar
+[13:43:42] [Client thread/TRACE] [FML/]: Skipping known library file /Users/sb44567/.gradle/caches/modules-2/files-2.1/org.scala-lang/scala-reflect/2.11.1/6580347e61cc7f8e802941e7fde40fa83b8badeb/scala-reflect-2.11.1.jar
+[13:43:42] [Client thread/TRACE] [FML/]: Skipping known library file /Users/sb44567/.gradle/caches/modules-2/files-2.1/org.scala-lang.modules/scala-swing_2.11/1.0.1/b1cdd92bd47b1e1837139c1c53020e86bb9112ae/scala-swing_2.11-1.0.1.jar
+[13:43:42] [Client thread/TRACE] [FML/]: Skipping known library file /Users/sb44567/.gradle/caches/modules-2/files-2.1/org.scala-lang.modules/scala-xml_2.11/1.0.2/820fbca7e524b530fdadc594c39d49a21ea0337e/scala-xml_2.11-1.0.2.jar
+[13:43:42] [Client thread/TRACE] [FML/]: Skipping known library file /Users/sb44567/.gradle/caches/modules-2/files-2.1/org.scala-lang/scala-actors/2.11.0/8ccfb6541de179bb1c4d45cf414acee069b7f78b/scala-actors-2.11.0.jar
+[13:43:42] [Client thread/TRACE] [FML/]: Skipping known library file /Users/sb44567/.gradle/caches/modules-2/files-2.1/org.scala-lang/scala-library/2.11.1/e11da23da3eabab9f4777b9220e60d44c1aab6a/scala-library-2.11.1.jar
+[13:43:42] [Client thread/TRACE] [FML/]: Skipping known library file /Users/sb44567/.gradle/caches/modules-2/files-2.1/lzma/lzma/0.0.1/521616dc7487b42bef0e803bd2fa3faf668101d7/lzma-0.0.1.jar
+[13:43:42] [Client thread/TRACE] [FML/]: Skipping known library file /Users/sb44567/.gradle/caches/modules-2/files-2.1/net.sf.trove4j/trove4j/3.0.3/42ccaf4761f0dfdfa805c9e340d99a755907e2dd/trove4j-3.0.3.jar
+[13:43:42] [Client thread/TRACE] [FML/]: Skipping known library file /Users/sb44567/.gradle/caches/modules-2/files-2.1/com.paulscode/codecjorbis/20101023/c73b5636faf089d9f00e8732a829577de25237ee/codecjorbis-20101023.jar
+[13:43:42] [Client thread/TRACE] [FML/]: Skipping known library file /Users/sb44567/.gradle/caches/modules-2/files-2.1/com.paulscode/codecwav/20101023/12f031cfe88fef5c1dd36c563c0a3a69bd7261da/codecwav-20101023.jar
+[13:43:42] [Client thread/DEBUG] [FML/]: Found a minecraft related file at /Users/sb44567/.gradle/caches/modules-2/files-2.1/com.paulscode/libraryjavasound/20101123/5c5e304366f75f9eaa2e8cca546a1fb6109348b3/libraryjavasound-20101123.jar, examining for mod candidates
+[13:43:42] [Client thread/TRACE] [FML/]: Skipping known library file /Users/sb44567/.gradle/caches/modules-2/files-2.1/com.paulscode/soundsystem/20120107/419c05fe9be71f792b2d76cfc9b67f1ed0fec7f6/soundsystem-20120107.jar
+[13:43:42] [Client thread/TRACE] [FML/]: Skipping known library file /Users/sb44567/.gradle/caches/modules-2/files-2.1/tv.twitch/twitch/6.5/320a2dfd18513a5f41b4e75729df684488cbd925/twitch-6.5.jar
+[13:43:42] [Client thread/TRACE] [FML/]: Skipping known library file /Users/sb44567/.gradle/caches/modules-2/files-2.1/java3d/vecmath/1.5.2/79846ba34cbd89e2422d74d53752f993dcc2ccaf/vecmath-1.5.2.jar
+[13:43:42] [Client thread/DEBUG] [FML/]: Found a minecraft related file at /Users/sb44567/.gradle/caches/modules-2/files-2.1/org.fusesource.jansi/jansi/1.11/655c643309c2f45a56a747fda70e3fadf57e9f11/jansi-1.11.jar, examining for mod candidates
+[13:43:42] [Client thread/TRACE] [FML/]: Skipping known library file /Users/sb44567/.gradle/caches/modules-2/files-2.1/net.java.jinput/jinput-platform/2.0.5/7ff832a6eb9ab6a767f1ade2b548092d0fa64795/jinput-platform-2.0.5-natives-linux.jar
+[13:43:42] [Client thread/TRACE] [FML/]: Skipping known library file /Users/sb44567/.gradle/caches/modules-2/files-2.1/net.java.jinput/jinput-platform/2.0.5/385ee093e01f587f30ee1c8a2ee7d408fd732e16/jinput-platform-2.0.5-natives-windows.jar
+[13:43:42] [Client thread/TRACE] [FML/]: Skipping known library file /Users/sb44567/.gradle/caches/modules-2/files-2.1/net.java.jinput/jinput-platform/2.0.5/53f9c919f34d2ca9de8c51fc4e1e8282029a9232/jinput-platform-2.0.5-natives-osx.jar
+[13:43:42] [Client thread/TRACE] [FML/]: Skipping known library file /Users/sb44567/.gradle/caches/modules-2/files-2.1/org.lwjgl.lwjgl/lwjgl-platform/2.9.2-nightly-20140822/78b2a55ce4dc29c6b3ec4df8ca165eba05f9b341/lwjgl-platform-2.9.2-nightly-20140822-natives-windows.jar
+[13:43:42] [Client thread/TRACE] [FML/]: Skipping known library file /Users/sb44567/.gradle/caches/modules-2/files-2.1/org.lwjgl.lwjgl/lwjgl-platform/2.9.2-nightly-20140822/d898a33b5d0a6ef3fed3a4ead506566dce6720a5/lwjgl-platform-2.9.2-nightly-20140822-natives-linux.jar
+[13:43:42] [Client thread/TRACE] [FML/]: Skipping known library file /Users/sb44567/.gradle/caches/modules-2/files-2.1/org.lwjgl.lwjgl/lwjgl-platform/2.9.2-nightly-20140822/79f5ce2fea02e77fe47a3c745219167a542121d7/lwjgl-platform-2.9.2-nightly-20140822-natives-osx.jar
+[13:43:42] [Client thread/TRACE] [FML/]: Skipping known library file /Users/sb44567/.gradle/caches/modules-2/files-2.1/tv.twitch/twitch-platform/6.5/206c4ccaecdbcfd2a1631150c69a97bbc9c20c11/twitch-platform-6.5-natives-windows-32.jar
+[13:43:42] [Client thread/TRACE] [FML/]: Skipping known library file /Users/sb44567/.gradle/caches/modules-2/files-2.1/tv.twitch/twitch-platform/6.5/9fdd0fd5aed0817063dcf95b69349a171f447ebd/twitch-platform-6.5-natives-windows-64.jar
+[13:43:42] [Client thread/TRACE] [FML/]: Skipping known library file /Users/sb44567/.gradle/caches/modules-2/files-2.1/tv.twitch/twitch-platform/6.5/5f9d1ee26257b3a33f0ca06fed335ef462af659f/twitch-platform-6.5-natives-osx.jar
+[13:43:42] [Client thread/TRACE] [FML/]: Skipping known library file /Users/sb44567/.gradle/caches/modules-2/files-2.1/tv.twitch/twitch-external-platform/4.5/18215140f010c05b9f86ef6f0f8871954d2ccebf/twitch-external-platform-4.5-natives-windows-32.jar
+[13:43:42] [Client thread/TRACE] [FML/]: Skipping known library file /Users/sb44567/.gradle/caches/modules-2/files-2.1/tv.twitch/twitch-external-platform/4.5/c3cde57891b935d41b6680a9c5e1502eeab76d86/twitch-external-platform-4.5-natives-windows-64.jar
+[13:43:42] [Client thread/DEBUG] [FML/]: Found a minecraft related directory at /Users/sb44567/.gradle/caches/minecraft/net/minecraftforge/forge/1.8.9-11.15.1.1722/start, examining for mod candidates
+[13:43:42] [Client thread/DEBUG] [FML/]: Found a minecraft related file at /Users/sb44567/IdeaProjects/h/build/libs/touchgrass-1.0.0.jar, examining for mod candidates
+[13:43:42] [Client thread/DEBUG] [FML/]: Minecraft jar mods loaded successfully
+[13:43:42] [Client thread/INFO] [FML/]: Found 0 mods from the command line. Injecting into mod discoverer
+[13:43:42] [Client thread/INFO] [FML/]: Searching /Users/sb44567/IdeaProjects/h/run/mods for mods
+[13:43:42] [Client thread/DEBUG] [FML/]: Examining file compileDummy.jar for potential mods
+[13:43:42] [Client thread/DEBUG] [FML/]: The mod container compileDummy.jar appears to be missing an mcmod.info file
+[13:43:42] [Client thread/DEBUG] [FML/]: Examining file providedDummy.jar for potential mods
+[13:43:42] [Client thread/DEBUG] [FML/]: The mod container providedDummy.jar appears to be missing an mcmod.info file
+[13:43:42] [Client thread/DEBUG] [FML/]: Examining file mixin-0.6.4-SNAPSHOT.jar for potential mods
+[13:43:42] [Client thread/DEBUG] [FML/]: The mod container mixin-0.6.4-SNAPSHOT.jar appears to be missing an mcmod.info file
+[13:43:42] [Client thread/DEBUG] [FML/]: Examining file forgeSrc-1.8.9-11.15.1.1722-PROJECT(touchgrass).jar for potential mods
+[13:43:42] [Client thread/DEBUG] [FML/]: The mod container forgeSrc-1.8.9-11.15.1.1722-PROJECT(touchgrass).jar appears to be missing an mcmod.info file
+[13:43:42] [Client thread/DEBUG] [FML/]: Examining file netty-1.8.8.jar for potential mods
+[13:43:42] [Client thread/DEBUG] [FML/]: The mod container netty-1.8.8.jar appears to be missing an mcmod.info file
+[13:43:42] [Client thread/DEBUG] [FML/]: Examining file oshi-core-1.1.jar for potential mods
+[13:43:42] [Client thread/DEBUG] [FML/]: The mod container oshi-core-1.1.jar appears to be missing an mcmod.info file
+[13:43:42] [Client thread/DEBUG] [FML/]: Examining file jna-3.4.0.jar for potential mods
+[13:43:42] [Client thread/DEBUG] [FML/]: The mod container jna-3.4.0.jar appears to be missing an mcmod.info file
+[13:43:42] [Client thread/DEBUG] [FML/]: Examining file platform-3.4.0.jar for potential mods
+[13:43:42] [Client thread/DEBUG] [FML/]: The mod container platform-3.4.0.jar appears to be missing an mcmod.info file
+[13:43:42] [Client thread/DEBUG] [FML/]: Examining file jline-2.13.jar for potential mods
+[13:43:42] [Client thread/DEBUG] [FML/]: The mod container jline-2.13.jar appears to be missing an mcmod.info file
+[13:43:43] [Client thread/DEBUG] [FML/]: Examining file jsr305-2.0.1.jar for potential mods
+[13:43:43] [Client thread/DEBUG] [FML/]: The mod container jsr305-2.0.1.jar appears to be missing an mcmod.info file
+[13:43:43] [Client thread/DEBUG] [FML/]: Examining file asm-debug-all-5.0.3.jar for potential mods
+[13:43:43] [Client thread/DEBUG] [FML/]: The mod container asm-debug-all-5.0.3.jar appears to be missing an mcmod.info file
+[13:43:43] [Client thread/DEBUG] [FML/]: Examining file libraryjavasound-20101123.jar for potential mods
+[13:43:43] [Client thread/DEBUG] [FML/]: The mod container libraryjavasound-20101123.jar appears to be missing an mcmod.info file
+[13:43:43] [Client thread/DEBUG] [FML/]: Examining file jansi-1.11.jar for potential mods
+[13:43:43] [Client thread/DEBUG] [FML/]: The mod container jansi-1.11.jar appears to be missing an mcmod.info file
+[13:43:43] [Client thread/DEBUG] [FML/]: Examining directory start for potential mods
+[13:43:43] [Client thread/DEBUG] [FML/]: No mcmod.info file found in directory start
+[13:43:43] [Client thread/TRACE] [FML/]: Recursing into package net
+[13:43:43] [Client thread/TRACE] [FML/]: Recursing into package net.minecraftforge
+[13:43:43] [Client thread/TRACE] [FML/]: Recursing into package net.minecraftforge.gradle
+[13:43:43] [Client thread/TRACE] [FML/]: Recursing into package net.minecraftforge.gradle.tweakers
+[13:43:43] [Client thread/DEBUG] [FML/]: Examining file touchgrass-1.0.0.jar for potential mods
+[13:43:43] [Client thread/TRACE] [FML/]: Located mcmod.info file in file touchgrass-1.0.0.jar
+[13:43:43] [Client thread/INFO] [FML/]: Forge Mod Loader has identified 3 mods to load
+[13:43:43] [Client thread/TRACE] [FML/]: Received a system property request ''
+[13:43:43] [Client thread/TRACE] [FML/]: System property request managing the state of 0 mods
+[13:43:43] [Client thread/DEBUG] [FML/]: After merging, found state information for 0 mods
+[13:43:43] [Client thread/DEBUG] [FML/]: Found translations in forgeSrc-1.8.9-11.15.1.1722-PROJECT(touchgrass).jar [en_US, en_US]
+[13:43:43] [Client thread/DEBUG] [FML/]: Found translations in forgeSrc-1.8.9-11.15.1.1722-PROJECT(touchgrass).jar [en_US, en_US]
+[13:43:43] [Client thread/TRACE] [FML/]: Verifying mod requirements are satisfied
+[13:43:43] [Client thread/TRACE] [FML/]: All mod requirements are satisfied
+[13:43:43] [Client thread/TRACE] [FML/]: Sorting mods into an ordered list
+[13:43:43] [Client thread/TRACE] [FML/]: Mod sorting completed successfully
+[13:43:43] [Client thread/DEBUG] [FML/]: Mod sorting data
+[13:43:43] [Client thread/DEBUG] [FML/]: No user mods found to sort
+[13:43:43] [Client thread/TRACE] [mcp/mcp]: Sending event FMLConstructionEvent to mod mcp
+[13:43:43] [Client thread/TRACE] [mcp/mcp]: Sent event FMLConstructionEvent to mod mcp
+[13:43:43] [Client thread/DEBUG] [FML/]: Bar Step: Construction - Minecraft Coder Pack took 0.002s
+[13:43:43] [Client thread/TRACE] [FML/FML]: Sending event FMLConstructionEvent to mod FML
+[13:43:43] [Client thread/TRACE] [FML/FML]: Mod FML is using network checker : Invoking method checkModLists
+[13:43:43] [Client thread/TRACE] [FML/FML]: Testing mod FML to verify it accepts its own version in a remote connection
+[13:43:43] [Client thread/TRACE] [FML/FML]: The mod FML accepts its own version (8.0.99.99)
+[13:43:43] [Client thread/INFO] [FML/FML]: Attempting connection with missing mods [mcp, FML, Forge] at CLIENT
+[13:43:43] [Client thread/INFO] [FML/FML]: Attempting connection with missing mods [mcp, FML, Forge] at SERVER
+[13:43:43] [Client thread/TRACE] [FML/FML]: Sent event FMLConstructionEvent to mod FML
+[13:43:43] [Client thread/DEBUG] [FML/]: Bar Step: Construction - Forge Mod Loader took 0.478s
+[13:43:43] [Client thread/TRACE] [Forge/Forge]: Sending event FMLConstructionEvent to mod Forge
+[13:43:43] [Client thread/TRACE] [FML/Forge]: Mod Forge is using network checker : No network checking performed
+[13:43:43] [Client thread/TRACE] [FML/Forge]: Testing mod Forge to verify it accepts its own version in a remote connection
+[13:43:43] [Client thread/TRACE] [FML/Forge]: The mod Forge accepts its own version (11.15.1.1722)
+[13:43:43] [Client thread/TRACE] [Forge/Forge]: Sent event FMLConstructionEvent to mod Forge
+[13:43:43] [Client thread/DEBUG] [FML/]: Bar Step: Construction - Minecraft Forge took 0.015s
+[13:43:43] [Client thread/DEBUG] [FML/]: Bar Finished: Construction took 0.495s
+[13:43:43] [Client thread/DEBUG] [FML/]: Mod signature data
+[13:43:43] [Client thread/DEBUG] [FML/]:  	Valid Signatures:
+[13:43:43] [Client thread/DEBUG] [FML/]:  	Missing Signatures:
+[13:43:43] [Client thread/DEBUG] [FML/]: 		mcp	(Minecraft Coder Pack	9.19)	minecraft.jar
+[13:43:43] [Client thread/DEBUG] [FML/]: 		FML	(Forge Mod Loader	8.0.99.99)	forgeSrc-1.8.9-11.15.1.1722-PROJECT(touchgrass).jar
+[13:43:43] [Client thread/DEBUG] [FML/]: 		Forge	(Minecraft Forge	11.15.1.1722)	forgeSrc-1.8.9-11.15.1.1722-PROJECT(touchgrass).jar
+[13:43:43] [Client thread/DEBUG] [FML/]: Bar Step: Loading Resources - Default took 0.007s
+[13:43:43] [Client thread/DEBUG] [FML/]: Bar Step: Loading Resources - FMLFileResourcePack:Forge Mod Loader took 0.009s
+[13:43:43] [Client thread/DEBUG] [FML/]: Bar Step: Loading Resources - FMLFileResourcePack:Minecraft Forge took 0.009s
+[13:43:43] [Client thread/DEBUG] [FML/]: Bar Finished: Reloading took 0.033s
+[13:43:43] [Client thread/DEBUG] [FML/]: Bar Step: Loading Resources - Reloading listeners took 0.035s
+[13:43:43] [Client thread/DEBUG] [FML/]: Bar Finished: Loading Resources took 0.060s
+[13:43:43] [Client thread/DEBUG] [Forge Mod Loader/]: Mod Forge Mod Loader is missing a pack.mcmeta file, substituting a dummy one
+[13:43:43] [Client thread/DEBUG] [Minecraft Forge/]: Mod Minecraft Forge is missing a pack.mcmeta file, substituting a dummy one
+[13:43:43] [Client thread/INFO] [FML/]: Processing ObjectHolder annotations
+[13:43:43] [Client thread/INFO] [FML/]: Found 384 ObjectHolder annotations
+[13:43:43] [Client thread/INFO] [FML/]: Identifying ItemStackHolder annotations
+[13:43:43] [Client thread/INFO] [FML/]: Found 0 ItemStackHolder annotations
+[13:43:43] [Client thread/TRACE] [mcp/mcp]: Sending event FMLPreInitializationEvent to mod mcp
+[13:43:43] [Client thread/TRACE] [mcp/mcp]: Sent event FMLPreInitializationEvent to mod mcp
+[13:43:43] [Client thread/DEBUG] [FML/]: Bar Step: PreInitialization - Minecraft Coder Pack took 0.001s
+[13:43:43] [Client thread/TRACE] [FML/FML]: Sending event FMLPreInitializationEvent to mod FML
+[13:43:44] [Client thread/TRACE] [FML/FML]: Sent event FMLPreInitializationEvent to mod FML
+[13:43:44] [Client thread/DEBUG] [FML/]: Bar Step: PreInitialization - Forge Mod Loader took 0.022s
+[13:43:44] [Client thread/TRACE] [Forge/Forge]: Sending event FMLPreInitializationEvent to mod Forge
+[13:43:44] [Client thread/INFO] [FML/Forge]: Configured a dormant chunk cache size of 0
+[13:43:44] [Client thread/TRACE] [Forge/Forge]: Sent event FMLPreInitializationEvent to mod Forge
+[13:43:44] [Forge Version Check/INFO] [ForgeVersionCheck/Forge]: [Forge] Starting version check at http://files.minecraftforge.net/maven/net/minecraftforge/forge/promotions_slim.json
+[13:43:44] [Client thread/DEBUG] [FML/]: Bar Step: PreInitialization - Minecraft Forge took 0.094s
+[13:43:44] [Client thread/DEBUG] [FML/]: Bar Finished: PreInitialization took 0.117s
+[13:43:44] [Client thread/INFO] [FML/]: Applying holder lookups
+[13:43:44] [Client thread/INFO] [FML/]: Holder lookups applied
+[13:43:44] [Client thread/INFO] [FML/]: Injecting itemstacks
+[13:43:44] [Client thread/INFO] [FML/]: Itemstack injection complete
+[13:43:44] [Client thread/DEBUG] [FML/]: Bar Finished: Loading Resource - TextureManager took 0.000s
+[13:43:44] [Forge Version Check/DEBUG] [ForgeVersionCheck/Forge]: [Forge] Received version check data:
+Moved Permanently
+[13:43:44] [Forge Version Check/DEBUG] [ForgeVersionCheck/Forge]: Failed to process update information
+com.google.gson.JsonSyntaxException: java.lang.IllegalStateException: Expected BEGIN_OBJECT but was STRING at line 1 column 1
+	at com.google.gson.Gson.fromJson(Gson.java:815) ~[Gson.class:?]
+	at com.google.gson.Gson.fromJson(Gson.java:768) ~[Gson.class:?]
+	at com.google.gson.Gson.fromJson(Gson.java:717) ~[Gson.class:?]
+	at com.google.gson.Gson.fromJson(Gson.java:689) ~[Gson.class:?]
+	at net.minecraftforge.common.ForgeVersion$1.process(ForgeVersion.java:156) [ForgeVersion$1.class:?]
+	at net.minecraftforge.common.ForgeVersion$1.run(ForgeVersion.java:131) [ForgeVersion$1.class:?]
+Caused by: java.lang.IllegalStateException: Expected BEGIN_OBJECT but was STRING at line 1 column 1
+	at com.google.gson.stream.JsonReader.beginObject(JsonReader.java:374) ~[JsonReader.class:?]
+	at com.google.gson.internal.bind.MapTypeAdapterFactory$Adapter.read(MapTypeAdapterFactory.java:183) ~[MapTypeAdapterFactory$Adapter.class:?]
+	at com.google.gson.internal.bind.MapTypeAdapterFactory$Adapter.read(MapTypeAdapterFactory.java:145) ~[MapTypeAdapterFactory$Adapter.class:?]
+	at com.google.gson.Gson.fromJson(Gson.java:803) ~[Gson.class:?]
+	... 5 more
+[13:43:44] [Client thread/DEBUG] [FML/]: Bar Finished: Loading Resource - SoundHandler took 0.401s
+[13:43:44] [Client thread/DEBUG] [mixin/]: Mixing gui.MixinFontRenderer from mixins.touchgrass.json into net.minecraft.client.gui.FontRenderer
+[13:43:44] [Client thread/TRACE] [mixin/]: Added class metadata for me/r/touchgrass/events/EventText to metadata cache
+[13:43:44] [Client thread/DEBUG] [FML/]: Bar Finished: Loading Resource - FontRenderer took 0.007s
+[13:43:44] [Client thread/DEBUG] [FML/]: Bar Finished: Loading Resource - FontRenderer took 0.002s
+[13:43:44] [Client thread/DEBUG] [FML/]: Bar Finished: Loading Resource - GrassColorReloadListener took 0.008s
+[13:43:45] [Client thread/DEBUG] [FML/]: Bar Finished: Loading Resource - FoliageColorReloadListener took 0.012s
+[13:43:45] [Client thread/DEBUG] [FML/]: Bar Step: Rendering Setup - GL Setup took 0.000s
+[13:43:45] [Client thread/DEBUG] [FML/]: Bar Step: Rendering Setup - Loading Texture Map took 0.010s
+[13:43:45] [Client thread/DEBUG] [FML/]: Bar Finished: Loading Resource - ModelLoaderRegistry$1 took 0.000s
+[13:43:45] [Client thread/DEBUG] [FML/]: Bar Finished: Loading Resource - ModelLoaderRegistry$1 took 0.000s
+[13:43:45] [Client thread/DEBUG] [FML/]: Bar Finished: Loading Resource - ModelLoaderRegistry$1 took 0.000s
+[13:43:45] [Client thread/DEBUG] [FML/]: Bar Finished: Loading Resource - ModelLoaderRegistry$1 took 0.000s
+[13:43:45] [Client thread/DEBUG] [FML/]: Bar Finished: Loading Resource - ModelLoaderRegistry$1 took 0.000s
+[13:43:45] [Client thread/DEBUG] [FML/]: Bar Finished: Loading Resource - ModelLoaderRegistry$1 took 0.000s
+[13:43:46] [Client thread/DEBUG] [FML/]: Bar Finished: ModelLoader: blocks took 1.366s
+[13:43:47] [Client thread/DEBUG] [FML/]: Bar Finished: ModelLoader: items took 0.240s
+[13:43:47] [Client thread/INFO] [FML/]: Max texture size: 16384
+[13:43:47] [Client thread/DEBUG] [FML/]: Bar Finished: Texture stitching - missingno took 0.001s
+[13:43:47] [Client thread/DEBUG] [FML/]: Bar Finished: Texture creation took 0.003s
+[13:43:47] [Client thread/DEBUG] [FML/]: Bar Finished: Loading Resource - ModelManager took 2.517s
+[13:43:47] [Client thread/DEBUG] [FML/]: Bar Step: Rendering Setup - Loading Model Manager took 2.596s
+[13:43:47] [Client thread/DEBUG] [mixin/]: Mixing render.MixinRender from mixins.touchgrass.json into net.minecraft.client.renderer.entity.Render
+[13:43:47] [Client thread/TRACE] [mixin/]: Added class metadata for me/r/touchgrass/module/modules/render/NameTags to metadata cache
+[13:43:47] [Client thread/TRACE] [mixin/]: Added class metadata for net/minecraft/util/IChatComponent to metadata cache
+[13:43:47] [Client thread/TRACE] [mixin/]: Added class metadata for me/r/touchgrass/module/modules/player/MurderMystery to metadata cache
+[13:43:47] [Client thread/TRACE] [mixin/]: Added class metadata for net/minecraft/client/renderer/entity/RenderManager to metadata cache
+[13:43:47] [Client thread/TRACE] [mixin/]: Added class metadata for net/minecraft/client/renderer/vertex/DefaultVertexFormats to metadata cache
+[13:43:47] [Client thread/DEBUG] [mixin/]: Mixing render.MixinRendererLivingEntity from mixins.touchgrass.json into net.minecraft.client.renderer.entity.RendererLivingEntity
+[13:43:47] [Client thread/TRACE] [mixin/]: Added class metadata for net/minecraft/client/model/ModelBase to metadata cache
+[13:43:47] [Client thread/TRACE] [mixin/]: Added class metadata for java/nio/FloatBuffer to metadata cache
+[13:43:47] [Client thread/TRACE] [mixin/]: Added class metadata for me/r/touchgrass/module/modules/render/ESP to metadata cache
+[13:43:47] [Client thread/TRACE] [mixin/]: Added class metadata for java/awt/Color to metadata cache
+[13:43:47] [Client thread/TRACE] [mixin/]: Added class metadata for me/r/touchgrass/utils/OutlineUtils to metadata cache
+[13:43:47] [Client thread/TRACE] [mixin/]: Added class metadata for net/minecraft/client/renderer/OpenGlHelper to metadata cache
+[13:43:47] [Client thread/TRACE] [mixin/]: Added class metadata for java/nio/Buffer to metadata cache
+[13:43:47] [Client thread/TRACE] [mixin/]: Added class metadata for net/minecraft/client/renderer/entity/layers/LayerRenderer to metadata cache
+[13:43:47] [Client thread/TRACE] [mixin/]: Added class metadata for net/minecraft/client/renderer/entity/layers/LayerBipedArmor to metadata cache
+[13:43:47] [Client thread/DEBUG] [mixin/]: Mixing render.MixinModelBiped from mixins.touchgrass.json into net.minecraft.client.model.ModelBiped
+[13:43:47] [Client thread/TRACE] [mixin/]: Added class metadata for net/minecraft/client/model/ModelRenderer to metadata cache
+[13:43:47] [Client thread/DEBUG] [mixin/]: Mixing item.MixinLayerHeldItem from mixins.touchgrass.json into net.minecraft.client.renderer.entity.layers.LayerHeldItem
+[13:43:47] [Client thread/TRACE] [mixin/]: Added class metadata for net/minecraft/client/multiplayer/WorldClient to metadata cache
+[13:43:47] [Client thread/DEBUG] [mixin/]: Mixing item.MixinRenderEntityItem from mixins.touchgrass.json into net.minecraft.client.renderer.entity.RenderEntityItem
+[13:43:47] [Client thread/TRACE] [mixin/]: Added class metadata for net/minecraft/client/renderer/entity/RenderItem to metadata cache
+[13:43:47] [Client thread/TRACE] [mixin/]: Added class metadata for net/minecraft/entity/item/EntityItem to metadata cache
+[13:43:47] [Client thread/TRACE] [mixin/]: Added class metadata for net/minecraft/client/renderer/ItemModelMesher to metadata cache
+[13:43:47] [Client thread/TRACE] [mixin/]: Added class metadata for net/minecraft/client/resources/model/IBakedModel to metadata cache
+[13:43:47] [Client thread/TRACE] [mixin/]: Added class metadata for net/minecraft/client/renderer/block/model/ItemCameraTransforms to metadata cache
+[13:43:47] [Client thread/TRACE] [mixin/]: Added class metadata for net/minecraft/client/renderer/block/model/ItemTransformVec3f to metadata cache
+[13:43:47] [Client thread/TRACE] [mixin/]: Added class metadata for org/lwjgl/util/vector/Vector3f to metadata cache
+[13:43:47] [Client thread/DEBUG] [mixin/]: Mixing item.MixinItemRenderer from mixins.touchgrass.json into net.minecraft.client.renderer.ItemRenderer
+[13:43:47] [Client thread/TRACE] [mixin/]: Added class metadata for net/minecraft/item/EnumAction to metadata cache
+[13:43:47] [Client thread/TRACE] [mixin/]: Added class metadata for java/lang/Enum to metadata cache
+[13:43:47] [Client thread/DEBUG] [FML/]: Bar Finished: Loading Resource - RenderItem took 0.006s
+[13:43:47] [Client thread/DEBUG] [FML/]: Bar Step: Rendering Setup - Loading Item Renderer took 0.352s
+[13:43:47] [Client thread/DEBUG] [mixin/]: Mixing entity.MixinEntityRenderer from mixins.touchgrass.json into net.minecraft.client.renderer.EntityRenderer
+[13:43:47] [Client thread/TRACE] [mixin/]: Added class metadata for me/r/touchgrass/module/modules/render/CameraClip to metadata cache
+[13:43:47] [Client thread/TRACE] [mixin/]: Added class metadata for net/minecraft/entity/passive/EntityAnimal to metadata cache
+[13:43:47] [Client thread/TRACE] [mixin/]: Added class metadata for net/minecraft/client/renderer/ActiveRenderInfo to metadata cache
+[13:43:47] [Client thread/TRACE] [mixin/]: Added class metadata for net/minecraftforge/client/event/EntityViewRenderEvent to metadata cache
+[13:43:47] [Client thread/TRACE] [mixin/]: Added class metadata for net/minecraftforge/fml/common/eventhandler/Event to metadata cache
+[13:43:47] [Client thread/TRACE] [mixin/]: Added class metadata for net/minecraftforge/common/MinecraftForge to metadata cache
+[13:43:47] [Client thread/TRACE] [mixin/]: Added class metadata for net/minecraftforge/fml/common/eventhandler/EventBus to metadata cache
+[13:43:47] [Client thread/TRACE] [mixin/]: Added class metadata for net/minecraft/client/renderer/RenderGlobal to metadata cache
+[13:43:47] [Client thread/TRACE] [mixin/]: Added class metadata for me/r/touchgrass/module/modules/render/NoHurtCam to metadata cache
+[13:43:47] [Client thread/TRACE] [mixin/]: Added class metadata for me/r/touchgrass/events/EventRender3D to metadata cache
+[13:43:47] [Client thread/TRACE] [mixin/]: Added class metadata for me/r/touchgrass/module/modules/combat/Reach to metadata cache
+[13:43:47] [Client thread/TRACE] [mixin/]: Added class metadata for net/minecraft/util/MovingObjectPosition to metadata cache
+[13:43:48] [Client thread/TRACE] [mixin/]: Added class metadata for net/minecraft/util/Vec3 to metadata cache
+[13:43:48] [Client thread/TRACE] [mixin/]: Added class metadata for net/minecraft/util/EntitySelectors to metadata cache
+[13:43:48] [Client thread/TRACE] [mixin/]: Added class metadata for com/google/common/base/Predicates to metadata cache
+[13:43:48] [Client thread/TRACE] [mixin/]: Added class metadata for java/util/Objects to metadata cache
+[13:43:48] [Client thread/TRACE] [mixin/]: Added class metadata for me/r/touchgrass/module/modules/render/Tracers to metadata cache
+[13:43:48] [Client thread/TRACE] [mixin/]: Added class metadata for com/google/common/base/Predicate to metadata cache
+[13:43:48] [Client thread/TRACE] [mixin/]: Added class metadata for me/r/touchgrass/module/modules/combat/HitBox to metadata cache
+[13:43:48] [Client thread/DEBUG] [FML/]: Bar Finished: Loading Resource - EntityRenderer took 0.000s
+[13:43:48] [Client thread/DEBUG] [FML/]: Bar Finished: Loading Resource - BlockRendererDispatcher took 0.000s
+[13:43:48] [Client thread/DEBUG] [FML/]: Bar Finished: Loading Resource - RenderGlobal took 0.001s
+[13:43:48] [Client thread/DEBUG] [FML/]: Bar Step: Rendering Setup - Loading Entity Renderer took 0.220s
+[13:43:48] [Client thread/DEBUG] [FML/]: Bar Finished: Rendering Setup took 3.178s
+[13:43:48] [Client thread/TRACE] [mcp/mcp]: Sending event FMLInitializationEvent to mod mcp
+[13:43:48] [Client thread/TRACE] [mcp/mcp]: Sent event FMLInitializationEvent to mod mcp
+[13:43:48] [Client thread/DEBUG] [FML/]: Bar Step: Initialization - Minecraft Coder Pack took 0.001s
+[13:43:48] [Client thread/TRACE] [FML/FML]: Sending event FMLInitializationEvent to mod FML
+[13:43:48] [Client thread/TRACE] [FML/FML]: Sent event FMLInitializationEvent to mod FML
+[13:43:48] [Client thread/DEBUG] [FML/]: Bar Step: Initialization - Forge Mod Loader took 0.001s
+[13:43:48] [Client thread/TRACE] [Forge/Forge]: Sending event FMLInitializationEvent to mod Forge
+[13:43:48] [Client thread/TRACE] [Forge/Forge]: Sent event FMLInitializationEvent to mod Forge
+[13:43:48] [Client thread/DEBUG] [FML/]: Bar Step: Initialization - Minecraft Forge took 0.000s
+[13:43:48] [Client thread/DEBUG] [FML/]: Bar Finished: Initialization took 0.002s
+[13:43:48] [Client thread/TRACE] [FML/]: Attempting to deliver 0 IMC messages to mod mcp
+[13:43:48] [Client thread/TRACE] [mcp/mcp]: Sending event IMCEvent to mod mcp
+[13:43:48] [Client thread/TRACE] [mcp/mcp]: Sent event IMCEvent to mod mcp
+[13:43:48] [Client thread/DEBUG] [FML/]: Bar Step: InterModComms$IMC - Minecraft Coder Pack took 0.003s
+[13:43:48] [Client thread/TRACE] [FML/]: Attempting to deliver 0 IMC messages to mod FML
+[13:43:48] [Client thread/TRACE] [FML/FML]: Sending event IMCEvent to mod FML
+[13:43:48] [Client thread/TRACE] [FML/FML]: Sent event IMCEvent to mod FML
+[13:43:48] [Client thread/DEBUG] [FML/]: Bar Step: InterModComms$IMC - Forge Mod Loader took 0.000s
+[13:43:48] [Client thread/TRACE] [FML/]: Attempting to deliver 0 IMC messages to mod Forge
+[13:43:48] [Client thread/TRACE] [Forge/Forge]: Sending event IMCEvent to mod Forge
+[13:43:48] [Client thread/TRACE] [Forge/Forge]: Sent event IMCEvent to mod Forge
+[13:43:48] [Client thread/DEBUG] [FML/]: Bar Step: InterModComms$IMC - Minecraft Forge took 0.000s
+[13:43:48] [Client thread/DEBUG] [FML/]: Bar Finished: InterModComms$IMC took 0.004s
+[13:43:48] [Client thread/INFO] [FML/]: Injecting itemstacks
+[13:43:48] [Client thread/INFO] [FML/]: Itemstack injection complete
+[13:43:48] [Client thread/TRACE] [mcp/mcp]: Sending event FMLPostInitializationEvent to mod mcp
+[13:43:48] [Client thread/TRACE] [mcp/mcp]: Sent event FMLPostInitializationEvent to mod mcp
+[13:43:48] [Client thread/DEBUG] [FML/]: Bar Step: PostInitialization - Minecraft Coder Pack took 0.001s
+[13:43:48] [Client thread/TRACE] [FML/FML]: Sending event FMLPostInitializationEvent to mod FML
+[13:43:48] [Client thread/TRACE] [FML/FML]: Sent event FMLPostInitializationEvent to mod FML
+[13:43:48] [Client thread/DEBUG] [FML/]: Bar Step: PostInitialization - Forge Mod Loader took 0.000s
+[13:43:48] [Client thread/TRACE] [Forge/Forge]: Sending event FMLPostInitializationEvent to mod Forge
+[13:43:48] [Client thread/TRACE] [Forge/Forge]: Sent event FMLPostInitializationEvent to mod Forge
+[13:43:48] [Client thread/DEBUG] [FML/]: Bar Step: PostInitialization - Minecraft Forge took 0.056s
+[13:43:48] [Client thread/DEBUG] [FML/]: Bar Finished: PostInitialization took 0.057s
+[13:43:48] [Client thread/TRACE] [mcp/mcp]: Sending event FMLLoadCompleteEvent to mod mcp
+[13:43:48] [Client thread/TRACE] [mcp/mcp]: Sent event FMLLoadCompleteEvent to mod mcp
+[13:43:48] [Client thread/DEBUG] [FML/]: Bar Step: LoadComplete - Minecraft Coder Pack took 0.000s
+[13:43:48] [Client thread/TRACE] [FML/FML]: Sending event FMLLoadCompleteEvent to mod FML
+[13:43:48] [Client thread/TRACE] [FML/FML]: Sent event FMLLoadCompleteEvent to mod FML
+[13:43:48] [Client thread/DEBUG] [FML/]: Bar Step: LoadComplete - Forge Mod Loader took 0.000s
+[13:43:48] [Client thread/TRACE] [Forge/Forge]: Sending event FMLLoadCompleteEvent to mod Forge
+[13:43:48] [Client thread/DEBUG] [FML/Forge]: Forge RecipeSorter Baking:
+[13:43:48] [Client thread/DEBUG] [FML/Forge]:   14: RecipeEntry("Before", UNKNOWN, )
+[13:43:48] [Client thread/DEBUG] [FML/Forge]:   13: RecipeEntry("minecraft:shaped", SHAPED, net.minecraft.item.crafting.ShapedRecipes) Before: minecraft:shapeless
+[13:43:48] [Client thread/DEBUG] [FML/Forge]:   12: RecipeEntry("forge:shapedore", SHAPED, net.minecraftforge.oredict.ShapedOreRecipe) Before: minecraft:shapeless After: minecraft:shaped
+[13:43:48] [Client thread/DEBUG] [FML/Forge]:   11: RecipeEntry("minecraft:mapextending", SHAPED, net.minecraft.item.crafting.RecipesMapExtending) Before: minecraft:shapeless After: minecraft:shaped
+[13:43:48] [Client thread/DEBUG] [FML/Forge]:   10: RecipeEntry("minecraft:shapeless", SHAPELESS, net.minecraft.item.crafting.ShapelessRecipes) After: minecraft:shaped
+[13:43:48] [Client thread/DEBUG] [FML/Forge]:   9: RecipeEntry("minecraft:repair", SHAPELESS, net.minecraft.item.crafting.RecipeRepairItem) After: minecraft:shapeless
+[13:43:48] [Client thread/DEBUG] [FML/Forge]:   8: RecipeEntry("forge:shapelessore", SHAPELESS, net.minecraftforge.oredict.ShapelessOreRecipe) After: minecraft:shapeless
+[13:43:48] [Client thread/DEBUG] [FML/Forge]:   7: RecipeEntry("minecraft:armordyes", SHAPELESS, net.minecraft.item.crafting.RecipesArmorDyes) After: minecraft:shapeless
+[13:43:48] [Client thread/DEBUG] [FML/Forge]:   6: RecipeEntry("minecraft:fireworks", SHAPELESS, net.minecraft.item.crafting.RecipeFireworks) After: minecraft:shapeless
+[13:43:48] [Client thread/DEBUG] [FML/Forge]:   5: RecipeEntry("minecraft:pattern_add", SHAPELESS, net.minecraft.item.crafting.RecipesBanners$RecipeAddPattern) After: minecraft:shapeless
+[13:43:48] [Client thread/DEBUG] [FML/Forge]:   4: RecipeEntry("minecraft:pattern_dupe", SHAPELESS, net.minecraft.item.crafting.RecipesBanners$RecipeDuplicatePattern) After: minecraft:shapeless
+[13:43:48] [Client thread/DEBUG] [FML/Forge]:   3: RecipeEntry("minecraft:bookcloning", SHAPELESS, net.minecraft.item.crafting.RecipeBookCloning) After: minecraft:shapeless
+[13:43:48] [Client thread/DEBUG] [FML/Forge]:   2: RecipeEntry("minecraft:mapcloning", SHAPELESS, net.minecraft.item.crafting.RecipesMapCloning) After: minecraft:shapeless
+[13:43:48] [Client thread/DEBUG] [FML/Forge]:   1: RecipeEntry("After", UNKNOWN, )
+[13:43:48] [Client thread/DEBUG] [FML/Forge]: Sorting recipies
+[13:43:48] [Client thread/TRACE] [Forge/Forge]: Sent event FMLLoadCompleteEvent to mod Forge
+[13:43:48] [Client thread/DEBUG] [FML/]: Bar Step: LoadComplete - Minecraft Forge took 0.009s
+[13:43:48] [Client thread/DEBUG] [FML/]: Bar Finished: LoadComplete took 0.009s
+[13:43:48] [Client thread/DEBUG] [FML/]: Freezing block and item id maps
+[13:43:48] [Client thread/INFO] [FML/]: Forge Mod Loader has successfully loaded 3 mods
+[13:43:48] [Client thread/DEBUG] [FML/]: Bar Step: Loading Resources - Default took 0.001s
+[13:43:48] [Client thread/DEBUG] [FML/]: Bar Step: Loading Resources - FMLFileResourcePack:Forge Mod Loader took 0.006s
+[13:43:48] [Client thread/DEBUG] [FML/]: Bar Step: Loading Resources - FMLFileResourcePack:Minecraft Forge took 0.004s
+[13:43:48] [Client thread/DEBUG] [FML/]: Bar Step: Reloading Texture Manager - minecraft:textures/atlas/blocks.png took 0.000s
+[13:43:48] [Client thread/DEBUG] [FML/]: Bar Step: Reloading Texture Manager - minecraft:textures/font/ascii.png took 0.009s
+[13:43:48] [Client thread/DEBUG] [FML/]: Bar Step: Reloading Texture Manager - minecraft:dynamic/lightMap_1 took 0.000s
+[13:43:48] [Client thread/DEBUG] [FML/]: Bar Step: Reloading Texture Manager - minecraft:dynamic/logo_1 took 0.000s
+[13:43:48] [Client thread/DEBUG] [FML/]: Bar Step: Reloading Texture Manager - minecraft:textures/misc/forcefield.png took 0.002s
+[13:43:48] [Client thread/DEBUG] [FML/]: Bar Step: Reloading Texture Manager - minecraft:textures/font/ascii_sga.png took 0.003s
+[13:43:48] [Client thread/DEBUG] [FML/]: Bar Finished: Reloading Texture Manager took 0.014s
+[13:43:49] [Client thread/DEBUG] [FML/]: Bar Finished: ModelLoader: blocks took 0.736s
+[13:43:50] [Client thread/DEBUG] [FML/]: Bar Finished: ModelLoader: items took 0.202s
+[13:43:50] [Client thread/INFO] [FML/]: Max texture size: 16384
+[13:43:50] [Client thread/DEBUG] [FML/]: Bar Finished: Texture stitching took 0.333s
+[13:43:51] [Client thread/DEBUG] [FML/]: Bar Finished: Mipmap generation took 0.741s
+[13:43:51] [Client thread/DEBUG] [FML/]: Bar Finished: Texture stitching took 0.020s
+[13:43:51] [Client thread/DEBUG] [FML/]: Bar Finished: Texture creation took 0.042s
+[13:43:51] [Client thread/DEBUG] [FML/]: Bar Finished: Reloading took 3.061s
+[13:43:51] [Client thread/DEBUG] [FML/]: Bar Step: Loading Resources - Reloading listeners took 3.062s
+[13:43:51] [Client thread/DEBUG] [FML/]: Bar Finished: Loading Resources took 3.072s
+[13:43:51] [Client thread/DEBUG] [Forge Mod Loader/]: Mod Forge Mod Loader is missing a pack.mcmeta file, substituting a dummy one
+[13:43:51] [Client thread/DEBUG] [Minecraft Forge/]: Mod Minecraft Forge is missing a pack.mcmeta file, substituting a dummy one
+[13:43:51] [Client thread/DEBUG] [mixin/]: Mixing gui.MixinGuiSpectator from mixins.touchgrass.json into net.minecraft.client.gui.GuiSpectator
+[13:43:51] [Client thread/TRACE] [mixin/]: Added class metadata for net/minecraft/client/gui/spectator/ISpectatorMenuRecipient to metadata cache
+[13:43:51] [Client thread/DEBUG] [mixin/]: Mixing gui.MixinGuiNewChat from mixins.touchgrass.json into net.minecraft.client.gui.GuiNewChat
+[13:43:51] [Client thread/TRACE] [mixin/]: Added class metadata for net/minecraft/client/gui/ChatLine to metadata cache
+[13:43:51] [Client thread/TRACE] [mixin/]: Added class metadata for me/r/touchgrass/module/modules/render/ChatRect to metadata cache
+[13:43:51] [Client thread/TRACE] [mixin/]: Added class metadata for me/r/touchgrass/module/modules/render/TTFChat to metadata cache
+[13:43:51] [Client thread/TRACE] [mixin/]: Added class metadata for me/r/touchgrass/font/FontHelper to metadata cache
+[13:43:51] [Client thread/TRACE] [mixin/]: Added class metadata for me/r/touchgrass/font/H2FontRenderer to metadata cache
+[13:43:51] [Client thread/TRACE] [mixin/]: Added class metadata for me/r/touchgrass/font/H2Font to metadata cache
+[13:43:51] [Client thread/WARN] [mixin/]: @Final field drawnChatLines:Ljava/util/List; in mixins.touchgrass.json:gui.MixinGuiNewChat should be final
+[13:43:51] [Client thread/DEBUG] [mixin/]: Mixing gui.MixinGuiPlayerTabOverlay from mixins.touchgrass.json into net.minecraft.client.gui.GuiPlayerTabOverlay
+[13:43:51] [Client thread/TRACE] [mixin/]: Added class metadata for com/google/common/collect/Ordering to metadata cache
+[13:43:51] [Client thread/TRACE] [mixin/]: Added class metadata for net/minecraft/scoreboard/Scoreboard to metadata cache
+[13:43:51] [Client thread/TRACE] [mixin/]: Added class metadata for net/minecraft/util/EnumChatFormatting to metadata cache
+[13:43:51] [Client thread/TRACE] [mixin/]: Added class metadata for net/minecraft/scoreboard/Score to metadata cache
+[13:43:51] [Client thread/TRACE] [mixin/]: Added class metadata for net/minecraft/scoreboard/ScoreObjective to metadata cache
+[13:43:51] [Client thread/TRACE] [mixin/]: Added class metadata for net/minecraft/entity/player/EnumPlayerModelParts to metadata cache
+[13:43:51] [Client thread/TRACE] [mixin/]: Added class metadata for java/lang/Iterable to metadata cache
+[13:43:51] [Client thread/TRACE] [mixin/]: Added class metadata for net/minecraft/scoreboard/ScorePlayerTeam to metadata cache
+[13:43:56] [Client thread/INFO] [STDOUT/]: [net.minecraft.crash.CrashReport:makeCategoryDepth:326]: Negative index in crash report handler (0/14)
+[13:43:56] [Client thread/INFO] [STDOUT/]: [net.minecraft.init.Bootstrap:printToSYSOUT:612]: ---- Minecraft Crash Report ----
+// Don't do that.
+
+Time: 7/11/23 1:43 PM
+Description: Initializing game
+
+me.r.touchgrass.hwid.work.Crasher: 
+
+
+A detailed walkthrough of the error, its code path and all known details is as follows:
+---------------------------------------------------------------------------------------
+
+-- Head --
+Stacktrace:
+	at net.minecraft.client.Minecraft.run(Minecraft.java:369)
+
+-- Initialization --
+Details:
+Stacktrace:
+	at net.minecraft.client.Minecraft.run(Minecraft.java:369)
+	at net.minecraft.client.main.Main.main(Main.java:116)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at net.minecraft.launchwrapper.Launch.launch(Launch.java:135)
+	at net.minecraft.launchwrapper.Launch.main(Launch.java:28)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at net.minecraftforge.gradle.GradleStartCommon.launch(GradleStartCommon.java:97)
+	at GradleStart.main(GradleStart.java:26)
+
+-- System Details --
+Details:
+	Minecraft Version: 1.8.9
+	Operating System: Mac OS X (x86_64) version 10.16
+	Java Version: 1.8.0_262, AdoptOpenJDK
+	Java VM Version: OpenJDK 64-Bit Server VM (mixed mode), AdoptOpenJDK
+	Memory: 423387408 bytes (403 MB) / 865075200 bytes (825 MB) up to 1908932608 bytes (1820 MB)
+	JVM Flags: 0 total; 
+	IntCache: cache: 0, tcache: 0, allocated: 0, tallocated: 0
+	FML: MCP 9.19 Powered by Forge 11.15.1.1722 3 mods loaded, 3 mods active
+	States: 'U' = Unloaded 'L' = Loaded 'C' = Constructed 'H' = Pre-initialized 'I' = Initialized 'J' = Post-initialized 'A' = Available 'D' = Disabled 'E' = Errored
+	UCHIJA	mcp{9.19} [Minecraft Coder Pack] (minecraft.jar) 
+	UCHIJA	FML{8.0.99.99} [Forge Mod Loader] (forgeSrc-1.8.9-11.15.1.1722-PROJECT(touchgrass).jar) 
+	UCHIJA	Forge{11.15.1.1722} [Minecraft Forge] (forgeSrc-1.8.9-11.15.1.1722-PROJECT(touchgrass).jar) 
+	Loaded coremods (and transformers): 
+MixinLoader (touchgrass-1.0.0.jar)
+  
+	Launched Version: 1.8.9
+	LWJGL: 2.9.2
+	OpenGL: Apple M1 GL version 2.1 Metal - 76.3, Apple
+	GL Caps: Using GL 1.3 multitexturing.
+Using GL 1.3 texture combiners.
+Using framebuffer objects because ARB_framebuffer_object is supported and separate blending is supported.
+Shaders are available because OpenGL 2.1 is supported.
+VBOs are available because OpenGL 1.5 is supported.
+
+	Using VBOs: No
+	Is Modded: Definitely; Client brand changed to 'fml,forge'
+	Type: Client (map_client.txt)
+	Resource Packs: 
+	Current Language: English (US)
+	Profiler Position: N/A (disabled)
+	CPU: 8x Apple M1
+[13:43:56] [Client thread/INFO] [STDOUT/]: [net.minecraft.init.Bootstrap:printToSYSOUT:612]: #@!@# Game crashed! Crash report saved to: #@!@# /Users/sb44567/IdeaProjects/h/run/./crash-reports/crash-2023-07-11_13.43.56-client.txt

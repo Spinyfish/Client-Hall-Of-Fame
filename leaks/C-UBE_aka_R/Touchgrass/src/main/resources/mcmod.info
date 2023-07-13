@@ -1,0 +1,12 @@
+[
+{
+  "modid":"touchgrass",
+  "name":"touchgrass",
+  "description":"hi",
+  "mcversion": "1.8.9",
+  "version":"1.0.0",
+  "url": ".",
+  "authorList":["r", "you!"],
+  "credits":""
+}
+]
