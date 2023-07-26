@@ -1,0 +1,5 @@
+Manifest-Version: 1.0
+TweakOrder: 0
+MixinConfigs: mixins.pearclient.json
+TweakClass: com.craftworks.pearclient.mixins.injections.Tweaker
+

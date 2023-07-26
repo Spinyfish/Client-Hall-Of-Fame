@@ -1,0 +1,11 @@
+{
+  "required": true,
+  "compatibilityLevel": "JAVA_8",
+  "verbose": true,
+  "package": "com.craftworks.pearclient.mixins",
+  "refmap": "mixins.pearclient.refmap.json",
+  "mixins": [
+    "client.MixinMinecraft",
+    "client.gui.MixinGuiMainMenu"
+  ]
+}
