@@ -1,0 +1,20 @@
+package me.jinthium.straight.impl.modules.combat.criticals;
+
+
+import io.mxngo.echo.Callback;
+import io.mxngo.echo.EventCallback;
+import me.jinthium.straight.impl.event.movement.PlayerUpdateEvent;
+import me.jinthium.straight.impl.modules.combat.Criticals;
+import me.jinthium.straight.impl.settings.mode.ModeInfo;
+import me.jinthium.straight.impl.settings.mode.ModuleMode;
+
+@ModeInfo(name = "No Ground", parent = Criticals.class)
+public class NoGroundCrits extends ModuleMode<Criticals> {
+
+    @Callback
+    final EventCallback<PlayerUpdateEvent> playerUpdateEventCallback = event ->  {
+        if(event.isPre()){
+            event.setOnGround(false);
+        }
+    };
+}
