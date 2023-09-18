@@ -1,0 +1,164 @@
+package texFix;
+
+import net.minecraft.client.Minecraft;
+import net.minecraft.client.renderer.texture.TextureAtlasSprite;
+import net.minecraft.client.renderer.texture.TextureMap;
+import net.minecraft.client.renderer.texture.TextureUtil;
+import net.minecraft.client.resources.IReloadableResourceManager;
+import net.minecraft.client.resources.IResource;
+import net.minecraft.client.resources.IResourceManager;
+import net.minecraft.client.resources.IResourceManagerReloadListener;
+import net.minecraft.util.ResourceLocation;
+import org.apache.logging.log4j.LogManager;
+
+import java.awt.image.BufferedImage;
+import java.io.InputStream;
+import java.lang.reflect.Field;
+import java.text.DecimalFormat;
+import java.util.ArrayList;
+import java.util.Iterator;
+import java.util.LinkedList;
+import java.util.Map;
+
+public class TextureFix {
+    public static final DecimalFormat DECIMALFORMAT = new DecimalFormat("#.###");
+    public static LinkedList<UnloadEntry> toUnload = new LinkedList<>();
+
+    public void init() {
+        ((IReloadableResourceManager) Minecraft.getMinecraft().getResourceManager()).registerReloadListener(new IResourceManagerReloadListener() {
+            @Override
+            public void onResourceManagerReload(IResourceManager resourceManager) {
+                TextureMap map = Minecraft.getMinecraft().getTextureMapBlocks();
+                if(map != null) {
+                    long bytes = 0L;
+                    int fixed = 0;
+
+//                    for (Object o : getData(map).values()) {
+//                        TextureAtlasSprite sprite = (TextureAtlasSprite) o;
+//                        if (!sprite.func_130098_m()) {
+//                            ++fixed;
+//                            bytes += (long) (sprite.func_94211_a() * sprite.func_94216_b() * 4);
+//                            sprite.func_110968_a(new FixList(sprite));
+//                        }
+//                    }
+
+                    LogManager.getLogger("TexFix").info("Fixed Textures: " + fixed + " Saved: " + TextureFix.DECIMALFORMAT.format(TextureFix.access(TextureFix.this, bytes)) + "MB (" + bytes + " bytes)");
+                }
+
+            }
+        });
+    }
+
+    public static void markForUnload(TextureAtlasSprite sprite) {
+        toUnload.add(new UnloadEntry(sprite));
+    }
+
+    public static void reloadTextureData(TextureAtlasSprite sprite) {
+        Minecraft mc = Minecraft.func_71410_x();
+        TextureFix.reloadTextureData(sprite, mc.func_110442_L(), mc.func_147117_R());
+    }
+
+    private static void reloadTextureData(TextureAtlasSprite sprite, IResourceManager manager, TextureMap map) {
+        ResourceLocation location = TextureFix.getResourceLocation(sprite, map);
+        if (sprite.hasCustomLoader(manager, location)) {
+            sprite.load(manager, location);
+        } else {
+            IResource resource = null;
+            try {
+                resource = manager.func_110536_a(location);
+                BufferedImage[] images = new BufferedImage[1 + Minecraft.func_71410_x().field_71474_y.field_151442_I];
+                images[0] = TextureUtil.func_177053_a((InputStream)resource.func_110527_b());
+                sprite.func_180598_a(images, null);
+            }
+            catch (Exception e) {
+                e.printStackTrace();
+            }
+        }
+    }
+
+    static Map getData(TextureMap map) {
+        try {
+            Field[] e = map.getClass().getDeclaredFields();
+
+            for (Field field : e) {
+                if (field.getType() == Map.class) {
+                    field.setAccessible(true);
+                    return (Map) field.get(map);
+                }
+            }
+        } catch (Exception var5) {
+            var5.printStackTrace();
+        }
+
+        return null;
+    }
+
+    private static ResourceLocation getResourceLocation(TextureAtlasSprite p_184396_1_, TextureMap map) {
+        ResourceLocation resourcelocation = new ResourceLocation(p_184396_1_.func_94215_i());
+        return new ResourceLocation(resourcelocation.func_110624_b(), String.format("%s/%s%s", new Object[]{"texures", resourcelocation.func_110623_a(), ".png"}));
+    }
+
+    public long toMB(long x) {
+        return x / 1024L / 1024L;
+    }
+
+    public static long access(TextureFix x, long x1) {
+        return x.toMB(x1);
+    }
+
+    public static class UnloadEntry {
+        int count = 2;
+        TextureAtlasSprite sprite;
+
+        public UnloadEntry(TextureAtlasSprite entry) {
+            this.sprite = entry;
+        }
+
+        public boolean unload() {
+            --this.count;
+            if (this.count <= 0) {
+                this.sprite.deleteSpriteTexture();
+                return true;
+            }
+            return false;
+        }
+    }
+    public static class FixList
+            extends ArrayList<int[][]> {
+        TextureAtlasSprite sprite;
+        boolean reload = true;
+
+        public FixList(TextureAtlasSprite data) {
+            this.sprite = data;
+        }
+
+        public int size() {
+            if (this.reload) {
+                this.reload();
+            }
+            return super.size();
+        }
+
+        public boolean isEmpty() {
+            return this.size() == 0;
+        }
+
+        public int[][] get(int index) {
+            if (this.reload) {
+                this.reload();
+            }
+            return (int[][])super.get(index);
+        }
+
+        public void clear() {
+            this.reload = true;
+            super.clear();
+        }
+
+        public void reload() {
+            this.reload = false;
+            TextureFix.reloadTextureData((TextureAtlasSprite)this.sprite);
+            TextureFix.markForUnload((TextureAtlasSprite)this.sprite);
+        }
+    }
+}
