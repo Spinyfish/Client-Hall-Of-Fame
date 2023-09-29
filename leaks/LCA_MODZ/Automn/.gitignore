@@ -1,0 +1,16 @@
+/src/minecraft/pom.xml
+/automn.iml
+/out/
+/mc-libs/
+/lib/
+/.idea/
+/crash-reports
+/jars
+/logs
+/saves
+/target
+AutomnClient.iml
+optionsof.txt
+options.txt
+usercache.json
+/Automn/modules
