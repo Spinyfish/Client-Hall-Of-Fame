@@ -1,0 +1,48 @@
+---- Minecraft Crash Report ----
+// Shall we play a game?
+
+Time: 12.12.21 21:35
+Description: Exception in server tick loop
+
+java.lang.ClassCastException: net.minecraft.client.multiplayer.WorldClient cannot be cast to net.minecraft.world.WorldServer
+	at net.minecraft.entity.player.EntityPlayerMP.getServerForPlayer(EntityPlayerMP.java:1099)
+	at net.minecraft.entity.EntityTrackerEntry.isPlayerWatchingThisChunk(EntityTrackerEntry.java:474)
+	at net.minecraft.entity.EntityTrackerEntry.updatePlayerEntity(EntityTrackerEntry.java:375)
+	at net.minecraft.entity.EntityTrackerEntry.updatePlayerEntities(EntityTrackerEntry.java:481)
+	at net.minecraft.entity.EntityTrackerEntry.updatePlayerList(EntityTrackerEntry.java:146)
+	at net.minecraft.entity.EntityTracker.updateTrackedEntities(EntityTracker.java:262)
+	at net.minecraft.server.MinecraftServer.updateTimeLightAndEntities(MinecraftServer.java:787)
+	at net.minecraft.server.MinecraftServer.tick(MinecraftServer.java:686)
+	at net.minecraft.server.integrated.IntegratedServer.tick(IntegratedServer.java:246)
+	at net.minecraft.server.MinecraftServer.run(MinecraftServer.java:565)
+	at java.lang.Thread.run(Thread.java:748)
+
+
+A detailed walkthrough of the error, its code path and all known details is as follows:
+---------------------------------------------------------------------------------------
+
+-- System Details --
+Details:
+	Minecraft Version: 1.8.8
+	Operating System: Windows 10 (amd64) version 10.0
+	CPU: 12x AMD Ryzen 5 3600 6-Core Processor 
+	Java Version: 1.8.0_311, Oracle Corporation
+	Java VM Version: Java HotSpot(TM) 64-Bit Server VM (mixed mode), Oracle Corporation
+	Memory: 696918080 bytes (664 MB) / 1002962944 bytes (956 MB) up to 1002962944 bytes (956 MB)
+	JVM Flags: 2 total; -Xmx1024M -Xms1024M
+	IntCache: cache: 0, tcache: 0, allocated: 13, tallocated: 99
+	Profiler Position: N/A (disabled)
+	Player Count: 1 / 8; [EntityPlayerMP['JyzRjt2yFvcy'/426, l='MpServer', x=575,50, y=68,00, z=163,50]]
+	Type: Integrated Server (map_client.txt)
+	Is Modded: Very likely; Jar signature invalidated
+	OptiFine Version: OptiFine_1.8.8_HD_U_H8
+	Render Distance Chunks: 8
+	Mipmaps: 4
+	Anisotropic Filtering: 1
+	Antialiasing: 0
+	Multitexture: false
+	Shaders: null
+	OpenGlVersion: 4.6.0 NVIDIA 471.96
+	OpenGlRenderer: NVIDIA GeForce GTX 1650 SUPER/PCIe/SSE2
+	OpenGlVendor: NVIDIA Corporation
+	CpuCount: 12

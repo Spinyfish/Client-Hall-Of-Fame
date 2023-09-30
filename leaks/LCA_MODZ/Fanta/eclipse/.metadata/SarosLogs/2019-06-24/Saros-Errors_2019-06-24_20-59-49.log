@@ -1,0 +1,25 @@
+ERROR 2019-06-24 20:59:48,286 (StunServiceImpl.java:263) error sending STUN request
+java.net.SocketException: Network is unreachable: Datagram send failed
+	at java.net.DualStackPlainDatagramSocketImpl.socketSend(Native Method)
+	at java.net.DualStackPlainDatagramSocketImpl.send(Unknown Source)
+	at java.net.DatagramSocket.send(Unknown Source)
+	at de.fu_berlin.inf.dpp.net.stun.internal.StunServiceImpl$StunDiscovery$1.run(StunServiceImpl.java:255)
+	at java.lang.Thread.run(Unknown Source)
+ERROR 2019-06-24 20:59:48,286 (StunServiceImpl.java:263) error sending STUN request
+java.net.SocketException: Network is unreachable: Datagram send failed
+	at java.net.DualStackPlainDatagramSocketImpl.socketSend(Native Method)
+	at java.net.DualStackPlainDatagramSocketImpl.send(Unknown Source)
+	at java.net.DatagramSocket.send(Unknown Source)
+	at de.fu_berlin.inf.dpp.net.stun.internal.StunServiceImpl$StunDiscovery$1.run(StunServiceImpl.java:255)
+	at java.lang.Thread.run(Unknown Source)
+ERROR 2019-06-24 20:59:51,916 (StunServiceImpl.java:155) an error occurred while performing a STUN discovery: ICMP Port Unreachable
+java.net.PortUnreachableException: ICMP Port Unreachable
+	at java.net.DualStackPlainDatagramSocketImpl.socketReceiveOrPeekData(Native Method)
+	at java.net.DualStackPlainDatagramSocketImpl.receive0(Unknown Source)
+	at java.net.AbstractPlainDatagramSocketImpl.receive(Unknown Source)
+	at java.net.DatagramSocket.receive(Unknown Source)
+	at de.fu_berlin.inf.dpp.net.stun.internal.StunServiceImpl$StunDiscovery.performStunDiscovery(StunServiceImpl.java:284)
+	at de.fu_berlin.inf.dpp.net.stun.internal.StunServiceImpl$StunDiscovery.run(StunServiceImpl.java:151)
+	at java.lang.Thread.run(Unknown Source)
+WARN  2019-06-24 20:59:58,285 (StunServiceImpl.java:420) received no response from STUN server stunserver.org/67.227.226.240:3478 at local address /192.168.60.1:0
+WARN  2019-06-24 20:59:58,286 (StunServiceImpl.java:420) received no response from STUN server stunserver.org/67.227.226.240:3478 at local address /192.168.19.1:0

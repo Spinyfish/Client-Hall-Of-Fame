@@ -1,0 +1,98 @@
+---- Minecraft Crash Report ----
+// I bet Cylons wouldn't have this problem.
+
+Time: 13.12.21 18:04
+Description: Rendering screen
+
+java.lang.IllegalArgumentException: Color parameter outside of expected range: Red Green Blue
+	at java.awt.Color.testColorValueRange(Color.java:310)
+	at java.awt.Color.<init>(Color.java:395)
+	at java.awt.Color.<init>(Color.java:490)
+	at de.fanta.utils.ColorUtils.getClickGuiColor(ColorUtils.java:15)
+	at de.fanta.clickgui.mega.ClickGUI.drawScreen(ClickGUI.java:60)
+	at net.minecraft.client.renderer.EntityRenderer.func_181560_a(EntityRenderer.java:1282)
+	at net.minecraft.client.Minecraft.runGameLoop(Minecraft.java:1083)
+	at net.minecraft.client.Minecraft.run(Minecraft.java:469)
+	at net.minecraft.client.main.Main.main(Main.java:117)
+	at Start.main(Start.java:7)
+
+
+A detailed walkthrough of the error, its code path and all known details is as follows:
+---------------------------------------------------------------------------------------
+
+-- Head --
+Stacktrace:
+	at java.awt.Color.testColorValueRange(Color.java:310)
+	at java.awt.Color.<init>(Color.java:395)
+	at java.awt.Color.<init>(Color.java:490)
+	at de.fanta.utils.ColorUtils.getClickGuiColor(ColorUtils.java:15)
+	at de.fanta.clickgui.mega.ClickGUI.drawScreen(ClickGUI.java:60)
+
+-- Screen render details --
+Details:
+	Screen name: de.fanta.clickgui.mega.ClickGUI
+	Mouse location: Scaled: (480, 252). Absolute: (960, 504)
+	Screen size: Scaled: (960, 505). Absolute: (1920, 1009). Scale factor of 2
+
+-- Affected level --
+Details:
+	Level name: MpServer
+	All players: 7 total; [EntityPlayerSP['fors1k_'/8139, l='MpServer', x=214,49, y=61,00, z=162,83], EntityOtherPlayerMP['ResolverX_PvP'/4652, l='MpServer', x=213,66, y=62,00, z=169,34], EntityOtherPlayerMP['seflexyy'/8100, l='MpServer', x=210,56, y=62,00, z=174,94], EntityOtherPlayerMP['Jaiox'/8101, l='MpServer', x=246,56, y=62,00, z=156,40], EntityOtherPlayerMP['Random_A'/8194, l='MpServer', x=211,09, y=62,00, z=176,34], EntityOtherPlayerMP['Oaddy'/8111, l='MpServer', x=253,37, y=63,02, z=163,91], EntityOtherPlayerMP['Vaw01'/7171, l='MpServer', x=176,41, y=62,54, z=165,61]]
+	Chunk stats: MultiplayerChunkCache: 441, 441
+	Level seed: 0
+	Level generator: ID 01 - flat, ver 0. Features enabled: false
+	Level generator options: 
+	Level spawn location: 211,00,60,00,162,00 - World: (211,60,162), Chunk: (at 3,3,2 in 13,10; contains blocks 208,0,160 to 223,255,175), Region: (0,0; contains chunks 0,0 to 31,31, blocks 0,0,0 to 511,255,511)
+	Level time: 1431891118 game time, 830000 day time
+	Level dimension: 0
+	Level storage version: 0x00000 - Unknown?
+	Level weather: Rain time: 0 (now: false), thunder time: 0 (now: false)
+	Level game mode: Game mode: survival (ID 0). Hardcore: false. Cheats: false
+	Forced entities: 61 total; [EntityPlayerSP['fors1k_'/8139, l='MpServer', x=214,49, y=61,00, z=162,83], EntityOtherPlayerMP['ResolverX_PvP'/4652, l='MpServer', x=213,66, y=62,00, z=169,34], EntityOtherPlayerMP['Random_A'/8194, l='MpServer', x=211,09, y=62,00, z=176,34], EntityOtherPlayerMP['seflexyy'/8100, l='MpServer', x=210,56, y=62,00, z=174,94], EntityOtherPlayerMP['Vaw01'/7171, l='MpServer', x=176,41, y=62,54, z=165,61], EntityOtherPlayerMP['Random_A'/8112, l='MpServer', x=211,00, y=61,00, z=169,03], EntityOtherPlayerMP['Jaiox'/8101, l='MpServer', x=246,56, y=62,00, z=156,40], EntityOtherPlayerMP['Oaddy'/8111, l='MpServer', x=248,44, y=58,00, z=181,16], EntityOtherPlayerMP['Vaw01'/7171, l='MpServer', x=176,41, y=62,54, z=165,61], EntityOtherPlayerMP['ResolverX_PvP'/4652, l='MpServer', x=213,66, y=62,00, z=169,34], EntityOtherPlayerMP['ZGonzzyy'/7911, l='MpServer', x=186,86, y=62,59, z=212,26], EntitySheep['Sheep'/6750, l='MpServer', x=192,72, y=62,00, z=185,81], EntityVillager['Aim2'/94, l='MpServer', x=174,50, y=62,00, z=134,50], EntityVillager['Aim1'/3180, l='MpServer', x=169,50, y=62,00, z=134,50], EntityOtherPlayerMP['Oaddy'/8111, l='MpServer', x=253,37, y=63,02, z=163,91], EntitySheep['Sheep'/6766, l='MpServer', x=191,56, y=62,00, z=186,53], EntityVillager['Aim3'/114, l='MpServer', x=179,50, y=62,00, z=134,50], EntityVillager['Aim4'/115, l='MpServer', x=185,50, y=62,00, z=134,50], EntityVillager['Aim8'/116, l='MpServer', x=179,50, y=73,50, z=134,50], EntitySheep['Sheep'/6774, l='MpServer', x=192,72, y=62,00, z=187,72], EntitySheep['Sheep'/6784, l='MpServer', x=188,91, y=62,00, z=188,66], EntityVillager['DamageTest2'/130, l='MpServer', x=169,50, y=62,00, z=174,50], EntityVillager['DamageTest1'/131, l='MpServer', x=169,50, y=62,00, z=168,50], EntityArmorStand['§6Nofall/Fly/Glide'/135, l='MpServer', x=214,50, y=65,66, z=140,50], EntityArmorStand['§6AntiCactus'/136, l='MpServer', x=215,50, y=65,66, z=156,50], EntityArmorStand['§6Scaffold'/137, l='MpServer', x=239,50, y=65,66, z=164,50], EntityArmorStand['§6Step'/138, l='MpServer', x=208,50, y=65,66, z=140,50], EntityArmorStand['§6Longjump'/139, l='MpServer', x=214,50, y=65,66, z=119,50], EntitySheep['Sheep'/6796, l='MpServer', x=190,44, y=62,00, z=188,25], EntityArmorStand['§6Slimejump'/140, l='MpServer', x=208,50, y=65,66, z=104,50], EntityArmorStand['§6Speedtest'/141, l='MpServer', x=214,50, y=65,66, z=105,50], EntityArmorStand['§6Fastladder'/142, l='MpServer', x=208,50, y=65,66, z=180,50], EntityArmorStand['§6Jesus'/143, l='MpServer', x=214,50, y=65,66, z=188,50], EntityArmorStand['§6Esp'/144, l='MpServer', x=208,50, y=65,66, z=199,50], EntityArmorStand['§6KillauraAimTest 1'/145, l='MpServer', x=190,50, y=65,66, z=170,50], EntityArmorStand['§6KillauraAimTest 2'/146, l='MpServer', x=179,50, y=65,66, z=170,50], EntityArmorStand['§6KillauraSwitchTest'/147, l='MpServer', x=189,50, y=65,66, z=186,50], EntityArmorStand['§6KillauraMultiTest1'/148, l='MpServer', x=179,50, y=65,66, z=186,50], EntitySheep['Sheep'/6804, l='MpServer', x=189,81, y=62,00, z=184,78], EntityArmorStand['§6Velocity'/149, l='MpServer', x=155,50, y=65,66, z=165,50], EntityArmorStand['§6KillauraMultiTest3'/150, l='MpServer', x=159,50, y=65,66, z=152,50], EntityArmorStand['§6KillauraWallTest'/152, l='MpServer', x=181,50, y=65,66, z=139,50], EntityArmorStand['§6AntiFire'/153, l='MpServer', x=215,50, y=65,66, z=168,50], EntityArmorStand['§6Jesus-Lava ver.'/154, l='MpServer', x=214,50, y=65,66, z=226,50], EntityArmorStand['§6KillauraMultiTest4'/156, l='MpServer', x=147,50, y=65,66, z=139,50], EntityArmorStand['§6TerrainSpeed'/157, l='MpServer', x=250,50, y=65,66, z=160,50], EntityArmorStand['§6Void'/158, l='MpServer', x=200,50, y=65,66, z=201,50], EntitySheep['Sheep'/6815, l='MpServer', x=187,47, y=62,00, z=185,53], EntityArmorStand['§6Misc'/159, l='MpServer', x=208,50, y=65,66, z=226,50], EntityArmorStand['§6DamageTest'/160, l='MpServer', x=169,50, y=65,66, z=165,50], EntityArmorStand['§6Snow'/161, l='MpServer', x=207,50, y=65,66, z=156,50], EntityOtherPlayerMP['seflexyy'/8100, l='MpServer', x=210,56, y=62,00, z=174,94], EntityArmorStand['§6Phase'/164, l='MpServer', x=235,50, y=65,66, z=211,50], EntityOtherPlayerMP['Jaiox'/8101, l='MpServer', x=246,56, y=62,00, z=156,40], EntityArmorStand['§6TNTBlock'/165, l='MpServer', x=151,50, y=65,66, z=182,50], EntityArmorStand['§6PVP'/166, l='MpServer', x=181,50, y=65,66, z=160,50], EntitySheep['Sheep'/6823, l='MpServer', x=187,19, y=62,00, z=187,38], EntityOtherPlayerMP['Oaddy'/8111, l='MpServer', x=253,37, y=63,02, z=163,91], EntityOtherPlayerMP['Random_A'/8194, l='MpServer', x=211,09, y=62,00, z=176,34], EntityOtherPlayerMP['ZGonzzyy'/7911, l='MpServer', x=213,46, y=63,05, z=212,00], EntityOtherPlayerMP['ZGonzzyy'/7911, l='MpServer', x=168,43, y=62,00, z=205,14]]
+	Retry entities: 0 total; []
+	Server brand: TestServer§r
+	Server type: Non-integrated multiplayer server
+Stacktrace:
+	at net.minecraft.client.multiplayer.WorldClient.addWorldInfoToCrashReport(WorldClient.java:401)
+	at net.minecraft.client.Minecraft.addGraphicsAndWorldToCrashReport(Minecraft.java:2464)
+	at net.minecraft.client.Minecraft.run(Minecraft.java:482)
+	at net.minecraft.client.main.Main.main(Main.java:117)
+	at Start.main(Start.java:7)
+
+-- System Details --
+Details:
+	Minecraft Version: 1.8.8
+	Operating System: Windows 10 (amd64) version 10.0
+	CPU: 12x AMD Ryzen 5 3600 6-Core Processor 
+	Java Version: 1.8.0_311, Oracle Corporation
+	Java VM Version: Java HotSpot(TM) 64-Bit Server VM (mixed mode), Oracle Corporation
+	Memory: 614366560 bytes (585 MB) / 1068498944 bytes (1019 MB) up to 1068498944 bytes (1019 MB)
+	JVM Flags: 2 total; -Xmx1024M -Xms1024M
+	IntCache: cache: 0, tcache: 0, allocated: 0, tallocated: 0
+	Launched Version: mcp
+	LWJGL: 2.9.4
+	OpenGL: NVIDIA GeForce GTX 1650 SUPER/PCIe/SSE2 GL version 4.6.0 NVIDIA 471.96, NVIDIA Corporation
+	GL Caps: Using GL 1.3 multitexturing.
+Using GL 1.3 texture combiners.
+Using framebuffer objects because OpenGL 3.0 is supported and separate blending is supported.
+Shaders are available because OpenGL 2.1 is supported.
+VBOs are available because OpenGL 1.5 is supported.
+
+	Using VBOs: No
+	Is Modded: Very likely; Jar signature invalidated
+	Type: Client (map_client.txt)
+	Resource Packs: 
+	Current Language: English (US)
+	Profiler Position: N/A (disabled)
+	CPU: 12x AMD Ryzen 5 3600 6-Core Processor 
+	OptiFine Version: OptiFine_1.8.8_HD_U_H8
+	Render Distance Chunks: 8
+	Mipmaps: 4
+	Anisotropic Filtering: 1
+	Antialiasing: 0
+	Multitexture: false
+	Shaders: null
+	OpenGlVersion: 4.6.0 NVIDIA 471.96
+	OpenGlRenderer: NVIDIA GeForce GTX 1650 SUPER/PCIe/SSE2
+	OpenGlVendor: NVIDIA Corporation
+	CpuCount: 12

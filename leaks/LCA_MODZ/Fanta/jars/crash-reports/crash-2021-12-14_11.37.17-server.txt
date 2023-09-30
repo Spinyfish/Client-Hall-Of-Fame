@@ -1,0 +1,92 @@
+---- Minecraft Crash Report ----
+// This doesn't make any sense!
+
+Time: 14.12.21 11:37
+Description: Ticking entity
+
+java.lang.ClassCastException: net.minecraft.client.multiplayer.WorldClient cannot be cast to net.minecraft.world.WorldServer
+	at net.minecraft.entity.player.EntityPlayerMP.getServerForPlayer(EntityPlayerMP.java:1099)
+	at net.minecraft.entity.player.EntityPlayerMP.onUpdate(EntityPlayerMP.java:354)
+	at net.minecraft.world.World.updateEntityWithOptionalForce(World.java:1884)
+	at net.minecraft.world.WorldServer.updateEntityWithOptionalForce(WorldServer.java:702)
+	at net.minecraft.world.World.updateEntity(World.java:1853)
+	at net.minecraft.world.World.updateEntities(World.java:1706)
+	at net.minecraft.world.WorldServer.updateEntities(WorldServer.java:540)
+	at net.minecraft.server.MinecraftServer.updateTimeLightAndEntities(MinecraftServer.java:776)
+	at net.minecraft.server.MinecraftServer.tick(MinecraftServer.java:686)
+	at net.minecraft.server.integrated.IntegratedServer.tick(IntegratedServer.java:246)
+	at net.minecraft.server.MinecraftServer.run(MinecraftServer.java:565)
+	at java.lang.Thread.run(Thread.java:748)
+
+
+A detailed walkthrough of the error, its code path and all known details is as follows:
+---------------------------------------------------------------------------------------
+
+-- Head --
+Stacktrace:
+	at net.minecraft.entity.player.EntityPlayerMP.getServerForPlayer(EntityPlayerMP.java:1099)
+	at net.minecraft.entity.player.EntityPlayerMP.onUpdate(EntityPlayerMP.java:354)
+	at net.minecraft.world.World.updateEntityWithOptionalForce(World.java:1884)
+	at net.minecraft.world.WorldServer.updateEntityWithOptionalForce(WorldServer.java:702)
+	at net.minecraft.world.World.updateEntity(World.java:1853)
+
+-- Entity being ticked --
+Details:
+	Entity Type: null (net.minecraft.entity.player.EntityPlayerMP)
+	Entity ID: 475
+	Entity Name: Player908
+	Entity's Exact location: 575,50, 68,00, 163,50
+	Entity's Block location: 575,00,68,00,163,00 - World: (575,68,163), Chunk: (at 15,4,3 in 35,10; contains blocks 560,0,160 to 575,255,175), Region: (1,0; contains chunks 32,0 to 63,31, blocks 512,0,0 to 1023,255,511)
+	Entity's Momentum: 0,00, -0,08, 0,00
+	Entity's Rider: ~~ERROR~~ NullPointerException: null
+	Entity's Vehicle: ~~ERROR~~ NullPointerException: null
+Stacktrace:
+	at net.minecraft.world.World.updateEntities(World.java:1706)
+	at net.minecraft.world.WorldServer.updateEntities(WorldServer.java:540)
+
+-- Affected level --
+Details:
+	Level name: mcpworld
+	All players: 1 total; [EntityPlayerMP['Player908'/475, l='MpServer', x=575,50, y=68,00, z=163,50]]
+	Chunk stats: ServerChunkCache: 626 Drop: 0
+	Level seed: -1587754402
+	Level generator: ID 02 - largeBiomes, ver 0. Features enabled: true
+	Level generator options: 
+	Level spawn location: 584,00,64,00,166,00 - World: (584,64,166), Chunk: (at 8,4,6 in 36,10; contains blocks 576,0,160 to 591,255,175), Region: (1,0; contains chunks 32,0 to 63,31, blocks 512,0,0 to 1023,255,511)
+	Level time: 1671 game time, 1051 day time
+	Level dimension: 0
+	Level storage version: 0x04ABD - Anvil
+	Level weather: Rain time: 153256 (now: false), thunder time: 15879 (now: false)
+	Level game mode: Game mode: creative (ID 1). Hardcore: false. Cheats: true
+Stacktrace:
+	at net.minecraft.server.MinecraftServer.updateTimeLightAndEntities(MinecraftServer.java:776)
+	at net.minecraft.server.MinecraftServer.tick(MinecraftServer.java:686)
+	at net.minecraft.server.integrated.IntegratedServer.tick(IntegratedServer.java:246)
+	at net.minecraft.server.MinecraftServer.run(MinecraftServer.java:565)
+	at java.lang.Thread.run(Thread.java:748)
+
+-- System Details --
+Details:
+	Minecraft Version: 1.8.8
+	Operating System: Windows 10 (amd64) version 10.0
+	CPU: 12x AMD Ryzen 5 3600 6-Core Processor 
+	Java Version: 1.8.0_311, Oracle Corporation
+	Java VM Version: Java HotSpot(TM) 64-Bit Server VM (mixed mode), Oracle Corporation
+	Memory: 701136696 bytes (668 MB) / 1017118720 bytes (970 MB) up to 1017118720 bytes (970 MB)
+	JVM Flags: 2 total; -Xmx1024M -Xms1024M
+	IntCache: cache: 0, tcache: 0, allocated: 13, tallocated: 99
+	Profiler Position: N/A (disabled)
+	Player Count: 1 / 8; [EntityPlayerMP['Player908'/475, l='MpServer', x=575,50, y=68,00, z=163,50]]
+	Type: Integrated Server (map_client.txt)
+	Is Modded: Very likely; Jar signature invalidated
+	OptiFine Version: OptiFine_1.8.8_HD_U_H8
+	Render Distance Chunks: 8
+	Mipmaps: 4
+	Anisotropic Filtering: 1
+	Antialiasing: 0
+	Multitexture: false
+	Shaders: null
+	OpenGlVersion: 4.6.0 NVIDIA 471.96
+	OpenGlRenderer: NVIDIA GeForce GTX 1650 SUPER/PCIe/SSE2
+	OpenGlVendor: NVIDIA Corporation
+	CpuCount: 12
