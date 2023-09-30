@@ -1,0 +1,17 @@
+***************
+*** 43,49 ****
+        }
+  
+        public List<T> apply(Object[] p_apply_1_) {
+-          return Arrays.<T>asList((Object[])p_apply_1_);
+        }
+     }
+  
+--- 43,49 ----
+        }
+  
+        public List<T> apply(Object[] p_apply_1_) {
++          return Arrays.<T>asList((T[])p_apply_1_);
+        }
+     }
+  
