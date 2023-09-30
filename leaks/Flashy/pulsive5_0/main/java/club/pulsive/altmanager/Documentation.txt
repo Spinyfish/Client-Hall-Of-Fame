@@ -1,0 +1,1 @@
+Replace every Flush.getFont(fontsize) by your fontrenderer. Use segoe ui font. If you dont have something you can ask me
