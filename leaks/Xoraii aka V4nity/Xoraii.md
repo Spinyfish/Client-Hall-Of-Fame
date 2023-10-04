@@ -2,6 +2,8 @@
 
 Also known as "V4nity"
 
+![image](https://media.discordapp.net/attachments/1154391398863347743/1157325067890475078/image.png?ex=651ec9f6&is=651d7876&hm=067db720dad8ef9cacc0761d3ed62ffee7d6fe63508b97de6e10b4ca9a8818f8&=)
+
 ### Skidding
 
 Honestly just look at the code yourself, everything there is pasted so finding the origin should not be a problem.
