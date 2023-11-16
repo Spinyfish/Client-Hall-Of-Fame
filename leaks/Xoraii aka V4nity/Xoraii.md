@@ -1,8 +1,9 @@
 ## Xoraii
 
-Also known as "V4nity"
+Also known as "V4nity" and "splitz"
 
 ![image](https://media.discordapp.net/attachments/1154391398863347743/1157325067890475078/image.png?ex=651ec9f6&is=651d7876&hm=067db720dad8ef9cacc0761d3ed62ffee7d6fe63508b97de6e10b4ca9a8818f8&=)
+![image](https://github.com/Spinyfish/Client-Hall-Of-Fame/assets/144590047/49f0bff5-737d-4aef-bd35-d915b181019b)
 
 ### Skidding
 
