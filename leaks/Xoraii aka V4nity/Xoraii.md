@@ -9,6 +9,10 @@ Also known as "V4nity" and "splitz"
 
 Honestly just look at the code yourself, everything there is pasted so finding the origin should not be a problem.
 
+### Stupidity
+![image](https://github.com/000000000-1/Client-Hall-Of-Fame/assets/144590047/48fc3331-fb92-4259-ad07-839e75a539a9)
+![image](https://github.com/000000000-1/Client-Hall-Of-Fame/assets/144590047/07090970-1001-491e-8b69-655a432b21c4)
+
 ### Faggy behaviour
 Search history:
 
