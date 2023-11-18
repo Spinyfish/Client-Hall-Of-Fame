@@ -13,7 +13,7 @@ Honestly just look at the code yourself, everything there is pasted so finding t
 ![image](https://github.com/000000000-1/Client-Hall-Of-Fame/assets/144590047/48fc3331-fb92-4259-ad07-839e75a539a9)
 ![image](https://github.com/000000000-1/Client-Hall-Of-Fame/assets/144590047/07090970-1001-491e-8b69-655a432b21c4)
 
-### Faggy behaviour
+### Silly behaviour
 Search history:
 
 ![image](https://github.com/Spinyfish/Client-Hall-Of-Fame/assets/93102482/13a7f3e3-92ad-405a-b304-6cf0e44a15e8)
@@ -22,4 +22,4 @@ Search history:
 ![image](https://github.com/Spinyfish/Client-Hall-Of-Fame/assets/93102482/07122a90-a61b-460e-80ea-624ef9e61a9d)
 
 ### Pedophilic
-People claimed he had CP and was showing it of on discord (?), apparently it was his old and termed account so there aren't any pictures of it
+His account had CP and was showing it to people, he personally showed me (Spinyfish (and others in a gc i was in)) a gif which I reported and got him termed. This claim has been backed up by other people as well.
