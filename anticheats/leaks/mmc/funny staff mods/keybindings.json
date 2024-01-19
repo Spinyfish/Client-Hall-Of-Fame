@@ -1,0 +1,29 @@
+{
+    "next-tab": [
+        12,
+        13,
+        43
+    ],
+    "invert-direction": 42,
+    "select-target": 19,
+    "previous-page": 12,
+    "next-page": 13,
+    "action": {
+        "bans": 48,
+        "go-to-server": 45,
+        "port": 43,
+        "mute": 34,
+        "macro": 49,
+        "aurabot": 51,
+        "report": 52,
+        "userinfo": 46,
+        "view-bans": 22,
+        "aura-panic": 47,
+        "test-antikb": 37,
+        "pull": 50,
+        "goliath": 43,
+        "sendpm": 25,
+        "cancel": 44,
+        "tunnelto": 43
+    }
+}
