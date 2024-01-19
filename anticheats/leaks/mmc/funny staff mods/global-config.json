@@ -1,0 +1,156 @@
+{
+    "messages": {
+        "sent-message-history-global": true,
+        "tabs": [
+            {
+                "==": "net.hypixel.lynx.chat.Tab",
+                "chat-rules": [
+                    
+                ],
+                "name": "All",
+                "max-lines": 500,
+                "filters-are-whitelist": true,
+                "filters": [
+                    "LOBBY_JOIN",
+                    "STAFF",
+                    "NCP",
+                    "TUNNEL",
+                    "STAFF_ACTIONS",
+                    "GUILD",
+                    "CHAT",
+                    "WATCHDOG",
+                    "PRIVATE_MESSAGE",
+                    "PARTY",
+                    "WATCHDOG_REPORT",
+                    "STAFF_JOIN",
+                    "CHEAT_FEEDBACK",
+                    "GENERAL",
+                    "FRIEND_JOIN",
+                    "JUNKMAIL"
+                ],
+                "type": "GENERAL",
+                "custom-pings": [
+                    
+                ],
+                "custom-filter-blacklist": [
+                    
+                ],
+                "custom-filter-whitelist": [
+                    
+                ]
+            },
+            {
+                "==": "net.hypixel.lynx.chat.Tab",
+                "chat-rules": [
+                    "\/s %s"
+                ],
+                "name": "Staff Chat",
+                "max-lines": 100,
+                "filters-are-whitelist": true,
+                "filters": [
+                    "STAFF",
+                    "STAFF_ACTIONS"
+                ],
+                "type": "GENERAL",
+                "custom-pings": [
+                    
+                ],
+                "custom-filter-blacklist": [
+                    
+                ],
+                "custom-filter-whitelist": [
+                    
+                ]
+            },
+            {
+                "==": "net.hypixel.lynx.chat.Tab",
+                "chat-rules": [
+                    
+                ],
+                "name": "Reports & Actions",
+                "max-lines": 100,
+                "filters-are-whitelist": true,
+                "filters": [
+                    "WATCHDOG_REPORT"
+                ],
+                "type": "GENERAL",
+                "custom-pings": [
+                    
+                ],
+                "custom-filter-blacklist": [
+                    
+                ],
+                "custom-filter-whitelist": [
+                    
+                ]
+            },
+            {
+                "==": "net.hypixel.lynx.chat.Tab",
+                "chat-rules": [
+                    
+                ],
+                "name": "Untitled",
+                "max-lines": 100,
+                "filters-are-whitelist": true,
+                "filters": [
+                    "PRIVATE_MESSAGE",
+                    "CHAT"
+                ],
+                "type": "GENERAL",
+                "custom-pings": [
+                    
+                ],
+                "custom-filter-blacklist": [
+                    
+                ],
+                "custom-filter-whitelist": [
+                    
+                ]
+            }
+        ],
+        "pm-window-uses-display-names": true
+    },
+    "tabs": {
+        "flash-on-new-msg": true,
+        "flash-on-ping": true
+    },
+    "chat": {
+        "keep-maximized": true,
+        "pings": [
+            "Quakiy",
+            "Paragraph",
+            "dox",
+            "swat",
+            "kys",
+            "kill yourself",
+            "suicide"
+        ],
+        "always-show-tabs": false,
+        "clear-on-disconnect": false,
+        "channels": {
+            
+        }
+    },
+    "target": {
+        "close-after-action": false
+    },
+    "macros": {
+        "Warning: Spamming": "Please don't spam chat",
+        "Warning: Advertising": "Please don't advertise in chat",
+        "Warning: Capslock": "Please don't use all caps in chat",
+        "Warning: Inappropriate": "Please be appropriate in chat",
+        "Warning: Polite": "Please be respectful in chat",
+        "Guide: Youtuber": "To be eligible for the YouTube rank you must have 30,000 subscribers. You can apply via www.hypixel.net\/threads\/351480\/",
+        "Guide: Join Staff": "To become Helper you must be VIP, 16+ and have access to TS3. For more information: www.hypixel.net\/volunteer",
+        "Guide: Allowed mods": "To find a list of allowed modifications please visit www.hypixel.net\/allowed-mods",
+        "Guide: Billing support": "If you have not received an item after one hour of purchasing, go to support.hypixel.net",
+        "Guide: Appeal": [
+            "To appeal a ban or a mute, head over to hypixel.net\/appeal",
+            "You can appeal a ban or mute at hypixel.net\/appeal",
+            "Bans and mutes are appealed at: hypixel.net\/appeal"
+        ],
+        "Guide: Report Hacker": "To report hackers, please use \/wdr and then their name and type of hacks",
+        "Guide: Report Chat": "To report people in chat, please use \/chatreport and then their name",
+        "Guide: Resource Pack": "Type \/resourcehelp for help fixing resource packs."
+    }
+}
